@@ -204,6 +204,7 @@
 \newcommand{\demostracion}{\noindent\underline{Demostración}}
 \newcommand{\observacion}{\noindent\underline{\textbf{Observación}}}
 \newcommand{\ejemplo}{\noindent\underline{\textbf{Ejemplo}}}
+\newcommand{\ejemplos}{\noindent\underline{\textbf{Ejemplos}}}
 \newcommand{\ejercicio}{\noindent\underline{\textbf{Ejercicio}}}
 
 \newcommand{\distancia}[1]{\operatorname{d}(#1)}
@@ -4439,137 +4440,114 @@ $r,s$ no se cortan $\Longrightarrow \exists P_0 \in r$ y $Q_0 \in S$ tal que $\d
 \subsection{Movimientos}
 Los movimientos son aplicaciones de un espacio afín euclídeo en sí mismo que conservan las distancias. Cuando el espacio afín euclídeo tiene dimensión finita se pueden caracterizar algebraicamente como aplicaciones afines cuya aplicación lineal asociada es una transformación ortogonal; en este caso, el conjunto de movimientos es un grupo con la operación composición.
 
-3.3.1. Definición. Sean $\mathbb{A}$ un espacio afín euclídeo sobre $V$. Se dice que la aplicación $M: \mathbb{A} \rightarrow \mathbb{A}$ es un movimiento de $\mathbb{A}$ si conserva las distancias entre los puntos, es decir, si
-
+\subsubsection{Definición}
+Sean $\mathbb{A}$ un espacio afín euclídeo sobre $V$. Se dice que la aplicación $M: \mathbb{A} \rightarrow \mathbb{A}$ es un movimiento de $\mathbb{A}$ si conserva las distancias entre los puntos, es decir, si
 $$
 d(P, Q)=d(M(P), M(Q)), \quad P, Q \in \mathbb{A}
 $$
+\noindent Denotaremos por $\mathcal{M}(\mathbb{A})$ el conjunto de movimientos de $\mathbb{A}$.
 
-Denotaremos por $\mathcal{M}(\mathbb{A})$ el conjunto de movimientos de $\mathbb{A}$.
+\subsubsection{Teorema}
+Sean $\mathbb{A}$ un espacio afín euclídeo de dimensión finita sobre $V$ y sea $M: \mathbb{A} \rightarrow \mathbb{A}$ una aplicación. Son equivalentes:
+\begin{enumerate}[label=(\arabic*)]
+\item $M$ es un movimiento.
 
-3.3.2. Teorema. Sean $\mathbb{A}$ un espacio afín euclídeo de dimensión finita sobre $V$ y sea $M: \mathbb{A} \rightarrow \mathbb{A}$ una aplicación. Son equivalentes:
+\item $M$ es una afinidad cuya aplicación lineal asociada es una transformación ortogonal.
+\end{enumerate}
+\demostracion
+\dobleimplicacion{
+	Sea $A \in \mathbb{A}$. Tenemos que probar que la aplicación $\vec{M}: V \rightarrow V$ dada por
+	$$
+	\vec{M}(v)=\overrightarrow{M(A),M(A+v)}, \quad v \in V
+	$$
+	es una transformación ortogonal. Es claro que $\vec{M}$ verifica $\vec{M}(0) = \overrightarrow{M(A),M(A)} = 0$. Ahora, para cada $v, w \in V$
+	$$
+	\begin{aligned}
+		\|\vec{M}(v)-\vec{M}(w)\| & =\|\overrightarrow{M(A), M(A+v)}-\overrightarrow{M(A), M(A+w)}\|\stackrel{\text{Chasles}}{=} \\ & \stackrel{\text{Chasles}}{=} \|\overrightarrow{M(A+w), M(A+v)}\| =d(M(A+w), M(A+v)) = \\ & = d(A+w, A+v)=\|\overrightarrow{A+w, A+v}\| \\
+		& =\|v-w\| .
+	\end{aligned}
+	$$
+	En particular, $\|\vec{M}(v)\|=\|v\|$, para cada $v \in V$. Sin embargo, esto no llega para ver que es isometría. Veamos que $\vec{M}$ conserva productos escalares. En efecto, dado que
+	\begin{gather*}
+	\|v\|^{2}+\|w\|^{2}-2 v \cdot w=\|v-w\|^{2}=\|\vec{M}(v)-\vec{M}(w)\|^{2}=\\ =\|\vec{M}(v)\|^{2}+\|\vec{M}(w)\|^{2}-2 \vec{M}(v) \cdot \vec{M}(w) = \|u\|^2 + \|v\|^2 - 2 \vec{M}(u) \cdot \vec{M}(w)
+	\end{gather*}
+	se tiene
+	$$
+	v \cdot w=\vec{M}(v) \cdot \vec{M}(w)
+	$$
+	y por tanto, $\vec{M}$ es una transformación ortogonal, por lo que es lineal e isometría. Así, $M$ es una afinidad cuya aplicación lineal asociada $\vec{M}$ es una transformación ortogonal, es decir, $\vec{M} \in \mathcal{O}(V)$.
+}{
+	Sea $A \in \mathbb{A}$. Por ser $\vec{M}$ una transformación ortogonal, es
+	$$
+	\begin{aligned}
+		d\left(M(P), M\left(P^{\prime}\right)\right) & =\left\|\overrightarrow{M(P), M\left(P^{\prime}\right)}\right\|=\left\|M(A)+\vec{M}(\overrightarrow{A P}), M(A)+\vec{M}\left(\overrightarrow{A P^{\prime}}\right)\right\| \\
+		& =\left\|-\vec{M}(\overrightarrow{A P})+\vec{M}\left(\overrightarrow{A P^{\prime}}\right)\right\|=\left\|\vec{M}\left(\overrightarrow{P P^{\prime}}\right)\right\|=\left\|\overrightarrow{P P^{\prime}}\right\|=d\left(P, P^{\prime}\right)
+	\end{aligned}
+	$$
+	Obsérvese que para la implicación $\Leftarrow/$ no hace falta que el espacio afín euclídeo $\mathbb{A}$ tenga dimensión finita.
+}
+\ejemplos
+\begin{enumerate}[label=(\arabic*)]
+\item Sea $A$ un espacio afín euclídeo. La aplicación identidad $\operatorname{Id}_{\mathbb{A}}: \mathbb{A} \rightarrow \mathbb{A}$ es un movimiento.
 
-(1) $M$ es un movimiento.
+\item Sea $A$ un espacio afín euclídeo. La aplicación traslación por un vector $v \in V, t_{v}: \mathbb{A} \rightarrow \mathbb{A}$, dada por $t_{v}(P)=P+v$, es un movimiento.
 
-(2) $M$ es una afinidad cuya aplicación lineal asociada es una transformación ortogonal.
+\item Si $\mathbb{A}$ es un espacio afín euclídeo y $M_{1}$ y $M_{2}$ son movimientos de $\mathbb{A}$, entonces $M_{2} \circ M_{1}$ es un movimiento. En efecto,
+\begin{gather*}
+d(P, Q)=d\left(M_{1}(P), M_{1}(Q)\right)=d\left(M_{2}\left(M_{1}(P)\right), M_{2}\left(M_{1}(Q)\right)\right)= \\ =d\left(\left(M_{2} \circ M_{1}\right)(P),\left(M_{2} \circ M_{1}\right)(Q)\right)
+\end{gather*}
+para todo $P, Q \in \mathbb{A}$. Si $\mathbb{A}$ es un espacio afín euclídeo de dimensión finita y $M_{1}$ y $M_{2}$ son movimientos de $\mathbb{A}$, entonces $M_{2} \circ M_{1}$ es un movimiento y $\overrightarrow{M_{2} \circ M_{1}}=\overrightarrow{M_{2}} \circ \overrightarrow{M_{1}}$.
 
-Demostración. Veamos $(1) \Rightarrow(2)$. Sea $A \in \mathbb{A}$. Tenemos que probar que la aplicación $\vec{M}: V \rightarrow V$ dada por
-
+\item Si $\mathbb{A}$ es un espacio afín euclídeo sobre $V$ y $f$ es una transformación ortogonal de $V$, entonces la aplicación $M: \mathbb{A} \rightarrow \mathbb{A}$ dada por
 $$
-\vec{M}(v)=\overrightarrow{M(A) M(A+v)}, \quad v \in V
+M(P)=A^{\prime}+f(\overrightarrow{A P}), \; A,A' \in \mathbb{A}
 $$
+es un movimiento. De hecho, es el único, en dimensión finita, con $M(A) = A'$ y $\vec{M} = f$.
 
-es una transformación ortogonal.
+\item Si $\mathbb{A}$ es un espacio afín euclídeo de dimensión finita y $M$ es un movimiento de $A$, entonces existe la aplicación inversa $M^{-1}$ y es un movimiento. En efecto, si $M$ es un movimiento, $\vec{M}$ es una transformación ortogonal, luego $\vec{M}^{-1}$ es una transformación ortogonal y $M^{-1}$ es una afinidad cuya aplicación lineal asociada es $\vec{M}^{-1}$.
 
-La aplicación $\vec{M}$ verifica que $\vec{M}(0)=0$ y además para cada $v, w \in V$
+\item Si $V$ es un espacio vectorial euclídeo, $v \in V$ y $f$ es una transformación ortogonal de $V$, entonces $t_{v} \circ f$ es un movimiento, por ser composición movimientos. Recíprocamente, si $V$ tiene dimensión finita y $M$ es un movimiento de $V$, entonces $M$ es una afinidad y $M=t_{M(0)} \circ \vec{M}$.
+\end{enumerate}
 
-$$
-\begin{aligned}
-	\|\vec{M}(v)-\vec{M}(w)\| & =\|\overrightarrow{M(A), M(A+v)}-\overrightarrow{M(A), M(A+w)}\|=\|\overrightarrow{M(A+w), M(A+v)}\| \\
-	& =d(M(A+w), M(A+v))=d(A+w, A+v)=\|\overrightarrow{A+w, A+v}\| \\
-	& =\|v-w\| .
-\end{aligned}
-$$
-
-En particular, $\|\vec{M}(v)\|=\|v\|$, para cada $v \in V$. Veamos que $\vec{M}$ conserva productos escalares. En efecto, dado que
-
-$$
-\|v\|^{2}+\|w\|^{2}-2 v \cdot w=\|v-w\|^{2}=\|\vec{M}(v)-\vec{M}(w)\|^{2}=\|\vec{M}(v)\|^{2}+\|\vec{M}(w)\|^{2}-2 \vec{M}(v) \cdot \vec{M}(w)
-$$
-
-se tiene
-
-$$
-v \cdot w=\vec{M}(v) \cdot \vec{M}(w)
-$$
-
-y por la proposición 2.2.6, $\vec{M}$ es una transformación ortogonal. Por tanto, $M$ es una afinidad cuya aplicación lineal asociada $\vec{M}$ es una transformación ortogonal.
-
-$(2) \Rightarrow(1)$ Sea $A \in \mathbb{A}$. Por ser $\vec{M}$ una transformación ortogonal, es
-
-$$
-\begin{aligned}
-	d\left(M(P), M\left(P^{\prime}\right)\right) & =\left\|\overrightarrow{M(P), M\left(P^{\prime}\right)}\right\|=\left\|M(A)+\vec{M}(\overrightarrow{A P}), M(A)+\vec{M}\left(\overrightarrow{A P^{\prime}}\right)\right\| \\
-	& =\left\|-\vec{M}(\overrightarrow{A P})+\vec{M}\left(\overrightarrow{A P^{\prime}}\right)\right\|=\left\|\vec{M}\left(\overrightarrow{P P^{\prime}}\right)\right\|=\left\|\overrightarrow{P P^{\prime}}\right\|=d\left(P, P^{\prime}\right)
-\end{aligned}
-$$
-
-Obsérvese que para la implicación $(2) \Rightarrow(1)$ no hace falta que el espacio afín euclídeo $\mathbb{A}$ tenga dimensión finita.
-
-\subsubsection{Ejemplos.}
-(1) Sea $A$ un espacio afín euclídeo. La aplicación identidad $\operatorname{id}_{\mathbb{A}}: \mathbb{A} \rightarrow \mathbb{A}$ es un movimiento.
-
-(2) Sea $A$ un espacio afín euclídeo. La aplicación traslación por un vector $v \in V, t_{v}: \mathbb{A} \rightarrow \mathbb{A}$, dada por $t_{v}(P)=P+v$, es un movimiento.
-
-(3) Si $\mathbb{A}$ es un espacio afín euclídeo y $M_{1}$ y $M_{2}$ son movimientos de $\mathbb{A}$, entonces $M_{2} \circ M_{1}$ es un movimiento. En efecto,
-
-$d(P, Q)=d\left(M_{1}(P), M_{1}(Q)\right)=d\left(M_{2}\left(M_{1}(P)\right), M_{2}\left(M_{1}(Q)\right)\right)=d\left(\left(M_{2} \circ M_{1}\right)(P),\left(M_{2} \circ M_{1}\right)(Q)\right)$, para todo $P, Q \in \mathbb{A}$. Si $\mathbb{A}$ es un espacio afín euclídeo de dimensión finita y $M_{1}$ y $M_{2}$ son movimientos de $\mathbb{A}$, entonces $M_{2} \circ M_{1}$ es un movimiento y $\overrightarrow{M_{2} \circ M_{1}}=\overrightarrow{M_{2}} \circ \overrightarrow{M_{1}}$; este resultado se sigue de la proposición 1.3.9 y del teorema 3.3.2.
-
-(4) Si $\mathbb{A}$ es un espacio afín euclídeo sobre $V$ y $f$ es una transformación ortogonal de $V$, entonces por la proposición 1.3.5 (1) y el teorema 3.3.2, la aplicación $M: \mathbb{A} \rightarrow \mathbb{A}$ dada por
-
-$$
-M(P)=A^{\prime}+f(\overrightarrow{A P}), \quad P \in \mathbb{A}
-$$
-
-donde $A, A^{\prime} \in \mathbb{A}$, es un movimiento.
-
-(5) Si $\mathbb{A}$ es un espacio afín euclídeo de dimensión finita y $M$ es un movimiento de $A$, la aplicación $M^{-1}$ es un movimiento. En efecto, si $M$ es un movimiento, $\vec{M}$ es una transformación ortogonal, luego $\vec{M}^{-1}$ es una transformación ortogonal y por la demostración de la proposición 1.3.9 (1), $M^{-1}$ es una afinidad cuya aplicación lineal asociada es $\vec{M}^{-1}$.
-
-(6) Si $V$ es un espacio vectorial euclídeo, $v \in V$ y $f$ es una transformación ortogonal de $V$, entonces $t_{v} \circ f$ es un movimiento, por ser composición movimientos. Recíprocamente, si $V$ tiene dimensión finita y $M$ es un movimiento de $V$, por el teorema 3.3.2 y el ejemplo (3) de $1.3 .12, M=t_{M(0)} \circ \vec{M}$.
-
-3.3.4. Teorema. Sea $\mathbb{A}$ un espacio afín euclídeo de dimensión finita sobre $V$. El conjunto $\mathcal{M}(\mathbb{A})$ de movimientos de $\mathbb{A}$ es un grupo con la operación composición; además, los grupos $\mathcal{M}(\mathbb{A}) / T(\mathbb{A})$ y $\mathcal{O}(V)$ son isomorfos.
-
-Demostración. Por los ejemplos (1), (3) y (5) de 3.3.3, $\mathcal{M}(\mathbb{A})$ es un grupo. La aplicación
-
-$$
-\begin{aligned}
-	\phi: \mathcal{M}(\mathbb{A}) & \longrightarrow \mathcal{O}(V) \\
-	M & \longmapsto \vec{M}
-\end{aligned}
-$$
-
-es un homomorfismo de grupos suprayectivo cuyo núcleo es $T(\mathbb{A})$. En efecto, si $\phi(M)=\mathrm{id}_{V}$, por el lema 1.3.10, $M \in T(\mathbb{A})$. La aplicación $\phi$ es suprayectiva, puesto que si $f \in \mathcal{O}(V)$, el movimiento $M: \mathbb{A} \rightarrow \mathbb{A}$ dado por $M(P)=A+f(\overrightarrow{A P})$, donde $A \in \mathbb{A}$, verifica que $\vec{M}=f$. Por tanto, la aplicación
-
-$$
-\begin{aligned}
-	\bar{\phi}: M(\mathbb{A}) / T(\mathbb{A}) & \longrightarrow \mathcal{O}(V) \\
-	M \circ T(\mathbb{A}) & \longmapsto \vec{M}
-\end{aligned}
-$$
-
-es un isomorfismo de grupos.
-
-\subsection{Movimientos en el plano afín euclídeo. Clasificación}
+\subsection{Movimientos en el plano afín euclídeo y su clasificación}
 Sea $\mathbb{A}$ un plano afín euclídeo orientado sobre $V$. Describiremos y clasificaremos los movimientos en un plano afín euclídeo orientado utilizando el estudio de las transformaciones ortogonales y la clasificación de transformaciones ortogonales dada en un plano vectorial euclídeo.
 
-3.4.1. Definición. Se llama giro de centro el punto $C$ y ángulo $\varphi$ a la aplicación $G_{C, \varphi}: \mathbb{A} \rightarrow \mathbb{A}$ dada por $G_{C, \varphi}(P)=C+G_{\varphi}(\overrightarrow{C P})$, donde $G_{\varphi} \in \mathbb{O}^{+}(V)$ es el giro de ángulo $\varphi$. Si $\varphi=\pi$, se dice que $G_{C, \pi}$ es una simetría central de centro $C$.
-
+\subsubsection{Definición}
+Se llama giro de centro el punto $C$ y ángulo $\varphi$ a la aplicación $G_{C, \varphi}: \mathbb{A} \rightarrow \mathbb{A}$ dada por $G_{C, \varphi}(P)=C+G_{\varphi}(\overrightarrow{C P})$, donde $G_{\varphi} \in \mathcal{O}^{+}(V)$ es el giro de ángulo $\varphi$.
 \begin{center}
-	\includegraphics[max width=\textwidth]{2023_04_25_301d1803eaf1bc74cfd9g-080(1)}
+	\includegraphics[max width=3cm]{2023_04_25_301d1803eaf1bc74cfd9g-080(1)}
 \end{center}
+\observacion
+\begin{itemize}
+\item $G_{C, \varphi}$ son movimientos, ya que son la única afinidad con $G_{C, \varphi}(C) = C$ y $\vec{G_{C, \varphi}} = G_\varphi \in \mathcal{O}^+(V)$.
+\item $G_{V,0} = \operatorname{Id}_A, \; \forall V \in \mathbb{A}$.
+\end{itemize}
 
-Por $3.3 .3(4), G_{C, \varphi}$ es un movimiento.
+\subsubsection{Proposición}
+\noindent Si $\varphi \neq 0$, es $C$, el único punto fijo del giro de centro $C$ y ángulo $\varphi$.
 
-3.4.2. Proposición. El único punto fijo del giro de centro $C$ y ángulo $\varphi$, si $\varphi \neq 0$, es $C$.
+\demostracion
 
-Demostración. Se tiene
-
+Se tiene
 $$
-G_{C, \varphi}(P)=P \Longleftrightarrow C+G_{\varphi}(\overrightarrow{C P})=P \Longleftrightarrow G_{\varphi}(\overrightarrow{C P})=\overrightarrow{C P} \Longleftrightarrow \overrightarrow{C P}=0 \Longleftrightarrow P=C
+G_{C, \varphi}(P)=P \Longleftrightarrow C+G_{\varphi}(\overrightarrow{C P})=P \Longleftrightarrow G_{\varphi}(\overrightarrow{C P})=\overrightarrow{C P} \xLeftrightarrow{\varphi \neq 0} \overrightarrow{C P}=0 \Longleftrightarrow C=P
 $$
 
-3.4.3. Definición. Se llama simetría respecto a la recta $r=A+\langle u\rangle$ a la aplicación $S_{r}: \mathbb{A} \rightarrow \mathbb{A}$, dada por $S_{r}(P)=A+S_{\langle u\rangle}(\overrightarrow{A P})$, donde $S_{\langle u\rangle}$ es la simetría respecto a $\langle u\rangle$
-
+\subsubsection{Definición}
+Se llama simetría respecto a la recta $r=A+\langle u\rangle$ a la aplicación $S_{r}: \mathbb{A} \rightarrow \mathbb{A}$, dada por $S_{r}(P)=A+S_{\langle u\rangle}(\overrightarrow{A P})$, donde $S_{\langle u\rangle}$ es la simetría respecto a $\langle u\rangle$.
 \begin{center}
-	\includegraphics[max width=\textwidth]{2023_04_25_301d1803eaf1bc74cfd9g-080}
+	\includegraphics[max width=5cm]{2023_04_25_301d1803eaf1bc74cfd9g-080}
 \end{center}
+\observacion
 
-Por $3.3 .3(4), S_{r}$ es un movimiento.
+$S_r$ es el único movimiento con $S_r(A) = A$, $\vec{S_r}$ = $S_{\langle u \rangle} in \mathcal{O}^-(V)$. Veamos que $S_r$ no depende de $A$: $A^{\prime} \in r$, entonces $A+S_{\langle u\rangle}(\overrightarrow{A P})=A^{\prime}+S_{\langle u\rangle}\left(\overrightarrow{A^{\prime} P}\right)$. En efecto, dado que $\overrightarrow{A A^{\prime}} \in\langle u\rangle$, se tiene $S_{\langle u\rangle}\left(\overrightarrow{A A^{\prime}}\right)=\overrightarrow{A A^{\prime}}$ y por tanto $S_{\langle u\rangle}(\overrightarrow{A P})=S_{\langle u\rangle}\left(\overrightarrow{A A^{\prime}+A^{\prime} P}\right)=\overrightarrow{A A^{\prime}}+S_{\langle u\rangle}\left(\overrightarrow{A^{\prime} P}\right)$. En particular, $S_r(A') = A', \; \forall A' \in r$.
 
-3.4.4. Observación. Si $A^{\prime} \in r$, entonces $A+S_{\langle u\rangle}(\overrightarrow{A P})=A^{\prime}+S_{\langle u\rangle}\left(\overrightarrow{A^{\prime} P}\right)$. En efecto, dado que $\overrightarrow{A A^{\prime}} \in\langle u\rangle$, se tiene $S_{\langle u\rangle}\left(\overrightarrow{A A^{\prime}}\right)=\overrightarrow{A A^{\prime}}$ y por tanto $S_{\langle u\rangle}(\overrightarrow{A P})=S_{\langle u\rangle}\left(\overrightarrow{A A^{\prime}+A^{\prime} P}\right)=\overrightarrow{A A^{\prime}}+S_{\langle u\rangle}\left(\overrightarrow{A^{\prime} P}\right)$. 3.4.5. Proposición. Los únicos puntos fijos de la simetría $S_{r}$ son los puntos de $r$.
+\subsubsection{Proposición}
+Los únicos puntos fijos de la simetría $S_{r}$ son los puntos de $r$.
 
-Demostración. Se tiene
+\demostracion
 
+Se tiene
 $$
 S_{r}(P)=P \Longleftrightarrow A+S_{\langle u\rangle}(\overrightarrow{A P})=P \Longleftrightarrow S_{\langle u\rangle}(\overrightarrow{A P})=\overrightarrow{A P} \Longleftrightarrow \overrightarrow{A P} \in\langle u\rangle \Longleftrightarrow P \in r
 $$
