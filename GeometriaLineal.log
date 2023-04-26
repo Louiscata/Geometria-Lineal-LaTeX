@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.7)  26 APR 2023 18:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.7)  27 APR 2023 00:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -718,7 +718,7 @@ LaTeX Font Info:    Trying to load font information for U+bbold on input line 2
 50.
 
 (C:\Users\lbcpd\AppData\Local\Programs\MiKTeX\tex/latex/bbold\ubbold.fd)
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-01(1).jpg, id=712, 284.06125pt x 10
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-01(1).jpg, id=772, 284.06125pt x 10
 3.38625pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-01(1).jpg Graphic file (type j
 pg)
@@ -726,7 +726,7 @@ pg)
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-01(1).jpg  
 used on input line 258.
 (pdftex.def)             Requested size: 284.06053pt x 103.38599pt.
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-01.jpg, id=713, 463.7325pt x 220.82
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-01.jpg, id=773, 463.7325pt x 220.82
 5pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-01.jpg Graphic file (type jpg)
 
@@ -742,7 +742,7 @@ been already used, duplicate ignored
 l.271 	\begin{center}
                       [1 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-01(1).jpg>
  <./images//2023_03_01_7659aec5e35f9a9b2d3cg-01.jpg>]
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-01(2).jpg, id=726, 372.39125pt x 97
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-01(2).jpg, id=786, 372.39125pt x 97
 .36375pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-01(2).jpg Graphic file (type j
 pg)
@@ -750,7 +750,7 @@ pg)
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-01(2).jpg  
 used on input line 272.
 (pdftex.def)             Requested size: 372.39034pt x 97.3635pt.
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-02.jpg, id=727, 512.91624pt x 257.9
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-02.jpg, id=787, 512.91624pt x 257.9
 6375pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-02.jpg Graphic file (type jpg)
 
@@ -760,7 +760,7 @@ d on input line 294.
 (pdftex.def)             Requested size: 512.915pt x 257.9631pt.
  [2 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-01(2).jpg> <./images//2023_03_0
 1_7659aec5e35f9a9b2d3cg-02.jpg>]
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-03.jpg, id=746, 977.6525pt x 431.61
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-03.jpg, id=806, 977.6525pt x 431.61
 25pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-03.jpg Graphic file (type jpg)
 
@@ -837,7 +837,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 553.
 
 [9] [10] [11]
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-08.jpg, id=827, 827.09pt x 419.5675
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-08.jpg, id=887, 827.09pt x 419.5675
 pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-08.jpg Graphic file (type jpg)
 
@@ -878,7 +878,7 @@ Overfull \hbox (0.34132pt too wide) in paragraph at lines 1055--1056
  []
 
 [21]
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-11.jpg, id=935, 780.9175pt x 315.17
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-11.jpg, id=995, 780.9175pt x 315.17
 75pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-11.jpg Graphic file (type jpg)
 
@@ -887,164 +887,372 @@ Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-11.jpg  use
 d on input line 1081.
 (pdftex.def)             Requested size: 780.91559pt x 315.17673pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1081--1082
-[][] 
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1081--1083
+[][]
  []
 
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(1).jpg, id=936, 921.4425pt x 355
-.3275pt>
-File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(1).jpg Graphic file (type j
-pg)
-<use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(1).jpg>
-Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(1).jpg  
-used on input line 1087.
-(pdftex.def)             Requested size: 921.44026pt x 355.32661pt.
 
-Overfull \hbox (21.55522pt too wide) in paragraph at lines 1086--1088
+Overfull \hbox (33.3051pt too wide) in paragraph at lines 1090--1091
 []\T1/cmr/m/n/12 La re-fe-ren-cia ca-nó-ni-ca $\OMS/cmsy/m/n/12 C \OT1/cmr/m/n/
 12 = []$ \T1/cmr/m/n/12 del es-pa-cio or-di-na-rio es una cua-ter-na $[]$
  []
 
-
-Overfull \hbox (43.06049pt too wide) in paragraph at lines 1086--1088
-\T1/cmr/m/n/12 vec-tor $[]$ [] 
- []
-
 [22 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-11.jpg>]
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(2).jpg, id=943, 506.89375pt x 38
-1.425pt>
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(1).jpg, id=1003, 921.4425pt x 35
+5.3275pt>
+File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(1).jpg Graphic file (type j
+pg)
+<use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(1).jpg>
+Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(1).jpg  
+used on input line 1092.
+(pdftex.def)             Requested size: 921.44026pt x 355.32661pt.
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(2).jpg, id=1004, 506.89375pt x 3
+81.425pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(2).jpg Graphic file (type j
 pg)
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(2).jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(2).jpg  
-used on input line 1102.
+used on input line 1107.
 (pdftex.def)             Requested size: 506.89252pt x 381.42406pt.
- [23 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(1).jpg> <./images//2023_03_
-01_7659aec5e35f9a9b2d3cg-12(2).jpg>]
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-12.jpg, id=948, 510.90875pt x 151.5
-6625pt>
+
+Overfull \hbox (14.28577pt too wide) in paragraph at lines 1112--1113
+[]\T1/cmr/m/n/12 En la re-fe-ren-cia ca-nó-ni-ca $\OMS/cmsy/m/n/12 C$ \T1/cmr/m
+/n/12 de $\OML/cmm/m/it/12 K[]$\T1/cmr/m/n/12 , el pun-to $\OML/cmm/m/it/12 P \
+OT1/cmr/m/n/12 = []$ \T1/cmr/m/n/12 tie-ne coor-de-na-das $[]$. 
+ []
+
+[23 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(1).jpg> <./images//2023_03_0
+1_7659aec5e35f9a9b2d3cg-12(2).jpg>]
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-12.jpg, id=1013, 510.90875pt x 151.
+56625pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12.jpg  use
-d on input line 1113.
+d on input line 1124.
 (pdftex.def)             Requested size: 510.9075pt x 151.56587pt.
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-13.jpg, id=949, 1332.98pt x 66.2475
-pt>
-File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-13.jpg Graphic file (type jpg)
 
-<use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-13.jpg>
-Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-13.jpg  use
-d on input line 1134.
-(pdftex.def)             Requested size: 1332.97675pt x 66.24733pt.
-
-Overfull \hbox (41.7516pt too wide) in paragraph at lines 1139--1140
-[]$\T1/cmr/m/n/12 , en-ton-ces las coor-de-na-das del pun-to me-dio de $\OML/cm
-m/m/it/12 P$ \T1/cmr/m/n/12 y $\OML/cmm/m/it/12 P[]$ \T1/cmr/m/n/12 en $\OMS/cm
-sy/m/n/12 R$ \T1/cmr/m/n/12 son $\OT1/cmr/m/n/12 (1\OML/cmm/m/it/12 =\OT1/cmr/m
-/n/12 2) []$\T1/cmr/m/n/12 . 
+Overfull \hbox (15.31401pt too wide) in paragraph at lines 1150--1151
+[]$ \T1/cmr/m/n/12 en $\OML/cmm/m/it/12 B[]$\T1/cmr/m/n/12 , en-ton-ces las coo
+r-de-na-das del pun-to $\OML/cmm/m/it/12 P \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 v
+$ \T1/cmr/m/n/12 en $\OMS/cmsy/m/n/12 R$ \T1/cmr/m/n/12 son $[]$. 
  []
 
-[24 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-12.jpg> <./images//2023_03_01_7
-659aec5e35f9a9b2d3cg-13.jpg>] [25]
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-14.jpg, id=959, 851.18pt x 610.28pt
->
+
+Overfull \hbox (1.58252pt too wide) in paragraph at lines 1152--1153
+\T1/cmr/m/n/12 te, en-ton-ces las coor-de-na-das del pun-to me-dio de $\OML/cmm
+/m/it/12 P$ \T1/cmr/m/n/12 y $\OML/cmm/m/it/12 P[]$ \T1/cmr/m/n/12 en $\OMS/cms
+y/m/n/12 R$ \T1/cmr/m/n/12 son $[] []$. 
+ []
+
+[24 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-12.jpg>]
+Overfull \hbox (8.56017pt too wide) detected at line 1176
+[]
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1189.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1189.
+
+[25]
+Overfull \hbox (18.30086pt too wide) in paragraph at lines 1219--1220
+[]\T1/cmr/m/n/12 Sean $\OML/cmm/m/it/12 L$ \T1/cmr/m/n/12 una va-rie-dad li-nea
+l de $\U/bbold/m/n/12 A\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 R \OT1/cmr/m/n/12 = 
+[]$ \T1/cmr/m/n/12 una re-fe-ren-cia de $\U/bbold/m/n/12 A$\T1/cmr/m/n/12 , $\O
+MS/cmsy/m/n/12 R[] \OT1/cmr/m/n/12 = []$
+ []
+
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-14.jpg, id=1031, 851.18pt x 610.28p
+t>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-14.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-14.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-14.jpg  use
-d on input line 1214.
+d on input line 1246.
 (pdftex.def)             Requested size: 851.1779pt x 610.2785pt.
- [26 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-14.jpg>] [27] [28]
-Overfull \hbox (15.7626pt too wide) detected at line 1336
+[26] [27 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-14.jpg>]
+Overfull \hbox (41.90413pt too wide) detected at line 1317
+\OML/cmm/m/it/12 P \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 S \OMS/cmsy/m/n/12 ([]) 
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 ([]) = [] = \OML/cmm/m/it/12 f\OT1/cmr/m/n/12
+ ([]) \OMS/cmsy/m/n/12 ([]) [] ^^@ [] 2 [] \OML/cmm/m/it/12 f \OMS/cmsy/m/n/12 
+([]) [] 2 [] \OML/cmm/m/it/12 f \OMS/cmsy/m/n/12 ([]) \OML/cmm/m/it/12 P \OMS/c
+msy/m/n/12 2 \OML/cmm/m/it/12 A \OT1/cmr/m/n/12 + [] \OML/cmm/m/it/12 f
+ []
+
+[28]
+Overfull \hbox (15.7626pt too wide) detected at line 1354
 \OML/cmm/m/it/12 P \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 L \OMS/cmsy/m/n/12 ([]) 
 9\OML/cmm/m/it/12 ^^U[]; [] ; ^^U[] \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 K \OMS/
 cmsy/m/n/12 j [] \OT1/cmr/m/n/12 = [] + \OML/cmm/m/it/12 ^^U[] [] \OT1/cmr/m/n/
 12 + [] + \OML/cmm/m/it/12 ^^U[] [] ;
  []
 
-[29] [30]
-Overfull \hbox (41.12181pt too wide) in paragraph at lines 1429--1430
-[]\T1/cmr/m/n/12 Sea $\OML/cmm/m/it/12 P$ \T1/cmr/m/n/12 el pun-to de coor-de-n
-a-das $[]$ en la re-fe-ren-cia $\OMS/cmsy/m/n/12 R \OT1/cmr/m/n/12 = \OMS/cmsy/
-m/n/12 f\OT1/cmr/m/n/12 (1\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/1
-2 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0)\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (0\O
-ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0)\OML/cmm
-/m/it/12 ; \OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/
-12 ; \OT1/cmr/m/n/12 1); (1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12
- ; \OT1/cmr/m/n/12 1)\OMS/cmsy/m/n/12 g$\T1/cmr/m/n/12 .
- []
-
-[31]
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-19.jpg, id=985, 512.91624pt x 326.2
-1875pt>
+[29] [30] [31]
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-19.jpg, id=1057, 512.91624pt x 326.
+21875pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-19.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-19.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-19.jpg  use
-d on input line 1491.
+d on input line 1528.
 (pdftex.def)             Requested size: 512.915pt x 326.21794pt.
- [32 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-19.jpg>] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 1551--1552
+ [32] [33 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-19.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathchoice' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\vbox' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\everycr' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tabskip' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\halign' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\vbox' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\everycr' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tabskip' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\halign' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\vbox' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\everycr' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tabskip' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\halign' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\vbox' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\everycr' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tabskip' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\halign' on input line 1568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1568.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1585--1586
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1553--1554
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathchoice' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\vbox' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\everycr' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tabskip' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\halign' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\vbox' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\everycr' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tabskip' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\halign' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\vbox' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\everycr' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tabskip' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\halign' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\vbox' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\everycr' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tabskip' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\halign' on input line 1587.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1587.
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 1592--1593
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1557--1558
-
+Overfull \hbox (182.85649pt too wide) detected at line 1608
+[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 ) = [] = [] = \OMS/cmsy/m/
+n/12 ^^@\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 ([]) + \OML/cmm/m/it/12 f\OT1/cmr/m/n
+/12 ([]) = \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 ([] + []) = \OML/cmm/m/it/12 f\OT1
+/cmr/m/n/12 ([]) = \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v\OT1/cm
+r/m/n/12 )
  []
 
-[34] [35] [36]
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-22.jpg, id=1024, 372.39125pt x 103.
+[35] [36]
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-22.jpg, id=1098, 372.39125pt x 103.
 38625pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-22.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-22.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-22.jpg  use
-d on input line 1678.
+d on input line 1714.
 (pdftex.def)             Requested size: 372.39034pt x 103.38599pt.
- [37 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-22.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1749--1750
+ [37 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-22.jpg>] [38]
 
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1786.
 
-[38]
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-25.jpg, id=1040, 430.60875pt x 169.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1786.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1786.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1786.
+
+[39]
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-25.jpg, id=1119, 430.60875pt x 169.
 63374pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-25.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-25.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-25.jpg  use
-d on input line 1806.
+d on input line 1845.
 (pdftex.def)             Requested size: 430.60768pt x 169.63332pt.
- [39 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-25.jpg>]
-Overfull \hbox (18.6085pt too wide) in paragraph at lines 1868--1869
+ [40 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-25.jpg>]
+Overfull \hbox (18.6085pt too wide) in paragraph at lines 1907--1908
 []\T1/cmr/m/n/12 son li-neal-men-te in-de-pen-dien-tes, $\OML/cmm/m/it/12 $ \T
 1/cmr/m/n/12 es una afi-ni-dad si, y so-lo si, los pun-tos $\OML/cmm/m/it/12  
 [] ; [] ;  []$
  []
 
-[40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1939--1942
+[41] [42]
+Underfull \hbox (badness 10000) in paragraph at lines 1987--1988
 
  []
 
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1945.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1945--1946
-
- []
-
-[42]
-Overfull \hbox (31.63025pt too wide) in paragraph at lines 1989--1990
+[43]
+Overfull \hbox (31.63025pt too wide) in paragraph at lines 2031--2032
 \OT1/cmr/m/n/12 (2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/c
 mr/m/n/12 2)\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m
 /n/12 1\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1) = (1\OML/cmm/m
@@ -1060,74 +1268,74 @@ mr/m/n/12 1)$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2006--2007
+Underfull \hbox (badness 10000) in paragraph at lines 2048--2049
 
  []
 
-[43]
-Overfull \hbox (1.0831pt too wide) in paragraph at lines 2014--2015
+
+Overfull \hbox (1.0831pt too wide) in paragraph at lines 2056--2057
 []$\OML/cmm/m/it/12 []$ \T1/cmr/m/n/12 es una apli-ca-ción afín con apli-ca-ci
 ón li-neal aso-cia-da $[]$. Por el co-ro-la-rio $\OT1/cmr/m/n/12 1[]3[]15(2)\OM
 L/cmm/m/it/12 ; [] \OT1/cmr/m/n/12 =
  []
 
-[44]
-Underfull \hbox (badness 10000) in paragraph at lines 2090--2091
+[44] [45]
+Underfull \hbox (badness 10000) in paragraph at lines 2132--2133
 
  []
 
-[45]
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-29.jpg, id=1095, 438.63875pt x 320.
+[46]
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-29.jpg, id=1173, 438.63875pt x 320.
 19624pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-29.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-29.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-29.jpg  use
-d on input line 2127.
+d on input line 2169.
 (pdftex.def)             Requested size: 438.63766pt x 320.19545pt.
- [46]
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-30.jpg, id=1100, 1339.0025pt x 463.
+ [47]
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-30.jpg, id=1178, 1339.0025pt x 463.
 7325pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-30.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-30.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-30.jpg  use
-d on input line 2141.
+d on input line 2183.
 (pdftex.def)             Requested size: 1338.99925pt x 463.73135pt.
 
-Overfull \hbox (178.23796pt too wide) in paragraph at lines 2140--2142
+Overfull \hbox (178.23796pt too wide) in paragraph at lines 2182--2184
 \T1/cmr/m/n/12 fi-gu-ra de la de-re-cha tam-bién lo son. [] 
  []
 
-[47 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-29.jpg>] [48 <./images//2023_03
+[48 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-29.jpg>] [49 <./images//2023_03
 _01_7659aec5e35f9a9b2d3cg-30.jpg>]
-<./images//2023_03_01_7659aec5e35f9a9b2d3cg-31.jpg, id=1110, 673.51625pt x 466.
+<./images//2023_03_01_7659aec5e35f9a9b2d3cg-31.jpg, id=1188, 673.51625pt x 466.
 74374pt>
 File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-31.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-31.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-31.jpg  use
-d on input line 2188.
+d on input line 2230.
 (pdftex.def)             Requested size: 673.5146pt x 466.7426pt.
 
-Overfull \hbox (3.8635pt too wide) detected at line 2213
+Overfull \hbox (3.8635pt too wide) detected at line 2255
 \OML/cmm/m/it/12 ^^U[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v \OT1/cmr/m/n/12 + \OM
 L/cmm/m/it/12 w\OT1/cmr/m/n/12 ) = [] = [] + [] = \OML/cmm/m/it/12 ^^U[]v \OT1/
 cmr/m/n/12 + \OML/cmm/m/it/12 ^^U[]w
  []
 
-[49 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-31.jpg>] [50] [51]
-Underfull \hbox (badness 10000) in paragraph at lines 2294--2297
+[50 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-31.jpg>] [51] [52]
+Underfull \hbox (badness 10000) in paragraph at lines 2336--2339
 
  []
 
-[52]
-Underfull \hbox (badness 10000) in paragraph at lines 2332--2333
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 2374--2375
 
  []
 
 
-Overfull \hbox (16.42612pt too wide) in paragraph at lines 2338--2340
+Overfull \hbox (16.42612pt too wide) in paragraph at lines 2380--2382
 \T1/cmr/m/n/12 Tomemos los vec-to-res $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y; 
 z\OT1/cmr/m/n/12 )$ \T1/cmr/m/n/12 y $\OMS/cmsy/m/n/12 j\OT1/cmr/m/n/12 (\OML/c
 mm/m/it/12 x; y; z\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 (1\OML
@@ -1139,82 +1347,82 @@ r/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2341--2343
+Underfull \hbox (badness 10000) in paragraph at lines 2383--2385
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2356--2358
-
- []
-
-[53]
-Underfull \hbox (badness 10000) in paragraph at lines 2376--2378
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2388--2394
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2388--2394
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2396--2399
+Underfull \hbox (badness 10000) in paragraph at lines 2398--2400
 
  []
 
 [54]
-Underfull \hbox (badness 10000) in paragraph at lines 2410--2414
+Underfull \hbox (badness 10000) in paragraph at lines 2418--2420
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2426--2427
+Underfull \hbox (badness 10000) in paragraph at lines 2430--2436
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2426--2427
+Underfull \hbox (badness 10000) in paragraph at lines 2430--2436
 
  []
 
-[55] [56] [57] [58] [59] [60]
-<./images//2023_03_20_c2fe6c117849a1a0e8afg-043.jpg, id=1188, 945.5325pt x 361.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2438--2441
+
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 2452--2456
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2468--2469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2468--2469
+
+ []
+
+[56] [57] [58] [59] [60] [61]
+<./images//2023_03_20_c2fe6c117849a1a0e8afg-043.jpg, id=1266, 945.5325pt x 361.
 35pt>
 File: ./images//2023_03_20_c2fe6c117849a1a0e8afg-043.jpg Graphic file (type jpg
 )
 <use ./images//2023_03_20_c2fe6c117849a1a0e8afg-043.jpg>
 Package pdftex.def Info: ./images//2023_03_20_c2fe6c117849a1a0e8afg-043.jpg  us
-ed on input line 2690.
+ed on input line 2732.
 (pdftex.def)             Requested size: 945.5302pt x 361.34912pt.
 
-Overfull \hbox (292.41557pt too wide) in paragraph at lines 2689--2691
+Overfull \hbox (292.41557pt too wide) in paragraph at lines 2731--2733
 \T1/cmr/m/n/12 rio son ba-ses or-to-nor-ma-les de $\OML/cmm/m/it/12 V[]$ \T1/cm
 r/m/n/12 y $\OML/cmm/m/it/12 V[]$\T1/cmr/m/n/12 , res-pec-ti-va-men-te. [](2)
  []
 
-[61] [62 <./images//2023_03_20_c2fe6c117849a1a0e8afg-043.jpg>] [63]
-Underfull \hbox (badness 10000) in paragraph at lines 2791--2793
+[62] [63 <./images//2023_03_20_c2fe6c117849a1a0e8afg-043.jpg>] [64]
+Underfull \hbox (badness 10000) in paragraph at lines 2833--2835
 
  []
 
-[64] [65] [66]
-Underfull \hbox (badness 10000) in paragraph at lines 2909--2911
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2922--2925
+[65] [66] [67]
+Underfull \hbox (badness 10000) in paragraph at lines 2951--2953
 
  []
 
 
-Overfull \hbox (5.25165pt too wide) in paragraph at lines 2922--2925
+Underfull \hbox (badness 10000) in paragraph at lines 2964--2967
+
+ []
+
+
+Overfull \hbox (5.25165pt too wide) in paragraph at lines 2964--2967
 \T1/cmr/m/n/12 Si te-ne-mos una ba-se or-to-nor-mal de un es-pa-cio eu-clí-deo 
 $\OML/cmm/m/it/12 V$\T1/cmr/m/n/12 , $\OML/cmm/m/it/12 B \OT1/cmr/m/n/12 = \OMS
 /cmsy/m/n/12 f\OML/cmm/m/it/12 v[]; [] ; v[]\OMS/cmsy/m/n/12 g$ \T1/cmr/m/n/12 
@@ -1222,217 +1430,211 @@ y $\OML/cmm/m/it/12 v \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 x[]; [] ; x[]\OT1/cmr
 /m/n/12 ) \OMS/cmsy/m/n/12 2
  []
 
-<./images//2023_03_20_c2fe6c117849a1a0e8afg-048.jpg, id=1216, 593.21625pt x 337
+<./images//2023_03_20_c2fe6c117849a1a0e8afg-048.jpg, id=1294, 593.21625pt x 337
 .26pt>
 File: ./images//2023_03_20_c2fe6c117849a1a0e8afg-048.jpg Graphic file (type jpg
 )
 <use ./images//2023_03_20_c2fe6c117849a1a0e8afg-048.jpg>
 Package pdftex.def Info: ./images//2023_03_20_c2fe6c117849a1a0e8afg-048.jpg  us
-ed on input line 2929.
+ed on input line 2971.
 (pdftex.def)             Requested size: 593.2148pt x 337.25917pt.
-[67 <./images//2023_03_20_c2fe6c117849a1a0e8afg-048.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2938--2941
+[68 <./images//2023_03_20_c2fe6c117849a1a0e8afg-048.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2980--2983
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+Underfull \hbox (badness 10000) in paragraph at lines 3000--3005
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+Underfull \hbox (badness 10000) in paragraph at lines 3000--3005
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
-
- []
-
-[68]
-Underfull \hbox (badness 10000) in paragraph at lines 3004--3006
+Underfull \hbox (badness 10000) in paragraph at lines 3000--3005
 
  []
 
 [69]
-Underfull \hbox (badness 10000) in paragraph at lines 3086--3089
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3106--3108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3117--3118
+Underfull \hbox (badness 10000) in paragraph at lines 3046--3048
 
  []
 
 [70]
-Underfull \hbox (badness 10000) in paragraph at lines 3152--3154
+Underfull \hbox (badness 10000) in paragraph at lines 3128--3131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3159--3162
+Underfull \hbox (badness 10000) in paragraph at lines 3148--3150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3159--3162
+Underfull \hbox (badness 10000) in paragraph at lines 3159--3160
 
  []
 
 [71]
-Underfull \hbox (badness 10000) in paragraph at lines 3188--3189
+Underfull \hbox (badness 10000) in paragraph at lines 3194--3196
 
  []
 
-[72] [73]
-Underfull \hbox (badness 10000) in paragraph at lines 3244--3245
+
+Underfull \hbox (badness 10000) in paragraph at lines 3201--3204
 
  []
 
-[74]
-Underfull \hbox (badness 10000) in paragraph at lines 3310--3311
+
+Underfull \hbox (badness 10000) in paragraph at lines 3201--3204
+
+ []
+
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 3230--3231
+
+ []
+
+[73] [74]
+Underfull \hbox (badness 10000) in paragraph at lines 3286--3287
 
  []
 
 [75]
-Underfull \hbox (badness 10000) in paragraph at lines 3346--3347
+Underfull \hbox (badness 10000) in paragraph at lines 3352--3353
 
  []
 
 [76]
-<./images//2023_03_20_c2fe6c117849a1a0e8afg-052.jpg, id=1295, 426.59375pt x 432
+Underfull \hbox (badness 10000) in paragraph at lines 3388--3389
+
+ []
+
+[77]
+<./images//2023_03_20_c2fe6c117849a1a0e8afg-052.jpg, id=1373, 426.59375pt x 432
 .61626pt>
 File: ./images//2023_03_20_c2fe6c117849a1a0e8afg-052.jpg Graphic file (type jpg
 )
 <use ./images//2023_03_20_c2fe6c117849a1a0e8afg-052.jpg>
 Package pdftex.def Info: ./images//2023_03_20_c2fe6c117849a1a0e8afg-052.jpg  us
-ed on input line 3388.
+ed on input line 3430.
 (pdftex.def)             Requested size: 426.5927pt x 432.6152pt.
- [77 <./images//2023_03_20_c2fe6c117849a1a0e8afg-052.jpg>]
-<./images//2023_03_20_c2fe6c117849a1a0e8afg-053.jpg, id=1300, 574.145pt x 359.3
+ [78 <./images//2023_03_20_c2fe6c117849a1a0e8afg-052.jpg>]
+<./images//2023_03_20_c2fe6c117849a1a0e8afg-053.jpg, id=1379, 574.145pt x 359.3
 425pt>
 File: ./images//2023_03_20_c2fe6c117849a1a0e8afg-053.jpg Graphic file (type jpg
 )
 <use ./images//2023_03_20_c2fe6c117849a1a0e8afg-053.jpg>
 Package pdftex.def Info: ./images//2023_03_20_c2fe6c117849a1a0e8afg-053.jpg  us
-ed on input line 3443.
+ed on input line 3485.
 (pdftex.def)             Requested size: 574.1436pt x 359.34161pt.
- [78 <./images//2023_03_20_c2fe6c117849a1a0e8afg-053.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 3468--3469
+ [79 <./images//2023_03_20_c2fe6c117849a1a0e8afg-053.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 3510--3511
 
  []
 
-[79]
-Underfull \hbox (badness 10000) in paragraph at lines 3513--3514
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3523--3524
-
- []
-
-[80] [81]
-Underfull \hbox (badness 10000) in paragraph at lines 3615--3616
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 3555--3556
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3628--3629
+Underfull \hbox (badness 10000) in paragraph at lines 3565--3566
+
+ []
+
+[81] [82]
+Underfull \hbox (badness 10000) in paragraph at lines 3657--3658
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3649--3650
+Underfull \hbox (badness 10000) in paragraph at lines 3670--3671
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3656--3657
+Underfull \hbox (badness 10000) in paragraph at lines 3691--3692
 
  []
 
-[82]
-Underfull \hbox (badness 10000) in paragraph at lines 3694--3695
+
+Underfull \hbox (badness 10000) in paragraph at lines 3698--3699
 
  []
 
 [83]
-Underfull \hbox (badness 10000) in paragraph at lines 3731--3732
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3740--3741
+Underfull \hbox (badness 10000) in paragraph at lines 3736--3737
 
  []
 
 [84]
-<./images//2023_03_20_c2fe6c117849a1a0e8afg-057.jpg, id=1337, 726.715pt x 271.0
+Underfull \hbox (badness 10000) in paragraph at lines 3773--3774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3782--3783
+
+ []
+
+[85]
+<./images//2023_03_20_c2fe6c117849a1a0e8afg-057.jpg, id=1415, 726.715pt x 271.0
 125pt>
 File: ./images//2023_03_20_c2fe6c117849a1a0e8afg-057.jpg Graphic file (type jpg
 )
 <use ./images//2023_03_20_c2fe6c117849a1a0e8afg-057.jpg>
 Package pdftex.def Info: ./images//2023_03_20_c2fe6c117849a1a0e8afg-057.jpg  us
-ed on input line 3796.
+ed on input line 3838.
 (pdftex.def)             Requested size: 726.71321pt x 271.01183pt.
- [85] [86 <./images//2023_03_20_c2fe6c117849a1a0e8afg-057.jpg>] [87]
-[88] [89] [90] [91]
+ [86] [87 <./images//2023_03_20_c2fe6c117849a1a0e8afg-057.jpg>] [88]
+[89] [90] [91] [92]
 
-LaTeX Warning: Command \i invalid in math mode on input line 4108.
+LaTeX Warning: Command \i invalid in math mode on input line 4150.
 
-[92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102]
-<./images//2023_04_25_301d1803eaf1bc74cfd9g-080(1).jpg, id=1461, 307.1475pt x 2
+[93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103]
+<./images//2023_04_25_301d1803eaf1bc74cfd9g-080(1).jpg, id=1539, 307.1475pt x 2
 80.04625pt>
 File: ./images//2023_04_25_301d1803eaf1bc74cfd9g-080(1).jpg Graphic file (type 
 jpg)
 <use ./images//2023_04_25_301d1803eaf1bc74cfd9g-080(1).jpg>
 Package pdftex.def Info: ./images//2023_04_25_301d1803eaf1bc74cfd9g-080(1).jpg 
- used on input line 4518.
+ used on input line 4560.
 (pdftex.def)             Requested size: 307.14674pt x 280.04555pt.
-<./images//2023_04_25_301d1803eaf1bc74cfd9g-080.jpg, id=1462, 568.1225pt x 516.
+<./images//2023_04_25_301d1803eaf1bc74cfd9g-080.jpg, id=1540, 568.1225pt x 516.
 93124pt>
 File: ./images//2023_04_25_301d1803eaf1bc74cfd9g-080.jpg Graphic file (type jpg
 )
 <use ./images//2023_04_25_301d1803eaf1bc74cfd9g-080.jpg>
 Package pdftex.def Info: ./images//2023_04_25_301d1803eaf1bc74cfd9g-080.jpg  us
-ed on input line 4539.
+ed on input line 4581.
 (pdftex.def)             Requested size: 568.1211pt x 516.92998pt.
- [103 <./images//2023_04_25_301d1803eaf1bc74cfd9g-080(1).jpg> <./images//2023_0
+ [104 <./images//2023_04_25_301d1803eaf1bc74cfd9g-080(1).jpg> <./images//2023_0
 4_25_301d1803eaf1bc74cfd9g-080.jpg>]
-<./images//2023_04_25_301d1803eaf1bc74cfd9g-081.jpg, id=1467, 462.72874pt x 419
+<./images//2023_04_25_301d1803eaf1bc74cfd9g-081.jpg, id=1545, 462.72874pt x 419
 .5675pt>
 File: ./images//2023_04_25_301d1803eaf1bc74cfd9g-081.jpg Graphic file (type jpg
 )
 <use ./images//2023_04_25_301d1803eaf1bc74cfd9g-081.jpg>
 Package pdftex.def Info: ./images//2023_04_25_301d1803eaf1bc74cfd9g-081.jpg  us
-ed on input line 4558.
+ed on input line 4600.
 (pdftex.def)             Requested size: 462.72762pt x 419.56647pt.
- [104] [105 <./images//2023_04_25_301d1803eaf1bc74cfd9g-081.jpg>] [106] (Geomet
+ [105] [106 <./images//2023_04_25_301d1803eaf1bc74cfd9g-081.jpg>] [107] (Geomet
 riaLineal.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-
-Package rerunfilecheck Warning: File `GeometriaLineal.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `GeometriaLineal.out':
-(rerunfilecheck)             Before: F49CD4D24252398375FEC6D158B30877;35340
-(rerunfilecheck)             After:  B1A88144342423908B299CC464848BA7;35467.
+Package rerunfilecheck Info: File `GeometriaLineal.out' has not changed.
+(rerunfilecheck)             Checksum: CA96B0DFB0BE450D3B8C4AA9145CD195;41950.
  ) 
 Here is how much of TeX's memory you used:
- 17681 strings out of 476339
- 304556 string characters out of 5788120
+ 17714 strings out of 476339
+ 304635 string characters out of 5788120
  1881340 words of memory out of 5000000
- 37235 multiletter control sequences out of 15000+600000
+ 37238 multiletter control sequences out of 15000+600000
  531619 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,26n,76p,802b,731s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1467,9 +1669,9 @@ fonts/cm/cmsy6.pfb><C:/Users/lbcpd/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Users/lbcpd/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/symbols/msam10.pfb><C:/Users/lbcpd/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on GeometriaLineal.pdf (107 pages, 1123359 bytes).
+Output written on GeometriaLineal.pdf (108 pages, 1125773 bytes).
 PDF statistics:
- 2047 PDF objects out of 2073 (max. 8388607)
- 561 named destinations out of 1000 (max. 500000)
- 1531 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2127 PDF objects out of 2487 (max. 8388607)
+ 591 named destinations out of 1000 (max. 500000)
+ 1646 words of extra memory for PDF output out of 10000 (max. 10000000)
 
