@@ -2141,181 +2141,6 @@ $$
 
 Como consecuencia, se obtiene la ecuación del cambio de coordenadas ya estudiado. En efecto, la ecuación del cambio de coordenadas de la referencia $\mathcal{R}$ a la referencia $\mathcal{R}^{\prime}$ es la ecuación de la afinidad $\alpha=\operatorname{id}_{\mathbb{A}}: \mathbb{A} \rightarrow \mathbb{A}$ en las referencias $\mathcal{R}$ y $\mathcal{R}^{\prime}$. Si $L$ es una variedad lineal de $\mathbb{A}, \mathcal{R}^{\prime}$ es una referencia de $L$ y $\mathcal{R}$ es una referencia de $\mathbb{A}$, la ecuación de cambio de coordenadas de los puntos de $L$ de la referencia $\mathcal{R}^{\prime}$ a $\mathcal{R}$ es la ecuación de inclusión $i_{L}: L \rightarrow \mathbb{A}$ en las referencias $\mathcal{R}^{\prime}$ y $\mathcal{R}$.
 
-\subsection{Ejemplos de afinidades y dilataciones}
-Sea $\mathbb{A}$ un espacio afín sobre un espacio vectorial $V, \dim  \mathbb{A} \geq 2$.
-
-1.3.21. Definición. ([11, p. 37]) Se dice que $D: \mathbb{A} \rightarrow \mathbb{A}$ es una dilatación si $D$ es una aplicación biyectiva tal que para toda recta $L$ de $\mathbb{A}$ se tiene que $\alpha(L)$ es una recta y $\alpha(L) \| L$.
-
-Denotaremos por $\operatorname{Di}(\mathbb{A})$ el conjunto de todas las dilataciones del espacio $\mathbb{A}$.
-
-1.3.22. Proposición. El conjunto $\operatorname{Di}(\mathbb{A})$ es un grupo con la operación composición.
-
-Demostración. Si $D_{1}, D_{2} \in \operatorname{Di}(\mathbb{A})$, entonces $D_{2} \circ D_{1}$ es una aplicación biyectiva. Además, si $L$ es una recta de $\mathbb{A}, D_{1}(L)$ es una recta paralela a $L$, por ser $D_{1}$ una dilatación y $D_{2}\left(\left(D_{1}(L)\right) \| D_{1}(L)\right.$, por ser $D_{2}$ una dilatación. Por la transitividad de la relación de paralelismo en el conjunto de rectas de $\mathbb{A}$, $\left(D_{2} \circ D_{1}\right)(L) \| L$. Luego $D_{2} \circ D_{1} \in \operatorname{Di}(\mathbb{A})$.
-
-Claramente, $\operatorname{id}_{\mathbb{A}} \in \operatorname{Di}(\mathbb{A})$.
-
-Sea $D \in \operatorname{Di}(\mathbb{A})$ y veamos que $D^{-1} \in \operatorname{Di}(\mathbb{A})$. Sea $L$ una recta de $\mathbb{A}$ y $P \in L$. Por el axioma de paralelismo existe una única recta $L^{\prime}$ tal que $D^{-1}(P) \in L^{\prime}$ y $L^{\prime} \| L$. Por ser $D$ una dilatación, $D\left(L^{\prime}\right)$ es una recta paralela a $L^{\prime}$ y pasa por $D\left(D^{-1}(P)=P\right.$. Por el axioma de paralelismo, $L=D\left(L^{\prime}\right)$. Así, $D^{-1}(L)=L^{\prime}$, luego $D^{-1}(L) \| L$.
-
-\begin{center}
-\includegraphics[max width=\textwidth]{2023_03_01_7659aec5e35f9a9b2d3cg-29}
-\end{center}
-
-1.3.23. Proposición. Sea $\alpha: \mathbb{A} \rightarrow \mathbb{A}$ una afinidad y $\lambda \in K, \lambda \neq 0 . \mathrm{Si} \vec{\alpha}=\lambda \mathrm{id}_{V}$, entonces $\alpha$ es una dilatación; en particular, las traslaciones y las homotecias de $\mathbb{A}$ son dilataciones.
-
-Demostración. Si $\lambda \operatorname{id}_{V}$ es la aplicación lineal asociada a $\alpha$ y $L=A+\langle v\rangle$ es una recta de $\mathbb{A}$, entonces
-
-$$
-\alpha(L)=\alpha(A)+\langle\lambda v\rangle=\alpha(A)+\langle v\rangle
-$$
-
-luego $\alpha(L)$ es una recta paralela a $L$.
-
-1.3.24. Definición. Una configuración o figura en $\mathbb{A}$ es un subconjunto de $\mathbb{A}$. Se dice que dos figuras en $\mathbb{A}$ son homotéticas si existe una dilatación que lleva una figura en la otra. Los dos triángulos en azul de la figura de la izquierda son homotéticos y los dos triángulos en azul de la figura de la derecha también lo son.
-\includegraphics[max width=\textwidth, center]{2023_03_01_7659aec5e35f9a9b2d3cg-30}
-
-1.3.25. Lema. Si $D \in \operatorname{Di}(\mathbb{A})$ y $L_{1}$ y $L_{2}$ son rectas de $\mathbb{A}$ paralelas, entonces las rectas $D\left(L_{1}\right)$ y $D\left(L_{2}\right)$ son paralelas.
-
-Demostración. Dado que $D\left(L_{1}\right)\left\|L_{1}, L_{1}\right\| L_{2}$ y $L_{2} \| D\left(L_{2}\right)$, por la transitividad del paralelismo en rectas se tiene $D\left(L_{1}\right) \| D\left(L_{2}\right)$.
-
-1.3.26. Teorema. Si $D \in \operatorname{Di}(\mathbb{A})$, entonces existe $\lambda \in K, \lambda \neq 0$, tal que $D$ es una afinidad cuya aplicación lineal asociada es $\lambda \mathrm{id}_{V}$.
-
-Demostración. Sean $v \in V$ y $P \in \mathbb{A}$. Consideremos la aplicación $\vec{D}: V \rightarrow V$ dada por
-
-$$
-\vec{D}(v)=\overrightarrow{D(P), D(P+v)}, \quad v \in V
-$$
-
-Veamos que $\vec{D}$ no depende del punto $P \in \mathbb{A}$. Si $v=0$
-
-$$
-\overrightarrow{D(P), D(P+0)}=\overrightarrow{D(P), D(P)}=0, \quad P \in \mathbb{A}
-$$
-
-Sea $v \neq 0$ y $\operatorname{sean} P, Q \in \mathbb{A}$. Veamos que:
-
-$$
-\overrightarrow{D(P), D(P+v)}=\overrightarrow{D(Q), D(Q+v)}
-$$
-
-Caso 1: Si $Q \notin P+\langle v\rangle=l_{1}$, se tiene
-
-$$
-\begin{aligned}
-& l_{1}=P \circ(P+v)\left\|l_{3}=Q \circ(Q+v), \quad l_{2}=P \circ Q\right\| l_{4}=(P+v) \circ(Q+v), \quad l_{1} \neq l_{3}, \quad l_{2} \neq l_{4}, \\
-& l_{1} \cap l_{2}=\{P\}, \quad l_{2} \cap l_{3}=\{Q\}, \quad l_{3} \cap l_{4}=\{Q+v\}, \quad l_{1} \cap l_{4}=\{P+v\} .
-\end{aligned}
-$$
-
-Por el lema 1.3.25, puesto que $D$ lleva rectas a rectas,
-
-$$
-\begin{aligned}
-& D\left(l_{1}\right)=D(P) \circ D(P+v) \| D\left(l_{3}\right)=D(Q) \circ D(Q+v), \\
-& D\left(l_{2}\right)=D(P) \circ D(Q) \| D\left(l_{4}\right)=D(P+v) \circ D(Q+v) .
-\end{aligned}
-$$
-
-Por la definición 1.2.22, los puntos $D(P), D(P+v), D(Q+v)$ y $D(Q)$ son los vértices del paralelogramo de lados $D\left(l_{1}\right), D\left(l_{4}\right), D\left(l_{3}\right)$ y $D\left(l_{2}\right)$
-
-\begin{center}
-\includegraphics[max width=\textwidth]{2023_03_01_7659aec5e35f9a9b2d3cg-31}
-\end{center}
-
-y entonces, por la proposición $1.2 .23$,
-
-$$
-\overrightarrow{D(P), D(P+v)}=\overrightarrow{D(Q), D(Q+v)}
-$$
-
-Caso 2: Si $Q \in P+\langle v\rangle$, dado que $\dim  \mathbb{A}=n \geq 2$, existe $R \notin P+\langle v\rangle=Q+\langle v\rangle$. Por el caso 1,
-
-$$
-\overrightarrow{D(P), D(P+v)}=\overrightarrow{D(R), D(R+v)}=\overrightarrow{D(Q), D(Q+v)} \text {. }
-$$
-
-Puesto que $D\left(l_{1}\right) \| l_{1}$, existe $\lambda_{v} \in K$ tal que
-
-$$
-\vec{D}(v)=\overrightarrow{D(P), D(P+v)}=\lambda_{v} v
-$$
-
-Veamos que para todo $w \in V-\{0\}, \lambda_{w}=\lambda_{v}$. Si $v$ y $w$ son vectores linealmente independientes
-
-$$
-\lambda_{v+w}(v+w)=\overrightarrow{D(P), D(P+v+w)}=\overrightarrow{D(P), D(P+v)}+\overrightarrow{D(P+v), D(P+v+w)}=\lambda_{v} v+\lambda_{w} w
-$$
-
-luego $\lambda_{v}=\lambda_{v+w}=\lambda_{w}$. Si $v$ y $w$ son linealmente dependientes, entonces $\langle v\rangle=\langle w\rangle$ y como $\dim  V \geq 2$, existe $u \in V$ tal que $u \notin\langle v\rangle$. Los vectores $u$ y $v$ son linealmente independientes y $u$ y $w$ también lo son. Así, $\lambda_{v}=\lambda_{u}=\lambda_{w}$. Por tanto, si $\lambda=\lambda_{v}$ (cualquiera que sea $v \neq 0$ ), se tiene $\vec{D}=\lambda \operatorname{id}_{V}$.
-
-1.3.27. Corolario. Una aplicación $D: \mathbb{A} \rightarrow \mathbb{A}$ es una dilatación si, y solo si, $D$ es una afinidad cuya aplicación lineal asociada es $\lambda \operatorname{id}_{V}$, para algún $\lambda \in K, \lambda \neq 0$.
-
-Demostración. Se sigue de la proposición 1.3.23 y del teorema 1.3.26.
-
-1.3.28. Proposición. Sea $D$ una dilatación con isomorphismo lineal asociado $\lambda \operatorname{id}_{V}: V \rightarrow V$. Se tiene:
-
-(1) Si $\lambda=1$, entonces $D$ es una traslación.
-
-(2) Si $\lambda \neq 1$, entonces $D$ es una homotecia distinta de $i d_{\mathbb{A}}$. El punto fijo de $D$ es el centro y el escalar $\lambda$ es la razón. Demostración. (1) Si $\lambda=1$, entonces la aplicación lineal asociada a $D$ es $\mathrm{id}_{V}$. Por el lema 1.3.10, $D=t_{v}$, donde $v=\overrightarrow{P, D(P)}$ para todo $P \in \mathbb{A}$
-
-(2) Si $\lambda \neq 1$, entonces el único punto fijo de $D$ es el punto $C=A+(\lambda-1)^{-1} \overrightarrow{D(A), A}$, siendo $A$ un punto cualquiera de $\mathbb{A}$. En efecto,
-
-$$
-\begin{aligned}
-D(P)=P & \Longleftrightarrow D(A)+\lambda \overrightarrow{A P}=P \Longleftrightarrow \overrightarrow{D(A), P}=\lambda \overrightarrow{A P} \Longleftrightarrow \overrightarrow{D(A), A}+\overrightarrow{A P}=\lambda \overrightarrow{A P} \\
-& \Longleftrightarrow \overrightarrow{D(A), A}=(\lambda-1) \overrightarrow{A P} \Longleftrightarrow \overrightarrow{A P}=(\lambda-1)^{-1} \overrightarrow{D(A), A} \\
-& \Longleftrightarrow P=A+(\lambda-1)^{-1} \overrightarrow{D(A), A} .
-\end{aligned}
-$$
-
-Por la proposición $1.3 .5(2)$,
-
-$$
-D(P)=C+\left(\lambda \operatorname{id}_{V}\right)(\overrightarrow{C P})=C+\lambda \overrightarrow{C P}=H_{C}^{\lambda}(P), \quad P \in \mathbb{A}
-$$
-
-1.3.29. Ejemplo. Vamos a calcular la dilatación $D: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ que verifica $D(1,1,-1)=(1,1,1)$ y $D(0,2,2)=(3,-1,-5)$
-
-Las dilataciones de $\mathbb{R}^{3}$ son afinidades cuya aplicación lineal asociada es la aplicación
-
-$$
-\begin{aligned}
-\lambda 1_{\mathbb{R}^{3}}: \mathbb{R}^{3} & \longrightarrow \mathbb{R}^{3} \\
-(x, y, z) & \longmapsto \lambda(x, y, z)=(\lambda x, \lambda y, \lambda z),
-\end{aligned}
-$$
-
-$\operatorname{con} \lambda \in \mathbb{R}, \lambda \neq 0$. Por ser $D$ una aplicación afín,
-
-$$
-\vec{D}((0,2,2)-(1,1,-1))=D(0,2,2)-D(1,1,-1)
-$$
-
-luego
-
-$$
-\vec{D}(-1,1,3)=(2,-2,-6)=(-2)(-1,1,3)
-$$
-
-Por tanto, $\lambda=-2$ y entonces $D$ es una homotecia de razón $-2$. Se tiene
-
-$$
-\begin{aligned}
-D(x, y, z) & =D(1,1,-1)-2(x-1, y-1, z+1)=(1,1,1)+(2-2 x, 2-2 y,-2-2 z) \\
-& =(3-2 x, 3-2 y,-1-2 z) .
-\end{aligned}
-$$
-
-El centro de $\alpha$ es el único punto fijo de $\alpha$, es decir el punto $(1,1,-1 / 3)$.
-
-\ejercicio
-\begin{enumerate}[label=(\arabic*)]
-\item Sea $\mathbb{A}$ un espacio afín de dimensión $n \geq 4$ sobre un espacio vectorial. Estudia cuales de las propiedades de incidencia de (1.1.28) relativas a puntos, rectas y planos se verifican en $\mathbb{A}$.
-
-\item Prueba que si $L_{1}$ y $L_{2}$ son rectas del espacio afín $\mathbb{A}$ de dimensión $n \geq 3$ sobre un espacio vectorial, entonces $L_{1}$ y $L_{2}$ se cruzan si, y solo si, no son coplanarias.
-
-\item Sea $\mathbb{A}$ un espacio afín de dimensión $n \geq 2$ sobre un espacio vectorial, $L$ una variedad lineal y $P$ un punto de $\mathbb{A}$. Prueba que si $P \notin L$, entonces $\dim (L \circ P)=1+\dim  L$.
-\end{enumerate}
-
 \begin{center}
 \section{Espacios Vectoriales Euclídeos}
 \end{center}
@@ -2329,8 +2154,32 @@ Probaremos la existencia de bases ortonormales en un espacio vectorial euclídeo
 \subsubsection{Definición - Ortogonalidad entre vectores}
 \noindent Sean $u,v \in V$. Se dice que son ortogonales si $u\cdot v = 0$.
 
-\subsubsection{Definición - Longitud}
+\subsubsection{Definición - Producto escalar} Sea $V$ un espacio vectorial real. Se dice que una aplicación $\sigma: V \times V \rightarrow \mathbb{R}$ es un producto escalar en $V$ si verifica las siguientes condiciones:
+
+\begin{enumerate}[label=(\arabic*)]
+	
+	\item $\sigma$ es una aplicación bilineal o una forma bilineal, es decir:
+	\begin{enumerate}[label=(\alph*)]
+		\item $\sigma\left(\lambda_{1} v_{1}+\lambda_{2} v_{2}, w\right)=\lambda_{1} \sigma\left(v_{1}, w\right)+\lambda_{2} \sigma\left(v_{2}, w\right), \quad v_{1}, v_{2}, w \in V, \lambda_{1}, \lambda_{2} \in \mathbb{R}$,
+		\item $\sigma\left(v, \lambda_{1} w_{1}+\lambda_{2} w_{2}\right)=\lambda_{1} \sigma\left(v, w_{1}\right)+\lambda_{2} \sigma\left(v, w_{2}\right), \quad v, w_{1}, w_{2} \in V, \lambda_{1}, \lambda_{2} \in \mathbb{R}$,
+	\end{enumerate}
+	\item $\sigma$ es simétrica, es decir $\sigma(v, w)=\sigma(w, v)$, para todo $v, w \in V$,
+	
+	\item $\sigma$ es definida positiva:
+	
+	\begin{enumerate}[label=(\alph*)]
+		\item $\sigma(v, v) \geq 0$, para todo $v \in V$,
+		
+		\item $\sigma(v, v)=0 \quad \Rightarrow \quad v=0$.
+	\end{enumerate}
+\end{enumerate}
+Si $\sigma$ es un producto escalar, denotaremos con frecuencia $\sigma(u, v)$ por $u \cdot v$.
+
+Un espacio vectorial euclídeo es un par $(V, \sigma)$, donde $V$ es un espacio vectorial real y $\sigma$ es un producto escalar en $V$. Lo denotaremos por $(V, \sigma)$ o simplemente por $V$.
+
+\subsubsection{Cuestión}
 Sea $v \in V$, definimos la ''norma'' o longitud de $v$, y la denotamos $\|v\| = \sqrt{v \cdot v}$. Decimos que v es unitario si $\|v\| = 1$.
+
 \underline{Cuestión:}
 ¿Es esta longitud con la ''norma'' una norma ''de verdad''?
 
@@ -2345,10 +2194,10 @@ Sea $v \in V$, definimos la ''norma'' o longitud de $v$, y la denotamos $\|v\| =
 \subsubsection{Teorema - Propiedades de una norma}
 \noindent Sea $V$ un espacio vectorial euclídeo. Entonces:
 \begin{enumerate}
-	\item $\|v\| = 0 \Longleftrightarrow v = 0$.
+	\item  $\|u + v \| \le \|u\| + \|v\|$. Además, $\|v\| = 0 \Longleftrightarrow v = 0$.
 	\item $\|\lambda v\| = |\lambda| \cdot \|v\| \space, \; \forall v \in V, \lambda \in \mathbb{R}$.
 	\item (Desigualdad de Cauchy-Schwarz) 
-	$|u \cdot v| = \|u\| \cdot \|v\|$.
+	$|u \cdot v| \le \|u\| \cdot \|v\|$.
 	\item (Desigualdad Triangular) $\|u + v\| \le \|u\| + \|v\|$.
 	\item (Teorema de Pitágoras) Si $u \cdot v = 0$, $\|u + v\|^{2} = \|u\|^{2} + \|v\|^{2}$.
 \end{enumerate}
@@ -2392,7 +2241,7 @@ Sea $v \in V$, definimos la ''norma'' o longitud de $v$, y la denotamos $\|v\| =
 	\underline{Objetivo:} encontrar bases ''buenas'' de $V$.
 \end{enumerate}
 
-\subsubsection{Definición - Base ortonormal} Sea $(V,\sigma)$ euclídeo, decimos que la base $\{v_{1},...,v_{n}\}$ de $V$ es ortonormal si \\ $v_{i} \cdot v_{j} = \delta_{ij}$.
+\subsubsection{Definición - Base ortonormal} Sea $(V,\sigma)$ euclídeo, decimos que la base $\{v_{1},...,v_{n}\}$ de $V$ es ortonormal si cada vector es ortogonal al resto: $v_{i} \cdot v_{j} = \delta_{ij}$, es decir, la matriz de Gram del producto escalar es la identidad.
 
 \ejemplo
 
@@ -2416,6 +2265,7 @@ Con $\sigma: \mathbb{R}^n \times \mathbb{R}^n \longrightarrow \mathbb{R}$ produc
 
 \subsubsection{Propiedad 2.}
 Sea $\{v_1,...,v_n\}$ un conjunto e vectores no nulos y ortogonales dos a dos. Entonces, son linealmente independientes.
+
 \demostracion
 \begin{align*}
 	\sum_{i=1}^{n} \lambda_i v_i = 0 \Longrightarrow \lambda_i = 0, \forall i \in \{1,...,n\}\\
@@ -2443,7 +2293,7 @@ Sea $(V,\sigma)$ un espacio vectorial euclídeo de dirección finita. Entonces, 
 
 \demostracion
 
-$B \longrightarrow B'$ ortogonal (Gram-Schmidt). $B'=\{v_1,...,v_n\}$, $B''=\{\frac{v_1}{\|v_1\|},...,\frac{v_n}{\|v_n\|}\}$. Se tiene que:
+$B \longrightarrow B'$ ortogonal (Gram-Schmidt). $B'=\{v_1,...,v_n\}$, $B''=\left\{\frac{v_1}{\|v_1\|},...,\frac{v_n}{\|v_n\|}\right\}$. Se tiene que:
 $$
 \frac{v_i}{\|v_i\|} \cdot \frac{v_j}{\|v_j\|} =
 \begin{cases}
@@ -2452,11 +2302,11 @@ $$
 \end{cases}
 $$
 
-\subsubsection{Corolario - Matriz de Gram del producto escalar congruente a la identidad}
-\noindent Sea $(V,\sigma)$ un espacio vectorial euclídeo de dimensión finita. Entonces:
+\subsubsection{Corolario - Congruencia de la matriz de Gram y la identidad}
+\noindent Sea $(V,\sigma)$ un espacio vectorial euclídeo de dimensión finita. Entonces, la matriz de Gram siempre es congruente a la identidad:
 \begin{align*}
-	& G_\sigma^B \cong Id \\
-	& G_\sigma^B = P^tIdP
+	& G_\sigma^B \cong \operatorname{Id} \\
+	& G_\sigma^B = P^T\operatorname{Id}P
 \end{align*}
 
 \underline{Consecuencia:} Dos espacios vectoriales euclídeos son isométricos $\Longleftrightarrow$ tienen la misma dimensión.
@@ -2472,13 +2322,15 @@ $$
 	\item Al cambiar dos columnas de la matriz, cambia el signo.
 	\item Multiplicar una columna por un escalar es multiplicar el determinante por el escalar.
 	\item Lineal en cada componente.
-	\item $det(Id) = 1$
-	\item $det(AB) = det(A) \cdot det(B)$
+	\item $\det(Id) = 1$
+	\item $\det(AB) = det(A) \cdot det(B)$
 \end{enumerate}
-\underline{Observación:} Se puede pensar en el determinante en $\mathbb{R}^2$ como el área que forman los vectores columna de la matriz. De la misma forma, en $\mathbb{R}^3$ sería el volumen.
+\observacion
 
-\subsubsection{Teorema de Sylvester.}
-Sea $(V,\sigma)$ un espacio vectorial dotado de una aplicación bilineal simétrica, $B = \{v_1,...,v_n\}$ una base de $V$, y $G_\sigma^B = (g_{ij})$ la matriz de Gram asociada. Entonces, $\sigma$ es definida positiva $\Longleftrightarrow det\Delta_i > 0, \forall i \in \{1,...,n\}$, donde
+Se puede pensar en el determinante en $\mathbb{R}^2$ como el área que forman los vectores columna de la matriz. De la misma forma, en $\mathbb{R}^3$ sería el volumen.
+
+\subsubsection{Teorema - Criterio de Sylvester.}
+Sea $(V,\sigma)$ un espacio vectorial dotado de una aplicación bilineal simétrica, $B = \{v_1,...,v_n\}$ una base de $V$, y $G_\sigma^B = (g_{ij})$ la matriz de Gram asociada. Entonces, $\sigma$ es definida positiva $\Longleftrightarrow \det(\Delta_i) > 0, \forall i \in \{1,...,n\}$, donde
 
 \begin{align*}
 	\Delta_i = \left(
@@ -2490,360 +2342,12 @@ Sea $(V,\sigma)$ un espacio vectorial dotado de una aplicación bilineal simétr
 	\right)
 \end{align*}
 
-me cansé, al pdf original
-
-\subsection{Espacios vectoriales euclídeos}
-\subsubsection{Definición.} Sea $V$ un espacio vectorial real. Se dice que una aplicación $\sigma: V \times V \rightarrow \mathbb{R}$ es un producto escalar en $V$ si verifica las siguientes condiciones:
-
-\begin{enumerate}
-	
-	\item $\sigma$ es una aplicación bilineal o una forma bilineal, es decir:
-	\begin{enumerate}
-		\item $\sigma\left(\lambda_{1} v_{1}+\lambda_{2} v_{2}, w\right)=\lambda_{1} \sigma\left(v_{1}, w\right)+\lambda_{2} \sigma\left(v_{2}, w\right), \quad v_{1}, v_{2}, w \in V, \lambda_{1}, \lambda_{2} \in \mathbb{R}$,
-		\item $\sigma\left(v, \lambda_{1} w_{1}+\lambda_{2} w_{2}\right)=\lambda_{1} \sigma\left(v, w_{1}\right)+\lambda_{2} \sigma\left(v, w_{2}\right), \quad v, w_{1}, w_{2} \in V, \lambda_{1}, \lambda_{2} \in \mathbb{R}$,
-	\end{enumerate}
-	\item $\sigma$ es simétrica, es decir $\sigma(v, w)=\sigma(w, v)$, para todo $v, w \in V$,
-	
-	\item $\sigma$ es definida positiva:
-	
-	\begin{enumerate}
-		\item $\sigma(v, v) \geq 0$, para todo $v \in V$,
-		
-		\item $\sigma(v, v)=0 \quad \Rightarrow \quad v=0$.
-		
-		Si $\sigma$ es un producto escalar, denotaremos con frecuencia $\sigma(u, v)$ por $u \cdot v$.
-		
-		Un espacio vectorial euclídeo es un par $(V, \sigma)$, donde $V$ es un espacio vectorial real y $\sigma$ es un producto escalar en $V$. Lo denotaremos por $(V, \sigma)$ o simplemente por $V$.
-	\end{enumerate}
-\end{enumerate}
-\subsubsection{Ejemplos.}
-(1) Sean $V_{2}$ y $V_{3}$ los espacios vectoriales reales de los vectores libres del plano y del espacio ordinario, respectivamente. La aplicación $\sigma_{i}: V_{i} \times V_{i} \rightarrow \mathbb{R}, i=2,3$, dada por
-
-$$
-\sigma_{i}(\vec{u}, \vec{v})=\left\{\begin{array}{l}
-	0, \quad \text { si } \quad \vec{u}=\overrightarrow{0} \quad \text { o } \quad \vec{v}=\overrightarrow{0}, \\
-	|\vec{u}\|\vec{v}| \cos \angle(\vec{u}, \vec{v}), \quad \text { si } \vec{u} \neq \overrightarrow{0} \quad \text { y } \quad \vec{v} \neq \overrightarrow{0},
-\end{array}\right.
-$$
-
-donde $\angle(\vec{u}, \vec{v})$ es el ángulo no orientado entre los vectores $\vec{u}$ y $\vec{v}$ (es decir, el menor de los ángulos que forman un representante $\overrightarrow{O P_{1}}$ de $\vec{u}$ y un representante $\overrightarrow{O P_{2}}$ de $\vec{v}$ ), es un producto escalar en $V_{i}$, para $i=2,3$. Por tanto, $\left(V_{i}, \sigma_{i}\right)$ es un espacio vectorial euclídeo para $i=2,3$. (2) La aplicación $\sigma: \mathbb{R}^{n} \times \mathbb{R}^{n} \rightarrow \mathbb{R}$, dada por
-
-$$
-\sigma\left(\left(x_{1}, \ldots, x_{n}\right),\left(y_{1}, \ldots, y_{n}\right)\right)=x_{1} y_{1}+\ldots+x_{n} y_{n}
-$$
-
-es un producto escalar en $\mathbb{R}^{n}$, que llamaremos producto escalar usual. Así, $\mathbb{R}^{n}$ con el producto escalar usual es un espacio vectorial euclídeo.
-
-(3) En el espacio vectorial $\mathbb{R}[X]$ de polinomios en una variable con coeficientes en $\mathbb{R}$, si $a, b \in \mathbb{R}$, $a<b$, la aplicación $\sigma: \mathbb{R}[X] \times \mathbb{R}[X] \rightarrow \mathbb{R}$ dada por
-
-$$
-\sigma(F(X), G(X))=\int_{a}^{b} F(x) G(x) d x, \quad F(X), G(X) \in \mathbb{R}[X]
-$$
-
-es un producto escalar en $\mathbb{R}[X]$. La bilinealidad de $\sigma$ se sigue de las propiedades de la integral definida. Claramente, $\sigma$ es simétrica y es definida positiva, puesto que
-
-$$
-\sigma(F(X), F(X))=\int_{a}^{b} F(x)^{2} d x \geq 0
-$$
-
-y $F^{2}(-):[a, b] \rightarrow \mathbb{R}, F^{2}(x)=(F(x))^{2}$, es una función continua no negativa que se anula a lo sumo en un número finito de puntos de $[a, b]$. ( $\mathbb{R}[X], \sigma)$ es un ejemplo de espacio vectorial euclídeo que no tiene dimensión finita.
-
-(4) Si $(V, \sigma)$ es un espacio vectorial euclídeo y $U$ un subespacio de $V$, entonces la aplicación
-
-$$
-\begin{aligned}
-	\sigma_{U}: U \times U & \rightarrow \mathbb{R} \\
-	\left(u, u^{\prime}\right) & \longmapsto \sigma\left(u, u^{\prime}\right)
-\end{aligned}
-$$
-
-es un producto escalar en $U$. Así, todo subespacio $U$ de un espacio vectorial euclídeo es un espacio vectorial euclídeo con el producto escalar $\sigma_{U}$ inducido.
-
-Vamos a introducir el concepto de matriz de Gram de una forma bilineal, ya que facilita el estudio del producto escalar y permitirá utilizar el criterio de Sylvester para determinar cuando una forma bilineal simétrica es definida positiva.
-
-2.1.3. Definición. Sea $V$ un espacio vectorial real de dimensión finita, $\sigma: V \times V \rightarrow \mathbb{R}$ una forma bilineal y sea $B=\left\{v_{1}, \ldots, v_{n}\right\}$ una base de $V$. Se llama matriz de Gram de $\sigma$ respecto a la base $B$ a la matriz
-
-$$
-G_{\sigma}^{B}=\left(\begin{array}{cccc}
-	g_{11} & g_{12} & \ldots & g_{1 n} \\
-	g_{21} & g_{22} & \ldots & g_{2 n} \\
-	\vdots & \vdots & & \vdots \\
-	g_{n 1} & g_{n 2} & \ldots & g_{n n}
-\end{array}\right)=\left(g_{i j}\right)
-$$
-
-donde $g_{i j}=\sigma\left(v_{i}, v_{j}\right)$, para $i, j=1, \ldots, n$.
-
-2.1.4. Observación. Sea $\sigma: V \times V \rightarrow \mathbb{R}$ una forma bilineal y $B=\left\{v_{1}, \ldots v_{n}\right\}$ una base de $V$. Si $v=x_{1} v_{1}+\ldots+x_{n} v_{n}, w=y_{1} v_{1}+\ldots+y_{n} v_{n}$ son vectores de $V$ y $G_{\sigma}^{B}=\left(g_{i j}\right)$ es la matriz de Gram de $\sigma$ respecto a $B$, entonces
-
-$$
-\sigma(v, w)=\sum_{i, j=1}^{n} g_{i j} x_{i} y_{j}=\left(\begin{array}{lll}
-	x_{1} & \ldots & x_{n}
-\end{array}\right) G_{\sigma}^{B}\left(\begin{array}{c}
-	y_{1} \\
-	\vdots \\
-	y_{n}
-\end{array}\right) .
-$$
-
-2.1.5. Definición. Sea $K$ un cuerpo y $C$ y $D$ matrices $n \times n$ sobre $K$. Se dice que $C$ y $D$ son congruentes, si existe una matriz regular $\mathcal{P}$ tal que $\mathcal{P}^{t} C \mathcal{P}=D$, donde $\mathcal{P}^{t}$ es la matriz traspuesta de la matriz $\mathcal{P}$.
-
-La relación ''ser congruentes'' en el conjunto de matrices $n \times n$ sobre $K$ es una relación de equivalencia.
-
-2.1.6. Proposición. Sea $V$ un espacio vectorial euclídeo, $B=\left\{v_{1}, \ldots v_{n}\right\}$ y $B^{\prime}=\left\{v_{1}^{\prime}, \ldots v_{n}^{\prime}\right\}$ bases de $V$ y sean
-
-$$
-v_{j}^{\prime}=\sum_{i=1}^{n} p_{i j} v_{i}, \quad j=1, \ldots, n
-$$
-
-Si $\mathcal{P}=\operatorname{id}_{B^{\prime} B}=\left(p_{i j}\right)$, entonces
-
-$$
-G_{\sigma}^{B^{\prime}}=\mathcal{P}^{t} G_{\sigma}^{B} \mathcal{P}
-$$
-
-Así, las matrices $G_{\sigma}^{B}$ y $G_{\sigma}^{B^{\prime}}$ son congruentes.
-
-Demostración. Sean $G_{\sigma}^{B}=\left(g_{i j}\right)$ y $G_{\sigma^{\prime}}^{B^{\prime}}=\left(g_{i j}^{\prime}\right)$. Se tiene
-
-$$
-g_{i j}^{\prime}=v_{i}^{\prime} \cdot v_{j}^{\prime}=\left(\sum_{k=1}^{n} p_{k i} v_{k}\right) \cdot\left(\sum_{l=1}^{n} p_{l j} v_{s}\right)=\sum_{k, l=1}^{n} p_{k i} p_{l j} g_{k l} .
-$$
-
-2.1.7. Proposición. Sea $\sigma: V \times V \rightarrow \mathbb{R}$ una forma bilineal y sea $B=\left\{v_{1}, \ldots v_{n}\right\}$ una base de $V$. Entonces, la forma bilineal $\sigma$ es simétrica si, y solo si, la matriz $G_{\sigma}^{B}$ es una matriz simétrica, es decir, $\operatorname{si}\left(G_{\sigma}^{B}\right)^{t}=G_{\sigma}^{B}$
-
-Demostración. Si $\sigma$ es simétrica,
-
-$$
-g_{i j}=\sigma\left(v_{i}, v_{j}\right)=\sigma\left(v_{j}, v_{i}\right)=g_{j i}, \quad i, j=1, \ldots, n
-$$
-
-luego $G_{\sigma}^{B}$ es simétrica. Recíprocamente, si $g_{i j}=g_{j i}$, para $i, j=1, \ldots, n, v=x_{1} v_{1}+\ldots+x_{n} v_{n} \mathrm{y}$ $w=y_{1} v_{1}+\ldots+y_{n} v_{n}$, se tiene
-
-$$
-\sigma(v, w)=\sum_{i, j=1}^{n} g_{i j} x_{i} y_{j}=\sum_{i, j=1}^{n} g_{j i} y_{j} x_{i}=\sigma(w, v) .
-$$
-
-2.1.8. Definición. Sean $(V, \sigma)$ y $\left(V^{\prime}, \sigma^{\prime}\right)$ espacios vectoriales euclídeos. Se dice que una aplicación $f: V \rightarrow V^{\prime}$ es una isometría si verifica
-
-(1) $f$ es un isomorfismo de espacios vectoriales reales,
-
-(2) $\sigma(v, w)=\sigma^{\prime}(f(v), f(w)$, para todo $v, w \in V$.
-
-Sean $(V, \sigma)$ y $\left(V^{\prime}, \sigma^{\prime}\right)$ vectoriales euclideos. Se dice que $(V, \sigma)$ y $\left(V^{\prime}, \sigma^{\prime}\right)$ son isométricos si existe una isometría $f: V \rightarrow V^{\prime}$.
-
-2.1.9. Lema. Sean $(V, \sigma)$ y $\left(V^{\prime}, \sigma^{\prime}\right)$ espacios vectoriales euclídeos de dimensión $n, B=\left(v_{1}, \ldots v_{n}\right)$ una base de $V$ y $f: V \rightarrow V^{\prime}$ un isomorfismo de espacios vectoriales reales. Se tiene que $f$ es una isometría si, y solo si, $v_{i} \cdot v_{j}=f\left(v_{i}\right) \cdot f\left(v_{j}\right)$, para $i, j=1, \ldots, n$. Demostración. Si $f$ es una isometría, entonces $v_{i} \cdot v_{j}=f\left(v_{i}\right) \cdot f\left(v_{j}\right)$, para $i, j=1, \ldots, n$.
-
-Recíprocamente, supongamos que $v_{i} \cdot v_{j}=f\left(v_{i}\right) \cdot f\left(v_{j}\right)$, para $i, j=1, \ldots, n$, y sean $v, w \in V$ tales que
-
-$$
-v=\sum_{i=1}^{n} x_{i} v_{i}, \quad w=\sum_{i=1}^{n} y_{i} v_{i}
-$$
-
-Entonces
-
-$$
-f(v) \cdot f(w)=\left(\sum_{i=1}^{n} x_{i} f\left(v_{i}\right)\right) \cdot\left(\sum_{i=1}^{n} y_{i} f\left(v_{i}\right)\right)=\sum_{i, j=1}^{n} x_{i} y_{j} f\left(v_{i}\right) \cdot f\left(v_{j}\right)=\sum_{i, j=1}^{n} x_{i} y_{j} v_{i} \cdot v_{j}=v \cdot w
-$$
-
-2.1.10. Definición. Sea $V$ un espacio vectorial euclídeo. Se dice que los vectores $u$ y $v$ son ortogonales si $u \cdot v=0$.
-
-2.1.11. Definición. Sea $V$ un espacio vectorial euclídeo y $v$ un vector de $V$. Se llama norma o longitud del vector $v \mathrm{y}$ se denota por $\|v\|$ al número real
-
-$$
-\|v\|=\sqrt{v \cdot v}
-$$
-
-Se dice que un vector $v$ es unitario si $\|v\|=1$.
-
-Obsérvese que si $v \in V-\{0\}$, entonces el vector $v /\|v\|$ es unitario.
-
-En los espacios vectoriales euclídeos $V_{2}$ y $V_{3}$ de vectores libres, la longitud de un vector libre es el módulo de ese vector libre, es decir $\|\vec{v}\|=|\vec{v}|$.
-
-2.1.12. Propiedades de la longitud. Sea $V$ un espacio vectorial euclídeo.
-
-(1) $\|v\|=0$ si, y solo si, $v=0$.
-
-(2) $\|\lambda v\|=|\lambda|\|v\|, \lambda \in \mathbb{R}, v \in V$.
-
-(3) $|u \cdot v| \leq\|u\|\|v\|, u, v \in V$ (Desigualdad de Cauchy- Schwartz).
-
-(4) $\|u+v\| \leq\|u\|+\|v\|, u, v \in V$ (Desigualdad de Minkowski).
-
-(5) Si $u$ y $v$ son vectores ortogonales, entonces $\|u+v\|^{2}=\|u\|^{2}+\|v\|^{2}$ (Teorema de Pitágoras).
-
-Demostración. (1) $\|v\|=0 \Longleftrightarrow v \cdot v=0 \Longleftrightarrow v=0$.
-
-(2) $\|\lambda v\|=\sqrt{\lambda v \cdot \lambda v}=\sqrt{\lambda^{2}(v \cdot v)}=|\lambda| \sqrt{v \cdot v}=|\lambda|\|v\|$.
-
-(3) Si $u=0$, es trivial. Si $u \neq 0$, para cada $\lambda \in \mathbb{R}$ se tiene
-
-$$
-\|\lambda u+v\|^{2}=(\lambda u+v) \cdot(\lambda u+v)=\lambda^{2}\|u\|^{2}+\|v\|^{2}+2 \lambda u \cdot v \geq 0 .
-$$
-
-Tomando
-
-$$
-\lambda=-\frac{u \cdot v}{\|u\|^{2}}
-$$
-
-se obtiene
-
-$$
-\|\lambda u+v\|^{2}=\frac{(u \cdot v)^{2}}{\|u\|^{2}}+\|v\|^{2}-2 \frac{(u \cdot v)^{2}}{\|u\|^{2}} \geq 0
-$$
-
-equivalentememte,
-
-$$
-(u \cdot v)^{2} \leq\|u\|^{2}\|v\|^{2}
-$$
-
-es decir, $|u \cdot v| \leq\|u\|\|v\|$.
-
-(4) Se tiene
-
-$$
-\begin{aligned}
-	\|u+v\|^{2} & =\|u\|^{2}+\|v\|^{2}+2 u \cdot v \leq\|u\|^{2}+\|v\|^{2}+2|u \cdot v| \\
-	& \leq\|u\|^{2}+\|v\|^{2}+2\|u\|\|v\|=(\|u\|+\|v\|)^{2} .
-\end{aligned}
-$$
-
-(5) Si $u \cdot v=0$, entonces $\|u+v\|^{2}=\|u\|^{2}+\|v\|^{2}+2 u \cdot v=\|u\|^{2}+\|v\|^{2}$.
-
-Si $u \neq 0$ y $v \neq 0$, de la desigualdad de Cauchy-Schwartz $|u \cdot v| \leq\|u\|\|v\|$, se sigue que $-\|u\|\|v\| \leq$ $u \cdot v \leq\|u\|\|v\|$, equivalentente,
-
-$$
--1 \leq \frac{u \cdot v}{\|u\|\|v\|} \leq 1
-$$
-
-Dado que la aplicación cos: $[0, \pi] \rightarrow[-1,1]$ es biyectiva, existe un único número real que denotaremos por $\angle(u, v)$, tal que $0 \leq \angle(u, v) \leq \pi$, y que verifica
-
-$$
-\cos \angle(u, v)=\frac{u \cdot v}{\|u\|\|v\|}
-$$
-
-2.1.13. Definición. Sea $V$ un espacio vectorial euclídeo. Se llama ángulo no orientado entre los vectores no nulos $u$ y $v$ al número real $\angle(u, v), 0 \leq \angle(u, v) \leq \pi$, tal que
-
-$$
-\cos \angle(u, v)=\frac{u \cdot v}{\|u\|\|v\|}
-$$
-
-Obsérvese que los vectores no nulos $u$ y $v$ son ortogonales si, y solo si, $\angle(u, v)=\pi / 2$.
-
-2.1.14. Definición. Sea $V$ un espacio vectorial euclídeo. Se dice que la base $B=\left(v_{1}, \ldots, v_{n}\right)$ de $V$ es ortogonal si $v_{i} \cdot v_{j}=0$, para todo $i \neq j$.
-
-2.1.15. Definición. Sea $V$ un espacio vectorial euclídeo. Se dice que la base $B=\left(v_{1}, \ldots, v_{n}\right)$ de $V$ es ortonormal si $B$ es una base ortogonal y los vectores $v_{i}, i=1, \ldots, n$, son unitarios, equivalentemente, si $v_{i} \cdot v_{j}=\delta_{i j}$, para $i, j=1, \ldots, n$, donde $\delta_{i j}=1$ si $i \neq j$ y $\delta_{i j}=0$ si $i=j$.
-
-\subsubsection{Ejemplos.}
-(1) La base $C=\{\vec{i}, \vec{j}\}$ asociada a la referencia canónica $\mathcal{C}=\left\{E_{1}, E_{2} ; O\right\}$ del plano ordinario y la base $C=\{\vec{i}, \vec{j}, \vec{k}\}$ asociada a la referencia canónica $\mathcal{C}=\left\{E_{1}, E_{2}, E_{3} ; O\right\}$ del espacio ordinario son bases ortonormales de $V_{2}$ y $V_{3}$, respectivamente.
-\includegraphics[max width=\textwidth]{2023_03_20_c2fe6c117849a1a0e8afg-043}(2) La base canónica $C=\left(e_{1}=(1, \ldots, 0), \ldots, e_{n}=(0, \ldots, 1)\right)$ es una base ortonormal de $\mathbb{R}^{n}$ con el producto escalar usual.
-
-2.1.17. Proposition. Sea $V$ un espacio vectorial euclídeo y $B=\left(v_{1}, \ldots, v_{n}\right)$ una base ortonormal de $V$. Si $v$ es un vector de $V$ de coordenadas $\left(x_{1}, \ldots, x_{n}\right)$ en $B$, se tiene
-
-$$
-\|v\|=\sqrt{x_{1}^{2}+\ldots+x_{n}^{2}}
-$$
-
-Demostración.
-
-$$
-v \cdot v=\sum_{i, j=1}^{n} x_{i} x_{j}\left(v_{i} \cdot v_{j}\right)=\sum_{i, j=1}^{n} x_{i} x_{j} \delta_{i j}=x_{1}^{2}+\ldots+x_{n}^{2}
-$$
-
-y entonces
-
-$$
-\|v\|=\sqrt{v \cdot v}=\sqrt{x_{1}^{2}+\ldots+x_{n}^{2}}
-$$
-
-2.1.18. Lema. Sea $V$ un espacio vectorial euclídeo. Si $S=\left\{v_{1}, \ldots, v_{r}\right\}$ es un conjunto de vectores no nulos de $V$ ortogonales dos a dos, es decir tales que $v_{i} \cdot v_{j}=0$ si $i \neq j$, entonces $S$ es un conjunto de vectores linealmente independientes.
-
-Demostración. Se tiene
-
-$\sum_{i=1}^{r} \lambda_{i} v_{i}=0 \Rightarrow\left(\sum_{i=1}^{r} \lambda_{i} v_{i}\right) \cdot v_{j}=0, j=1, \ldots, r \Rightarrow \lambda_{j}\left(v_{j} \cdot v_{j}\right)=0, j=1, \ldots, r \Rightarrow \lambda_{j}=0, j=1, \ldots, r$.
-
-Si $V$ es un espacio vectorial euclídeo de dimensión finita, el método de ortogonalización de GramSchmidt permitirá construir un base ortogonal de $V$ a partir de una base cualquiera de $V$.
-
-2.1.19. Método de ortogonalización de Gram-Schmidt. Sea $V$ un espacio vectorial euclídeo. Si $u_{1}, \ldots, u_{r}$ son vectores linealmente independientes, entonces los vectores que se obtienen de la forma:
-
-$$
-\begin{aligned}
-	& v_{1}=u_{1} \\
-	& v_{2}=u_{2}-\frac{u_{2} \cdot v_{1}}{v_{1} \cdot v_{1}} v_{1} \\
-	& v_{3}=u_{3}-\frac{u_{3} \cdot v_{1}}{v_{1} \cdot v_{1}} v_{1}-\frac{u_{3} \cdot v_{2}}{v_{2} \cdot v_{2}} v_{2} \\
-	& v_{r}=u_{r}-\frac{u_{r} \cdot v_{1}}{v_{1} \cdot v_{1}} v_{1}-\frac{u_{r} \cdot v_{2}}{v_{2} \cdot v_{2}} v_{2}-\ldots-\frac{u_{r} \cdot v_{r-1}}{v_{r-1} \cdot v_{r-1}} v_{r-1}
-\end{aligned}
-$$
-
-son linealmente independientes, ortogonales dos a dos y verifican
-
-$$
-\left\langle v_{1}, \ldots, v_{j}\right\rangle=\left\langle u_{1}, \ldots, u_{j}\right\rangle, \quad j=1, \ldots, r
-$$
-
-Demostración. Razonaremos por inducción sobre el número $r$ de vectores linealmente independientes. Para $r=1$ es trivial. Supongamos $r \geq 2$ y que el resultado es cierto para $r-1$. Sean $u_{1}, \ldots, u_{r}$ vectores linealmente independientes. Por hipótesis de inducción, los vectores
-
-$$
-v_{j}=u_{j}-\sum_{i=1}^{j-1} \frac{u_{j} \cdot v_{i}}{v_{i} \cdot v_{i}} v_{i}, \quad j=1, \ldots, r-1
-$$
-
-son linealmente independientes, ortogonales dos a dos y verifican
-
-$$
-\left\langle v_{1}, \ldots, v_{j}\right\rangle=\left\langle u_{1}, \ldots, u_{j}\right\rangle, \quad j=1, \ldots, r-1
-$$
-
-Pongamos
-
-$$
-v_{r}=u_{r}-\sum_{i=1}^{r-1} \frac{u_{r} \cdot v_{i}}{v_{i} \cdot v_{i}} v_{i}
-$$
-
-Se tiene que $v_{r} \neq 0$ y además
-
-$$
-v_{r} \cdot v_{j}=u_{r} \cdot v_{j}-\sum_{i=1}^{r-1} \frac{u_{r} \cdot v_{i}}{v_{i} \cdot v_{i}} v_{i} \cdot v_{j}=u_{r} \cdot v_{j}-\frac{u_{r} \cdot v_{j}}{v_{j} \cdot v_{j}} v_{j} \cdot v_{j}=0, \quad j=1, \ldots, r-1 .
-$$
-
-Por el lema 2.1.18, los vectores $v_{1}, \ldots, v_{r}$ son linealmente independientes y $v_{1}, \ldots, v_{r} \in\left\langle u_{1}, \ldots, u_{r}\right\rangle$, luego $\left\langle v_{1}, \ldots, v_{r}\right\rangle=\left\langle u_{1}, \ldots, u_{r}\right\rangle$.
-
-2.1.20. Teorema. Todo espacio vectorial euclídeo $(V, \sigma)$ de dimensión finita tiene una base ortonormal.
-
-Demostración. Si $\operatorname{dim} V=n$, por el teorema de estructura de espacios ortogonales reales o aplicando el método de ortogonalización de Gram-Schmidt a una base cualquiera $\left(u_{1}, \ldots, u_{n}\right)$ de $V$, se obtiene que existe una base ortogonal $B=\left(v_{1}, \ldots, v_{n}\right)$ de $V$. Poniendo
-
-$$
-w_{i}=\frac{v_{i}}{\left\|v_{i}\right\|}, \quad i=1, \ldots, n
-$$
-
-se obtiene que la base $B^{\prime}=\left(w_{1}, \ldots, w_{n}\right)$ es una base ortonornal de $V$.
-
-2.1.21. Lema. Si $(V, \sigma)$ es un espacio vectorial euclídeo y $B$ es una base de $V$, entonces la matriz de Gram de $\sigma$ en $B$ es congruente a la matriz identidad $I$.
-
-Demostración. Por el teorema 2.1.20, $V$ tiene una base ortonormal $B^{\prime}$, luego $G_{\sigma}^{B^{\prime}}=I$. Por la proposición 2.1.6, $G_{\sigma}^{B}$ es congruente a $I$.
-
-\begin{huge}
-	\textbf{Aquí empecé a cambiar el pdf}
-\end{huge}
-
-\subsubsection{Teorema (Criterio de Sylvester)} Sea $\sigma: V \times V \rightarrow \mathbb{R}$ una forma bilineal simétrica y $B=\left(v_{1}, \ldots, v_{n}\right)$ una base de $V$. Si $G_{\sigma}^{B}=\left(g_{i j}\right)$ es la matriz de Gram de $\sigma$ en $B$, entonces
-
-$$
-\sigma \text { es definida positiva } \Longleftrightarrow \Delta_{i}=\left|\begin{array}{cccc}
-	g_{11} & g_{12} & \ldots & g_{1 i} \\
-	g_{21} & g_{22} & \ldots & g_{2 i} \\
-	\vdots & \vdots & & \vdots \\
-	g_{i 1} & g_{i 2} & \ldots & g_{i i}
-\end{array}\right|>0, \quad i=1, \ldots, n \text {. }
-$$\\
-\demostracion (No entraría en el examen)
-
-\textbf{$''\Longrightarrow''$}	Supongamos que $\sigma$ es definida positiva. Sea $B=\left(v_{1}, \ldots, v_{n}\right)$ una base cualquiera de $V$, $B_{j}=\left(v_{1}, \ldots, v_{j}\right), V_{j}=\left\langle B_{j}\right\rangle, \sigma_{j}=\sigma_{\left.\right|_{V_j}}$ y $G_{j}=G_{\sigma_{j}}^{B_{j}}$, para $j=1, \ldots, n$.
-Como $\left(V_{j}, \sigma_{j}\right)$ es un espacio vectorial euclídeo, en consecuencia, existe una matriz regular $\mathcal{P}_{j}$ tal que $G_{j}^{B_{j}}=\mathcal{P}_{j}^{t} I_{j} \mathcal{P}_{j}$ (al poder llegar a una base ortonormal), luego $\Delta_{j}=\operatorname{det} G_{j}=\operatorname{det}\left(\mathcal{P}_{j}\right)^{2}>0$, para $j=1, \ldots, n$.\\
-
-\textbf{$''\Longleftarrow''$}	Para probar el recíproco, razonaremos por inducción sobre la dimensión de $V$. Si la dimensión de $V$ es 1 , el resultado es cierto trivialmente. Supongamos el resultado cierto para espacios vectoriales de dimensión $n-1$ y veamos que es cierto para espacios vectoriales de dimensión $n$.
+\demostracion
+
+\dobleimplicacion{
+Queremos expresar los menores respecto de la base. Dada $B_j = \{v_1, \ldots, v_j\}$ tenemos el subespacio $V_j = \langle B_j \rangle$ y la aplicación restringida $\sigma_j = \sigma|_{V_j}$. $(V_j, \sigma_j)$ es un espacio euclídeo, luego existe una base ortonormal (tiene asociada la identidad). Por tanto, $\exists P_j$ regular tal que $G_j = P_j^T \operatorname{Id} P_j$ con $j = 1,\ldots,n$. El determinante será $\det(\Delta_j) = \det(P_j^T) \det(\operatorname{Id}) \det(P_j) = P_j^2 > 0$. Luego $\det(\Delta_j) > 0, \; \forall j = 1,\ldots,n$.
+}{
+Para probar el recíproco, razonaremos por inducción sobre la dimensión de $V$. Si la dimensión de $V$ es 1 , el resultado es cierto trivialmente. Supongamos el resultado cierto para espacios vectoriales de dimensión $n-1$ y veamos que es cierto para espacios vectoriales de dimensión $n$.
 
 Sea $V$ un espacio vectorial de dimensión $n, \sigma: V \times V \rightarrow \mathbb{R}$ una forma bilineal simétrica y $B=\{v_{1}, \ldots, v_{n}\}$ una base de $V$ tal que $\Delta_{i}>0$, para $i=1, \ldots, n$. La idea es encontrar una base $\widetilde{B}$ de $V$ tal que $v^t G_\sigma^{\widetilde{B}} v > 0, \forall v \in V - \{0\}$.
 
@@ -2880,7 +2384,7 @@ $$
 Sea $\mathcal{T}=\mathcal{Q} \mathcal{P}$. Entonces $\mathcal{T}^{t} G_{\sigma}^{B} \mathcal{T}=\operatorname{diag}\left(1,\ldots,1,d\right)$, luego
 
 $$
-d=\operatorname{det}(\mathcal{T})^{2} \operatorname{det}\left(G_{\sigma}^{B}\right)>0
+d=\det(\mathcal{T})^{2} \det\left(G_{\sigma}^{B}\right)>0
 $$
 
 Sea $\widetilde{B}$ la base tal que $\mathcal{T}=i d_{\tilde{B} B}$. Se tiene que $G_{\sigma}^{\widetilde{B}}=\operatorname{diag}\left(1,\ldots,1,d\right)$. La forma bilineal $\sigma$ es definida positiva, puesto que si $v \in V-\{0\}$ tiene coordenadas $\left(x_{1}, \ldots, x_{n}\right)$ en la base $\tilde{B}$, entonces
@@ -2888,7 +2392,9 @@ Sea $\widetilde{B}$ la base tal que $\mathcal{T}=i d_{\tilde{B} B}$. Se tiene qu
 $$
 v \cdot v=x_{1}^{2}+\ldots+x_{n-1}^{2}+d x_{n}^{2}>0
 $$
-\underline{Ejemplo.}\\
+}
+\ejemplo
+
 La forma bilineal $\sigma: \mathbb{R}^{3} \times \mathbb{R}^{3} \rightarrow \mathbb{R}$ dada por
 $$
 \sigma\left(\left(x_{1}, x_{2}, x_{3}\right),\left(y_{1}, y_{2}, y_{3}\right)\right) = 2 x_{1} y_{1}-x_{1} y_{2}-x_{2} y_{1}+x_{2} y_{2}-x_{2} y_{3}-x_{3} y_{2}+3 x_{3} y_{3}
@@ -2905,10 +2411,10 @@ $$
 La forma bilineal $\sigma$ es simétrica, puesto que $\left(G_{\sigma}^{C}\right)^{t}=G_{\sigma}^{C}$. Además,
 
 $$
-\operatorname{det}(2)=2>0, \quad\left|\begin{array}{rr}
+\det(2)=2>0, \quad\left|\begin{array}{rr}
 	2 & -1 \\
 	-1 & 1
-\end{array}\right|=1>0, \quad \operatorname{det}\left(G_{\sigma}^{C}\right)=1>0
+\end{array}\right|=1>0, \quad \det\left(G_{\sigma}^{C}\right)=1>0
 $$
 
 luego $\sigma$ es definida positiva, por el criterio de Sylvester. Así, $\sigma$ es un producto escalar en $\mathbb{R}^{3}$.
@@ -2944,14 +2450,16 @@ $$
 B=\left(\frac{w_{1}}{\left\|w_{1}\right\|}, \frac{w_{2}}{\left\|w_{2}\right\|}, \frac{w_{3}}{\left\|w_{3}\right\|}\right)=((\sqrt{2} / 2,0,0),(\sqrt{2} / 2, \sqrt{2}, 0),(1,2,1)) .
 $$
 
-\subsubsection{Definición}
+\subsection{Espacios vectoriales euclídeos}
+
+\subsubsection{Definición - Ortogonalidad entre subespacios}
 Sean $(V, \sigma)$ un espacio euclídeo y $U$ y $W$ subespacios de $V$. Se dice que $U$ es ortogonal a $W$ si $u \cdot w=0$ para todo $u \in U$ y para todo $w \in W$.
 
-\subsubsection{Definición}
+\subsubsection{Definición - Suma ortogonal de subespacios}
 Sea $V$ un espacio vectorial euclídeo y sean $U$ y $W$ subespacios de $V$. Se dice que la suma $U+W$ es una suma ortogonal y se denota por $U \perp W$, si verifica que $U \cap W=\{0\}$ y $U$ es ortogonal a $W$ (es decir, $u \cdot w = 0, \; \forall u \in U, w\in W$).
 
-\subsubsection{Definición}
-Sea $V$ un espacio vectorial euclídeo y $U$ un subespacio de $V$. El subespacio
+\subsubsection{Definición - Subespacio ortogonal a uno dado}
+\noindent Sea $V$ un espacio vectorial euclídeo y $U$ un subespacio de $V$. El subespacio
 $$
 U^{\perp}=\{v \in V \mid u \cdot v=0, \forall u \in U\}
 $$
@@ -2972,15 +2480,18 @@ $$
 Así, $V=U+U^{\perp}$. Además, si $v \in U \cap U^{\perp}$, entonces $v \cdot v=0$ y por ser $V$ un espacio vectorial euclídeo, se tiene que $v=0$. Por tanto $V=U \perp U^{\perp}$.
 
 Los números reales $v \cdot u_{i}$ se llaman coeficientes de Fourier de $v$ respecto a la base ortonormal $B$ de $U$.
-\underline{Observación}\\
+
+\observacion
+
 Si tenemos una base ortonormal de un espacio euclídeo $V$, $B = \{v_1,\ldots,v_n\}$ y $v = (x_1,\ldots,x_n)\in V$. Entonces $x_i = v \cdot v_i$.
 
-\subsubsection{Definición} Sea $V$ un espacio vectorial euclídeo y $U$ un subespacio de $V$ de dimensión finita. Si $v \in V$ se llama proyección ortogonal de $v$ sobre $U$ al vector $v_{U} \in U$ tal que $v-v_{U} \in U^{\perp}$.
+\subsubsection{Definición - Proyección ortogonal de un vector sobre un subespacio} Sea $V$ un espacio vectorial euclídeo y $U$ un subespacio de $V$ de dimensión finita. Si $v \in V$ se llama proyección ortogonal de $v$ sobre $U$ al vector $v_{U} \in U$ tal que $v-v_{U} \in U^{\perp}$.
 
 \begin{center}
 	\includegraphics[max width=5cm]{2023_03_20_c2fe6c117849a1a0e8afg-048}
 \end{center}
-\underline{Observación}\\
+\observacion
+
 Sea $V$ un espacio vectorial euclídeo, $U$ es un subespacio de $V$ de dimensión finita y $v$ un vector de $V$. Si $B=\left(u_{1}, \ldots, u_{r}\right)$ es una base ortonormal de $U$, entonces
 
 $$
@@ -2988,7 +2499,9 @@ v_{U}=\left(v \cdot u_{1}\right) u_{1}+\ldots+\left(v \cdot u_{r}\right) u_{r} \
 $$
 
 Veamos un ejemplo de como calcular la proyección ortogonal de un vector sobre un plano vectorial de $\mathbb{R}^{3}$.
-\underline{Ejemplo}\\
+
+\ejemplo
+
 Consideremos el plano vectorial $U$ de $\mathbb{R}^{3}$ cuya ecuación en la base canónica es $2 x+y-z=0$ y el vector $v=(-3,1,1)$. Se tiene
 
 $$
@@ -3006,11 +2519,10 @@ v_{U}=-(1,0,2)+2(0,1,1)=(-1,2,0) .
 $$
 
 \subsection{Producto vectorial}
-\subsubsection{Definición}
-Sea $V$ un espacio vectorial de dimensión finita. Decimos que dos bases $B$ y $B'$ tienen la misma orientación si $\operatorname{det}(\operatorname{Id}_{BB'})>0$. En caso contrario, diremos que tienen distinta orientación.
-\underline{Notación}\\
-Se denota por $[B]$ a la clase de equivalencia respecto de la orientación. Diremos que la orientación positiva es la de la base canónica (en el caso de $\mathbb{R}^n$).
-\underline{Ejemplos}\\
+\subsubsection{Definición - Orientación de una base}
+Sea $V$ un espacio vectorial de dimensión finita. Decimos que dos bases $B$ y $B'$ tienen la misma orientación si $\det(\operatorname{Id}_{BB'})>0$. En caso contrario, diremos que tienen distinta orientación.
+
+\ejemplos
 \begin{enumerate}
 	\item La base $\{e_1,e_2\}$ de $\mathbb{R}^2$ es de orientación positiva.
 	\item La base $\{(1,0),(1,1)\}$ de $\mathbb{R}^2$ es de orientación positiva.
@@ -3018,7 +2530,10 @@ Se denota por $[B]$ a la clase de equivalencia respecto de la orientación. Dire
 \underline{Observación}\\
 El orden en la base importa en este caso, ponemos paréntesis en vez de corchetes: $B=(v_1,\ldots,v_n)$.
 
-\subsubsection{Definición}
+\subsubsection{Notación - Clase de equivalencia de la orientación}
+Se denota por $[B]$ a la clase de equivalencia respecto de la orientación. Diremos que la orientación positiva es la de la base canónica (en el caso de $\mathbb{R}^n$).
+
+\subsubsection{Definición - Producto vectorial}
 Sea $B = (v_1,v_2,v_3)$ una base ortonormal de un espacio V de dimensión $3$ y positivamente orientada. Sean $u = (x_1,x_2,x_3)$ y $v = (y_1,y_2,y_3)$. Se define el producto vectorial como
 $$
 u \wedge v = \left(\left|
@@ -3040,7 +2555,7 @@ u \wedge v = \left(\left|
 \right)
 $$
 
-\subsubsection{Proposición (Propiedades del producto vectorial)}
+\subsubsection{Proposición - Propiedades del producto vectorial}
 \begin{enumerate}
 	\item Los vectores $u$ y $v$ no nulos son linealmente dependientes $\Longleftrightarrow u \wedge v = 0$.
 	\item $u \wedge v$ es ortogonal a $u$ y a $v$.
@@ -3123,20 +2638,22 @@ $$
 		\end{vmatrix}
 	\end{pmatrix}
 	$$
-	$\operatorname{det}(\operatorname{Id}_{B'B})$
-	\item
+	$\det(\operatorname{Id}_{B'B})$
+	\item Se tiene:
 	\begin{align*}
 		\|u \wedge v\|^2 & = \|u\|^2 \cdot \|v\|^2 \operatorname{sen} 	\angle (u,v) \\
 		& = \|u\|^2 \cdot \|v\|^2 - \|u\|^2 \cdot \|v\|^2 	\operatorname{cos} \angle (u,v) \\
 		& = (x^2_1 + x^2_2 + x^2_3)(y^2_1 + y^2_2 + y^2_3) - 
 		(x_1 y_1 + x_2 y_2 + x_3 y_3)
 	\end{align*}
-	\item 
+	\item Inmediato por definición de los determinantes.
 \end{enumerate}
 
 \subsubsection{Proposicion}
 Si $u$ y $v$ son vectores linealmente independientes, entonces $u \wedge v$ está determinado por (2), (3) y (4). Así, $u \wedge v$ no depende de la base ortonormal de orientación positiva escogida.
-\demostracion\\
+
+\demostracion
+
 Sea $w \in V$ satisfaciendo (2), (3) y (4).
 \begin{align*}
 	& \text{(2)} \Longrightarrow  
@@ -3156,10 +2673,9 @@ Sea $w \in V$ satisfaciendo (2), (3) y (4).
 		\lambda_2 = -1
 	\end{cases}
 \end{align*}
-\underline{Ejemplo}\\
 
 \subsection{Producto mixto}
-Sea $B$ una base de $V$, ortonormal y de orientación positiva. Sea $u$, $v$ y w vectores de $V$.
+\noindent Sea $B$ una base de $V$, ortonormal y de orientación positiva. Sea $u$, $v$ y w vectores de $V$.
 $$
 (uvw) = u(v \wedge w)
 $$
@@ -3180,7 +2696,7 @@ $$
 
 \subsection{Grupos}
 
-\subsubsection{Definición}
+\subsubsection{Definición - Grupo}
 Un grupo es un par $(\mathcal{G}, *)$, donde $\mathcal{G}$ es un conjunto y $*$ es una operación binaria satisfaciendo:
 \begin{enumerate}
 	\item Es asociativa
@@ -3188,7 +2704,7 @@ Un grupo es un par $(\mathcal{G}, *)$, donde $\mathcal{G}$ es un conjunto y $*$ 
 	\item $\forall g \in \mathcal{G}, \; \exists g^{-1}$ (inversa)
 \end{enumerate}
 
-\subsubsection{Definición}
+\subsubsection{Definición - Actuación de un grupo sobre un conjunto}
 Sean $\mathcal{G}$ un grupo y $A$ un conjunto. Decimos que $\mathcal{G}$ actúa en $A$ si existe una aplicación
 $$
 \begin{aligned}
@@ -3201,7 +2717,8 @@ verificando:
 	\item $g_1(g_2 \cdot a) = (g_1 * g_2) \cdot a, \; \forall g_1, g_2 \in \mathcal{G}, \; a \in A$
 	\item $e \cdot a = a, \; \forall a \in A$
 \end{enumerate}
-\underline{Observación}
+\observacion
+
 Podemos definir
 $$
 \begin{aligned}
@@ -3209,46 +2726,47 @@ $$
 	a & \longmapsto g \cdot a
 \end{aligned}
 $$
-\underline{Ejemplos}
+\ejemplos
 \begin{enumerate}
 	\item $\triangle$
 	\item $(\mathbb{Z},+)$
-	\item $\mathbb{K}$ actuando sobre $V$
+	\item $\mathbb{K}$ actuando sobre $V$.
 	\item $O(n, \mathbb{R}) = \{A \in \mathcal{M}_n (\mathbb{R}) /
 	A^t A = \operatorname{Id}\} \\
-	1 = \operatorname{det}A = \operatorname{det}(A^tA) = \operatorname{det}(A^t) = 1$
+	1 = \det A = \det(A^tA) = \det(A^t) = 1$.
 \end{enumerate}
 
-\subsubsection{Proposición (Teorema de clasificación de espacios vectoriales euclídeos)}
-Dos espacios vectoriales euclídeos de dimensión finita son isométricos si, y solo si, tienen igual dimensión; en particular, todo espacio vectorial euclídeo de dimensión $n$ es isométrico a $\mathbb{R}^{n}$ con el producto escalar usual.
+\subsubsection{Proposición - Teorema de clasificación de espacios vectoriales euclídeos}
+Dos espacios vectoriales euclídeos de dimensión finita son isométricos si, y solo si, tienen igual dimensión. En particular, todo espacio vectorial euclídeo de dimensión $n$ es isométrico a $\mathbb{R}^{n}$ con el producto escalar usual.
 
-Demostración. Sean $B=\left(v_{1}, \ldots, v_{n}\right)$ y $B^{\prime}=\left(v_{1}^{\prime}, \ldots, v_{n}^{\prime}\right)$ bases ortonormales de $V$ y $V^{\prime}$, respectivamente. La aplicación lineal $f: V \rightarrow V^{\prime}$ dada por
+\demostracion
 
+Sean $B=\left(v_{1}, \ldots, v_{n}\right)$ y $B^{\prime}=\left(v_{1}^{\prime}, \ldots, v_{n}^{\prime}\right)$ bases ortonormales de $V$ y $V^{\prime}$, respectivamente. La aplicación lineal $f: V \rightarrow V^{\prime}$ dada por
 $$
 f\left(v_{i}\right)=v_{i}^{\prime}, \quad i=1, \ldots, n
 $$
-
-es una isometría, puesto que $v_{i} \cdot v_{j}=\delta_{i j}=v_{i}^{\prime} \cdot v_{j}^{\prime}=f\left(v_{i}\right) \cdot f\left(v_{j}\right)$, para $i, j=1, \ldots, n$.
+\noindent es una isometría, puesto que $v_{i} \cdot v_{j}=\delta_{i j}=v_{i}^{\prime} \cdot v_{j}^{\prime}=f\left(v_{i}\right) \cdot f\left(v_{j}\right)$, para $i, j=1, \ldots, n$.
 
 La isometría $f: V_{3} \rightarrow \mathbb{R}^{3}$ dada por $f(\vec{i})=e_{1}, f(\vec{j})=e_{2}, f(\vec{k})=e_{3}$, donde $C=\left(e_{1}, e_{2}, e_{3}\right)$ es la base canónica de $\mathbb{R}^{3}$, permite identificar el espacio vectorial euclídeo de los vectores libres del espacio ordinario con $\mathbb{R}^{3}$, con el producto escalar usual. De forma análoga se identifica el espacio vectorial euclídeo de los vectores libres del plano ordinario con $\mathbb{R}^{2}$, con el producto escalar usual.
 
 \subsection{Transformaciones ortogonales. Matrices ortogonales}
-\subsubsection{Definición}
+
+\subsubsection{Definición - Matriz ortogonal}
 Sea $K$ un cuerpo. Se dice que la matriz $\mathcal{A} \in M_{n}(K)$ es una matriz ortogonal si $\mathcal{A}^{t} \mathcal{A}=I$, siendo $\mathcal{A}^{t}$ la matriz traspuesta de $\mathcal{A}$.
 
-\subsubsection{Proposición}
+\subsubsection{Proposición - Determinante de una matriz ortogonal}
 Si $\mathcal{A}$ es una matriz ortogonal, entonces el determinante de $\mathcal{A}$ vale 1 o -1 .\\
 
 \demostracion
 
-\noindent Se tiene
+\noindent Se tiene que
 $$
-(\operatorname{det}(\mathcal{A}))^{2}=\operatorname{det}\left(\mathcal{A}^{t}\right) \operatorname{det}(\mathcal{A})=\operatorname{det}\left(\mathcal{A}^{t} \mathcal{A}\right)=1
+(\det(\mathcal{A}))^{2}=\det\left(\mathcal{A}^{t}\right) \det(\mathcal{A})=\det\left(\mathcal{A}^{t} \mathcal{A}\right)=1
 $$
-Asi, $\operatorname{det}(\mathcal{A})=1$ o $\operatorname{det}(\mathcal{A})=-1$
+Así, $\det(\mathcal{A})=1$ o $\det(\mathcal{A})=-1$
 
 \subsubsection{Proposición}
-Sea $\mathcal{A}=\left(a_{i j}\right) \in M_{n}(\mathbb{R})$. Las siguientes propiedades son equivalentes:
+\noindent Sea $\mathcal{A}=\left(a_{i j}\right) \in M_{n}(\mathbb{R})$. Las siguientes propiedades son equivalentes:
 \begin{enumerate}[label=(\arabic*)]
 	\item La matriz $\mathcal{A}$ es una matriz ortogonal.
 	\item $\mathcal{A}^{-1}=\mathcal{A}^{t}$
@@ -3259,25 +2777,24 @@ Sea $\mathcal{A}=\left(a_{i j}\right) \in M_{n}(\mathbb{R})$. Las siguientes pro
 
 \demostracion
 \begin{enumerate}[label=(\arabic*)]
-	\item $\Rightarrow(2)$ La matriz $\mathcal{A}$ es regular, puesto que $\operatorname{det}\left(\mathcal{A}^{t}\right) \operatorname{det}(\mathcal{A})=1$. Luego, $\mathcal{A}^{t}=\mathcal{A}^{t} I=$ $\mathcal{A}^{t}\left(\mathcal{A} \mathcal{A}^{-1}\right)=\mathcal{A}^{-1}$
+	\item $\Rightarrow(2)$ La matriz $\mathcal{A}$ es regular, puesto que $\det\left(\mathcal{A}^{t}\right) \det(\mathcal{A})=1$. Luego, $\mathcal{A}^{t}=\mathcal{A}^{t} I=$ $\mathcal{A}^{t}\left(\mathcal{A} \mathcal{A}^{-1}\right)=\mathcal{A}^{-1}$
 	
 	\item $\Rightarrow(1) \mathcal{A}^{t} \mathcal{A}=\mathcal{A}^{-1} \mathcal{A}=I$
 	
-	\item $\Leftrightarrow(3)$ se prueba de forma similar a $(1) \Leftrightarrow(2)$.
+	\item $\Leftrightarrow(2)$ se prueba de forma similar a $(1) \Leftrightarrow(2)$.
 	
 	\item es equivalente a que $\mathcal{A} \mathcal{A}^{t}=I$
 	
 	\item es equivalente a que $\mathcal{A}^{t} \mathcal{A}=I$ 
 \end{enumerate}
 
-\subsubsection{Definición.}
-Sea $V$ un un espacio vectorial euclídeo. Se dice que la aplicación $f: V \rightarrow V$ es una transformación ortogonal de $V$ si es una isometría, es decir si es un isomorfismo de espacios vectoriales reales y además
-
+\subsubsection{Definición - Transformación ortogonal}
+Sea $V$ un un espacio vectorial euclídeo. Se dice que la aplicación $f: V \rightarrow V$ es una transformación ortogonal de $V$ si es una isometría, es decir si es un isomorfismo de espacios vectoriales reales (lineal y biyectiva) y además
 $$
 f(v) \cdot f(w)=v \cdot w, \quad \forall v, w \in V
 $$
 
-\subsubsection{Proposición}
+\subsubsection{Proposición - Se puede prescindir de la biyectividad}
 Sea $V$ un espacio vectorial euclídeo de dimensión finita y $f: V \rightarrow V$ una aplicación lineal. Entonces $f$ es una transformación ortogonal si, y sólo si,
 
 $$
@@ -3292,7 +2809,7 @@ $$
 v \in \operatorname{Ker}(f) \Longrightarrow f(v)=0 \Longrightarrow 0=f(v) \cdot f(v)=v \cdot v \Longrightarrow v=0 .
 $$
 
-\subsubsection{Proposición}
+\subsubsection{Proposición - Se puede prescindir de la biyectividad y la linealidad}
 Sea $V$ un espacio vectorial euclídeo de dimensión finita. Una aplicación $f: V \rightarrow V$ no necesariamente lineal es una transformación ortogonal si, y solo si, $f(v) \cdot f(w)=v \cdot w$, para todo $v, w \in V$.\\
 
 \demostracion
@@ -3325,14 +2842,14 @@ Sea $V$ un espacio vectorial euclídeo de dimensión finita. Una aplicación $f:
 	\end{enumerate}
 \end{enumerate}
 
-\subsubsection{Notación}
-Si $V$ es un espacio vectorial euclídeo de dimensión finita, denotaremos por
+\subsubsection{Notación - Conjuntos de transformaciones y matrices ortogonales}
+\noindent Si $V$ es un espacio vectorial euclídeo de dimensión finita, denotaremos por
 \begin{itemize}
 	\item $\mathcal{O}(V) = \{f: V \rightarrow V / f \text{ transformación ortogonal}\}$ el conjunto de las transformaciones ortogonales de $V$.
 	\item $\mathcal{O}(n, \mathbb{R}) = \{A \in \mathcal{M}_n (\mathbb{K}) / A \text{ ortogonal}\}$ el conjunto de las matrices $n \times n$ reales ortogonales.
 \end{itemize}
 
-\subsubsection{Teorema}
+\subsubsection{Teorema - Matriz asociada a una transformación ortogonal}
 Sea $V$ un espacio vectorial euclídeo de dimensión finita $n (n \ge 1)$, sea $B$ una base ortonormal de $V$ y sea $f: V \rightarrow V$ una aplicación lineal. Entonces $f$ es una transformación ortogonal si, y solo si, la matriz asociada a $f$ respecto a la base $B$ es una matriz ortogonal:
 $$
 f \in \mathcal{O}(V) \Longleftrightarrow \left(f_B\right) \in \mathcal{O}(n,\mathbb{R})
@@ -3358,7 +2875,7 @@ $$
 \end{aligned}
 $$
 
-\subsubsection{Lema}
+\subsubsection{Lema - Relación de las bases ortonormales con la identidad}
 Sea $V$ un espacio vectorial euclídeo de dimensión $n \geq 1$ y sean $B$ una base ortonormal de $V$ y $B^{\prime}$ una base de $V$. Entonces $B^{\prime}$ es una base ortonormal de $V$ si, y solo si, $\operatorname{Id}_{B^{\prime} B}$ es una matriz ortogonal.\\
 
 \demostracion
@@ -3380,7 +2897,7 @@ $$
 \noindent\underline{Nota}
 $$
 \begin{aligned}
-	A \in \mathcal{O} (n,K) \Longleftrightarrow A^t = A^{-1} \Longleftrightarrow (A^{-1})^t = (A^{-1})^{-1} \Longleftrightarrow (A^{01}) \in \mathcal{O} (n,K)
+	A \in \mathcal{O} (n,K) \Longleftrightarrow A^t = A^{-1} \Longleftrightarrow (A^{-1})^T = (A^{-1})^{-1} \Longleftrightarrow (A^{-1})^T \in \mathcal{O} (n,K)
 \end{aligned}
 $$
 \noindent En las condiciones anteriores
@@ -3388,29 +2905,29 @@ $$
 B' \text{ es ortonormal } \Longleftrightarrow (\operatorname{Id}_{BB'}) \in \mathcal{O} (n, \mathbb{R})
 $$
 
-\subsubsection{Definición}
-Sea $V$ un espacio vectorial de dimensión finita sobre un cuerpo $K$ y sea $f: V \rightarrow V$ una aplicación lineal. Se llama determinante de $f$, y se denota por $\operatorname{det}(f)$, al deteminante de la matriz asociada a $f$ en una base $B$ de $V$, es decir
+\subsubsection{Definición - Determinante de una aplicación lineal}
+Sea $V$ un espacio vectorial de dimensión finita sobre un cuerpo $K$ y sea $f: V \rightarrow V$ una aplicación lineal. Se llama determinante de $f$, y se denota por $\det(f)$, al deteminante de la matriz asociada a $f$ en una base $B$ de $V$, es decir
 $$
-\operatorname{det}(f):=\operatorname{det}\left(f_{B}\right)
+\det(f):=\det\left(f_{B}\right)
 $$
 
-\subsubsection{Proposición}
+\subsubsection{Proposición - Determinante de las transformaciones ortogonales}
 Sea $V$ un espacio vectorial euclídeo de dimensión finita. Si $f$ es una transformación ortogonal de $V$, entonces el determinante de $f$ es 1 o -1.\\
 
 \demostracion
-Sea $B$ una base ortonormal de $V$. Por el teorema 2.2.8, la matriz $f_{B}$ es una matriz ortogonal. Dado que el determinante de $f$ es igual al determinante de $f_{B}$, por la proposición 2.2 .3 es $\operatorname{det}(f)=1$ o $\operatorname{det}(f)=-1$:
+Sea $B$ una base ortonormal de $V$. Por el teorema 2.2.8, la matriz $f_{B}$ es una matriz ortogonal. Dado que el determinante de $f$ es igual al determinante de $f_{B}$, por la proposición 2.2 .3 es $\det(f)=1$ o $\det(f)=-1$:
 $$
-f \in \mathcal{O} (V) \Longrightarrow (f_B) \in \mathcal{O} (n, \mathbb{R}) \Longrightarrow \operatorname{det} (f) = det(f_B) = \pm 1
+f \in \mathcal{O} (V) \Longrightarrow (f_B) \in \mathcal{O} (n, \mathbb{R}) \Longrightarrow \det (f) = det(f_B) = \pm 1
 $$
 
-\subsubsection{Definición}
+\subsubsection{Definición - Giros y Reflexiones}
 Sea $V$ un espacio vectorial euclídeo de dimensión finita y $f$ una transformación ortogonal de $V$. Se dice que
 \begin{itemize}
-	\item $f$ es un giro o una rotación si $\operatorname{det}(f)=1$.
+	\item $f$ es un giro o una rotación si $\det(f)=1$.
 	$$
 	\mathcal{O}^+(V) = \{f \in \mathcal{O}(V) / f \text{ giro }\}
 	$$
-	\item Se dice que $f$ es una reflexión si $\operatorname{det}(f)=-1$
+	\item Se dice que $f$ es una reflexión si $\det(f)=-1$.
 	$$
 	\mathcal{O}^-(V) = \{f \in \mathcal{O}(V) / f \text{ reflexión }\}
 	$$
@@ -3432,7 +2949,7 @@ $$
 $$
 Y además
 $$
-\operatorname{det}(G_\varphi) = \operatorname{cos}^2 \varphi + \operatorname{sen}^2 \varphi = 1
+\det(G_\varphi) = \operatorname{cos}^2 \varphi + \operatorname{sen}^2 \varphi = 1
 $$
 Es inmediato que $(G_\varphi)^t_\mathcal{C} (G_\varphi)_\mathcal{C} = I$. $G_\varphi \in \mathcal{O}^+(V_2)$.
 
@@ -3452,7 +2969,7 @@ $$
 $$
 \noindent es un isomorfismo de grupos. Es más, $\Phi_B(\mathcal{O}^+(V)) = \mathcal{O}^+(n, \mathbb{R})$ y $\Phi_B(\mathcal{O}^-(V)) = \mathcal{O}^-(n, \mathbb{R})$. 
 
-\subsubsection{Proposición}
+\subsubsection{Proposición - Transformacion ortogonal suma}
 Sea $V$ un espacio vectorial euclídeo de dimensión finita y sean $U_{1}$ y $U_{2}$ subespacios de $V$ tales que $V=U_{1} \perp U_{2}$. Si $f_{1} \in \mathcal{O}\left(U_{1}\right)$ y $f_{2} \in \mathcal{O}\left(U_{2}\right)$, entonces la aplicación
 $$
 \begin{aligned}
@@ -3483,7 +3000,7 @@ $$
 \end{aligned}
 $$
 
-\subsubsection{Definición}
+\subsubsection{Definición - Simetría}
 Sea $V$ un espacio vectorial euclídeo de dimensión $n$ y sea $U$ un subespacio vectorial de $V$ ($V = U \perp U^\perp)$. Se llama simetría respecto a $U$ a la transformación ortogonal de $V$
 $$
 \begin{aligned}
@@ -3496,11 +3013,11 @@ $$
 \end{center}
 Obsérvese que el conjunto de vectores fijos de $S_{U}$ es $U$ y que $\left(S_{U}\right)^{2}=\mathrm{id}_{V} \Longleftrightarrow S_{U}^{-1}=S_{U}$.
 
-\subsubsection{Proposición}
+\subsubsection{Proposición - Clasificación de simetrías}
 Sea $V$ un espacio vectorial euclídeo de dimensión $n$ y sea $U$ un subespacio vectorial de codimensión $m$ ($\operatorname{dim}_\mathbb{R}U = n - m)$.
 \begin{itemize}
 	\item Si $m$ es par, entonces $S_U$ es un giro.
-	\item Si $m$ es impar tenemos reflexiones.
+	\item Si $m$ es impar, entonces $S_U$ es una reflexión.
 \end{itemize}
 
 \demostracion
@@ -3509,14 +3026,14 @@ Dado que $U \perp U^\perp = V$, si $B_U$ es una base ortonormal de $U$ y $B_U$ e
 \begin{gather*}
 	B = \{v_1,\ldots,v_{n-m},\ldots,v_n\} 
 	(S_U)_B = (\operatorname{Id}_U \perp (-\operatorname{Id}_{U^\perp}))_B = \operatorname{diag}(1, \ldots, 1, -1, \ldots, -1) 
-	\operatorname{det}(S_U) = (-1)^m
+	\det(S_U) = (-1)^m
 	\begin{cases*}
 		1 \text{ si m par} \\
 		-1 \text{ si m impar}
 	\end{cases*}
 \end{gather*}
 
-\subsubsection{Corolario}
+\subsubsection{Corolario - Simetrías en hiperplanos}
 Sea $V$ un espacio euclídeo de dimensión finita y $H$ un hiperplano vectorial ($\operatorname{dim}_\mathbb{R}H = n - 1$). Entonces $S_H$ es una reflexión.\\
 
 \ejemplo
@@ -3561,7 +3078,7 @@ $$
 
 \noindent Así, $S_{U}(x, y, z)=(x, z, y)$
 
-\subsubsection{Proposición}
+\subsubsection{Proposición - Invarianzas de una transformación ortogonal}
 Sea $V$ un espacio vectorial euclídeo de dimensión finita y sea $f$ una transformación ortogonal de $V$ ($f \in \mathcal{O}(V)$). Si $U$ es un subespacio invariante por $f$, entonces también lo es $U^{\perp}$. Recordemos que invariante significa que su imagen está contenida en sí mismo.\\
 
 \demostracion
@@ -3571,7 +3088,7 @@ $$
 u \cdot f(w)=f\left(f^{-1}(u)\right) \cdot f(w)=f^{-1}(u) \cdot w=0 \Longrightarrow f(w) \in U^\perp
 $$
 
-\subsubsection{Proposición}
+\subsubsection{Proposición - Autovalores de las transformaciones ortogonales}
 Sea $V$ un espacio vectorial euclídeo de dimensión finita y $f$ una transformación ortogonal de $V$ ($f \in \mathcal{O}(V)$). Si $\lambda \in \mathbb{R}$ es un autovalor de $f$, entonces $\lambda= \pm 1$.\\
 
 \demostracion
@@ -3584,23 +3101,17 @@ $$
 \noindent y dado que $v \neq 0 \Longrightarrow v \cdot v \neq 0$, es $\lambda^{2}=1$.
 
 \subsection{Transformaciones ortogonales del plano vectorial euclídeo}
-\subsubsection{Proposición}
-Si $\mathcal{A} \in \mathcal{O}(2, \mathbb{R})$, entonces
+\subsubsection{Proposición - }
+\noindent Si $\mathcal{A} \in \mathcal{O}(2, \mathbb{R})$, entonces
 \begin{enumerate}[label=(\arabic*)]
-	\item 
-	$$
-	\mathcal{A} \in \mathcal{O}^{+}(2, \mathbb{R}) \Longleftrightarrow \exists a, b \in \mathbb{R}, a^{2}+b^{2}=1 \mid \mathcal{A}=\left(\begin{array}{rr}
+	\item $\displaystyle \mathcal{A} \in \mathcal{O}^{+}(2, \mathbb{R}) \Longleftrightarrow \exists a, b \in \mathbb{R}, a^{2}+b^{2}=1 \mid \mathcal{A}=\left(\begin{array}{rr}
 		a & -b \\
 		b & a
-	\end{array}\right)
-	$$
-	\item
-	$$
-	\mathcal{A} \in \mathcal{O}^{-}(2, \mathbb{R}) \Longleftrightarrow \exists a, b \in \mathbb{R}, a^{2}+b^{2}=1 \mid \mathcal{A}=\left(\begin{array}{rr}
+	\end{array}\right)$
+	\item $\displaystyle \mathcal{A} \in \mathcal{O}^{-}(2, \mathbb{R}) \Longleftrightarrow \exists a, b \in \mathbb{R}, a^{2}+b^{2}=1 \mid \mathcal{A}=\left(\begin{array}{rr}
 		a & b \\
 		b & -a
-	\end{array}\right) .
-	$$
+	\end{array}\right)$
 \end{enumerate}
 
 \demostracion
@@ -3612,20 +3123,18 @@ Si $\mathcal{A} \in \mathcal{O}(2, \mathbb{R})$, entonces
 		b & d
 	\end{array}\right)
 	$$
-	
-	la condición $\mathcal{A}^{t} \mathcal{A}=I$ es equivalente a las condiciones
+	entonces la condición $\mathcal{A}^{t} \mathcal{A}=I$ es equivalente a las condiciones
 	$$
 	\begin{cases}
 		a^{2}+b^{2}=1, \\ a c+b d=0, \\ c^{2}+d^{2}=1 .
 	\end{cases}
 	$$
-	La condición $\operatorname{det}(\mathcal{A})=1$ equivale a $a d-b c=1$. Resolviendo el sistema
+	La condición $\det(\mathcal{A})=1$ equivale a $a d-b c=1$. Resolviendo el sistema
 	$$
 	\begin{cases}
 		a^{2}+b^{2}=1, \\ a c+b d=0, \\ a d-b c=1,
 	\end{cases}
 	$$
-	
 	Separando en casos:
 	\begin{align*}
 		& a = 0
@@ -3647,21 +3156,17 @@ Si $\mathcal{A} \in \mathcal{O}(2, \mathbb{R})$, entonces
 	\item Se prueba de forma análoga a (1).
 \end{enumerate}
 
-\subsubsection{Proposición}
+\subsubsection{Proposición - Caracterización de las matrices de giros y reflexiones}
 Sea $V$ un plano vectorial euclídeo, $B=\left(v_{1}, v_{2}\right)$ una base ortonormal de $V$ y $f: V \rightarrow V$ una aplicación $\mathbb{R}$-lineal. Se tiene:
 \begin{enumerate}[label=(\arabic*)]
-	\item $$ 
-	f \in \mathcal{O}^{+}(V) \Longleftrightarrow \exists a, b \in \mathbb{R}, a^{2}+b^{2}=1 \mid f_{B}=\left(\begin{array}{rr}
+	\item $\displaystyle f \in \mathcal{O}^{+}(V) \Longleftrightarrow \exists a, b \in \mathbb{R}, a^{2}+b^{2}=1 \mid f_{B}=\left(\begin{array}{rr}
 		a & -b \\
 		b & a
-	\end{array}\right)
-	$$
-	\item $$
-	\text f \in \mathcal{O}^{-}(V) \Longleftrightarrow \exists a, b \in \mathbb{R}, a^{2}+b^{2}=1 \mid f_{B}=\left(\begin{array}{rr}
+	\end{array}\right)$
+	\item $\displaystyle f \in \mathcal{O}^{-}(V) \Longleftrightarrow \exists a, b \in \mathbb{R}, a^{2}+b^{2}=1 \mid f_{B}=\left(\begin{array}{rr}
 		a & b \\
 		b & -a
-	\end{array}\right)
-	$$
+	\end{array}\right)$
 \end{enumerate}
 
 \noindent Además, $a=v_{1} \cdot f\left(v_{1}\right)$.\\
@@ -3676,10 +3181,10 @@ v_1 \cdot f(v_1) = v_1 \cdot (av_1 + bv_2) = a, \; f_B =
 \end{pmatrix}
 $$
 
-\subsubsection{Proposición}
-El grupo $\mathcal{O}^{+}(2, \mathbb{R})$ es abeliano.\\
+\subsubsection{Proposición - Carácter abeliano de $\mathcal{O}^{+}(2, \mathbb{R})$}
+\noindent El grupo $\mathcal{O}^{+}(2, \mathbb{R})$ es abeliano.\\
 
-\demostracion (el profe no la hizo)
+\demostracion \; (el profe no la hizo)
 
 $$
 \left(\begin{array}{rr}
@@ -3697,14 +3202,14 @@ $$
 \end{array}\right)
 $$
 
-\subsubsection{Corolario}
-Si $V$ es un plano vectorial euclídeo, entonces $\mathcal{O}^{+}(V)$ es un grupo abeliano.\\
+\subsubsection{Corolario - Carácter abeliano de $\mathcal{O}^{+}(V)$}
+\noindent Si $V$ es un plano vectorial euclídeo, entonces $\mathcal{O}^{+}(V)$ es un grupo abeliano.\\
 
-\demostracion (el profe no la hizo)
+\demostracion \; (el profe no la hizo)
 
-Por la proposición 2.2.17, los grupos $\mathcal{O}^{+}(V)$ y $\mathcal{O}^{+}(2, \mathbb{R})$ son isomorfos.
+\noindent Los grupos $\mathcal{O}^{+}(V)$ y $\mathcal{O}^{+}(2, \mathbb{R})$ son isomorfos.
 
-\subsubsection{Proposición}
+\subsubsection{Proposición - Caracterización de los giros}
 Sea $V$ un plano vectorial euclídeo y sean $u$ y $v$ vectores no nulos de $V$ tales que $\|u\|=\|v\| \neq 0$. Existe un único giro $f \in \mathcal{O}^{+}(V)$ tal que $f(u)=v$.\\
 
 \demostracion
@@ -3747,8 +3252,8 @@ $A$ es ortogonal ($A^t A = I$) y si definimos $f$ con $(f_B) = A$ es claro que $
 
 Obsérvese que en un plano vectorial euclídeo un giro está determinado conocida la imagen de un vector no nulo.
 
-\subsubsection{Lema}
-Sea $V$ un plano vectorial euclídeo, $u$ y $v$ vectores unitarios de $V$ y $f \in \mathcal{O}^{+}(V)$. Se verifica
+\subsubsection{Lema - Propiedad de los giros}
+\noindent Sea $V$ un plano vectorial euclídeo, $u$ y $v$ vectores unitarios de $V$ y $f \in \mathcal{O}^{+}(V)$. Se verifica
 $$
 u \cdot f(u)=v \cdot f(v)
 $$
@@ -3760,7 +3265,7 @@ $$
 u \cdot f(u)=g(u) \cdot g(f(u)) \overset{g. abel.}{=} g(u) \cdot f(g(u))=v \cdot f(v)
 $$
 
-\subsubsection{Definición}
+\subsubsection{Definición - Coseno}
 Sea $V$ un plano vectorial euclídeo y sea $f$ un giro de $V$ ($f \in \mathcal{O}^+(V)$). Se llama coseno de $f$, y se denota por $\cos f$, al número real
 $$
 \cos f:=v \cdot f(v)
@@ -3768,7 +3273,7 @@ $$
 
 \noindent donde $v$ es un vector unitario cualquiera de $V$.
 
-\subsubsection{Corolario}
+\subsubsection{Corolario - Relación entre el coseno y la matriz de un giro}
 Sea $V$ un plano vectorial euclídeo y sea $f$ un giro de $V$ ($f \in \mathcal{O}^+(V)$). Sean $B$ y $B^{\prime}$ bases ortonormales de $V$. Si
 $$
 (f_{B})=\left(\begin{array}{rr}
@@ -3784,7 +3289,7 @@ $$
 
 \demostracion
 
-Pongamos $B=\left(v_{1}, v_{2}\right)$ y $B^{\prime}=\left(v_{1}^{\prime}, v_{2}^{\prime}\right)$. Ya hemos probado que
+\noindent Pongamos $B=\left(v_{1}, v_{2}\right)$ y $B^{\prime}=\left(v_{1}^{\prime}, v_{2}^{\prime}\right)$. Ya hemos probado que
 $$
 a=v_{1} \cdot f\left(v_{1}\right)=\cos f=v_{1}^{\prime} \cdot f\left(v_{1}^{\prime}\right)=a^{\prime}
 $$
@@ -3818,16 +3323,16 @@ Sea $V$ un espacio vectorial real de dimensión finita. Se dice que las bases $B
 
 La relación ''tener la misma orientación'' en el conjunto de bases de $V$ es una relación de equivalencia.
 \begin{itemize}
-	\item Reflexiva: $\operatorname{det}(\operatorname{Id}_{BB}) = 1$.
-	\item Simétrica: $\operatorname{det}(\operatorname{Id}_{B'B}) = \operatorname{det}(\operatorname{Id}_{BB'})^{-1} = 1^{-1} = 1$
+	\item Reflexiva: $\det(\operatorname{Id}_{BB}) = 1$.
+	\item Simétrica: $\det(\operatorname{Id}_{B'B}) = \det(\operatorname{Id}_{BB'})^{-1} = 1^{-1} = 1$
 	\item Transitiva. Sean $B$ y $B'$ bases ortonormales con la misma orientación. Sea también $B''$ tal que tiene la misma orientación que $B'$. Entonces:
 	$$
-	\operatorname{det}(\operatorname{Id}_{BB''}) = \operatorname{det}((\operatorname{Id}_{B'B''})(\operatorname{Id}_{BB'})) = \operatorname{det}(\operatorname{Id}_{B'B''})\operatorname{det}(\operatorname{Id}_{BB'}) = 1
+	\det(\operatorname{Id}_{BB''}) = \det((\operatorname{Id}_{B'B''})(\operatorname{Id}_{BB'})) = \det(\operatorname{Id}_{B'B''})\det(\operatorname{Id}_{BB'}) = 1
 	$$ 
 \end{itemize}
 \noindent Existen solamente dos clases de equivalencia distintas para esta relación. Si $B'$ tiene diferente orientación a $B$ y $B''$ tiene diferente orientación a $B$, entonces $B'$ y $B''$ tienen la misma orientación.
 $$
-\operatorname{det}(\operatorname{Id}_{B'B''}) = \operatorname{det}(\operatorname{Id}_{BB''})\operatorname{det}(\operatorname{Id}_{B'B}) = 1
+\det(\operatorname{Id}_{B'B''}) = \det(\operatorname{Id}_{BB''})\det(\operatorname{Id}_{B'B}) = 1
 $$
 Si $B$ es una base de $V$, la clase de equivalencia $[B]$ se dice que es una orientación en $V$. Tomamos una base $B$ y todas las de su clase de equivalencia y le llamamos \underline{orientación positiva}.
 \begin{gather*}
@@ -3848,7 +3353,7 @@ Consideramos que $\mathbb{R}^{n}$ está orientado con la base canónica.
 	\includegraphics[max width=7cm, center]{2023_03_20_c2fe6c117849a1a0e8afg-057}
 \end{enumerate}
 
-\subsubsection{Proposición}
+\subsubsection{Proposición - Orientaciones y matrices de giros}
 Sea $V$ un plano vectorial euclídeo y sea $f$ un giro de $V$ ($f \in \mathcal{O}^+(V)$). Sean $B$ y $B^{\prime}$ son bases ortonormales de $V$. Entonces:
 $$
 f_{B}=\left(\begin{array}{rr}
@@ -3879,8 +3384,8 @@ f_{B^{\prime}}=f_{B^{\prime \prime}}=\left(\begin{array}{rr}
 \end{array}\right)
 $$
 
-\subsubsection{Proposición}
-Se tiene el isomorfismo de grupos:
+\subsubsection{Proposición - Isomorfismo entre $\displaystyle R: \frac{\mathbb{R}}{2 \pi \mathbb{Z}}$ y $\mathcal{O}^{+}(2, \mathbb{R})$}
+\noindent Se tiene el isomorfismo de grupos:
 $$
 \begin{gathered}
 	R: \frac{\mathbb{R}}{2 \pi \mathbb{Z}} \longrightarrow \mathcal{O}^{+}(2, \mathbb{R}) \\
@@ -3919,7 +3424,7 @@ $$
 	\end{gather*}
 \end{enumerate}
 
-\subsubsection{Definición}
+\subsubsection{Definición - Giro de ángulo orientado}
 Sea $V$ un plano vectorial euclídeo orientado y $\varphi \in[0,2 \pi)$. Se llama giro de ángulo orientado $\varphi+2 \pi \mathbb{Z}$, o también giro de ángulo orientado $\varphi$, al giro $G_{\varphi}: V \rightarrow V$ cuya matriz asociada respecto a cualquier base ortonormal de $V$ de orientación positiva es
 $$
 \left(G_{\varphi}\right)_{B}=R_{\varphi}=\left(\begin{array}{rr}
@@ -3938,8 +3443,8 @@ $$
 
 \subsection{Clasificación de las transformaciones ortogonales en el plano}
 
-\subsubsection{Teorema}
-Sea $V$ un plano vectorial euclídeo y $f \in \mathcal{O}(V)$. 
+\subsubsection{Teorema - Clasificación de las transformaciones ortogonales en el plano}
+\noindent Sea $V$ un plano vectorial euclídeo y $f \in \mathcal{O}(V)$. 
 \begin{enumerate}[label=(\arabic*)]
 	\item Si $f \in \mathcal{O}^+(V)$ y $B$ es una base ortonormal de $V$ tal que
 	$$
@@ -4019,15 +3524,15 @@ Sea $V$ un plano vectorial euclídeo y $f \in \mathcal{O}(V)$.
 	$$
 \end{enumerate}
 
-\subsubsection{Corolario}
+\subsubsection{Corolario - Clasificación}
 \begin{enumerate}[label=(\arabic*)]
 	\item Toda transformación ortogonal cuyo polinomio característico  no tiene raíces reales es un giro.
 	\item Toda reflexión es una simetría.
 	\item Las transformaciones ortogonales de $V$ son giros o simetrías con respecto a un subespacio de dimensión $1$.
 \end{enumerate}
 
-\subsubsection{Corolario}
-Sea $V$ un plano euclídeo y $f \in \mathcal{O}(V)$.
+\subsubsection{Corolario - Clasificación}
+\noindent Sea $V$ un plano euclídeo y $f \in \mathcal{O}(V)$.
 \begin{enumerate}[label=(\arabic*)]
 	\item Si el único vector fijo de $f$ es el vector $0$, entonces $f$ es un giro y $f \neq \operatorname{Id}_V$.
 	\item Si $f$ tiene un solo subespacio de vectores fijos de dimensión $1$, entonces $f$ es la simetría con respecto ese subespacio.
@@ -4035,16 +3540,16 @@ Sea $V$ un plano euclídeo y $f \in \mathcal{O}(V)$.
 
 \subsection{Clasificación de las transformaciones ortogonales en el espacio vectorial euclídeo tridimensional}
 
-\subsubsection{Definición}
+\subsubsection{Definición - Giro con eje}
 Sea $V$ un espacio vectorial euclídeo tridimensional. Se define el giro de eje $U = \langle w \rangle, \; w \neq 0$, como
 $$
 f = f_1 \perp \operatorname{Id}_{\langle w \rangle} \text{ donde } f_1 \in \mathcal{O}^+(\langle w \rangle^\perp)
 $$
 
-\subsubsection{Definición}
+\subsubsection{Definición - Eje orientado}
 Sea $V$ un espacio vectorial euclídeo. Sea $w \in W, \; w \neq 0$. Se llama eje orientado al subespacio vectorial $\langle w \rangle$ donde tomamos la orientación en la cual una base de orientación positiva es $\displaystyle B = \left\{ \frac{w}{\|w\|} \right\}$.
 
-\subsubsection{Proposición}
+\subsubsection{Proposición - Un eje orientado induce una orientación}
 Sea $V$ un espacio vectorial euclídeo tridimensional orientado. Tomemos un eje orientado $\langle w \rangle$, podemos considerar $\|w\| = 1$. Entonces, $\langle w \rangle$ induce una orientación en el plano vectorial $\langle w \rangle^\perp$ dada por considerar una base ortonormal $B_1 = (u,v)$ en el plano $\langle w \rangle^\perp$ tal que $B = (u,v,w)$ es de orientación positiva en $V$.
 
 \demostracion
@@ -4064,11 +3569,11 @@ $$
 $$
 y por tanto
 $$
-\operatorname{det}\left(\operatorname{Id}_{B_1 B_1'}^{\langle w \rangle^\perp}\right) = \operatorname{det}\left(\operatorname{Id}_{B_1 B_1'}^V\right) = 1
+\det\left(\operatorname{Id}_{B_1 B_1'}^{\langle w \rangle^\perp}\right) = \det\left(\operatorname{Id}_{B_1 B_1'}^V\right) = 1
 $$ 
 Por lo que $B_1$ y $B_1'$ tiene la misma orientación.
 
-\subsubsection{Definición}
+\subsubsection{Definición - Giro de eje orientado y ángulo}
 Sea $V$ un espacio vectorial euclídeo tridimensional orientado y $w \in V - \{0\}$. Se llama giro de eje orientado $\langle w \rangle$ y ángulo $\varphi$ a la transformación ortogonal
 $$
 G_{\langle w \rangle, \varphi} = G_\varphi \perp \operatorname{Id}_{\langle w \rangle}
@@ -4079,8 +3584,8 @@ donde el plano $\langle w \rangle^\perp$ tiene la orientación inducida por $\la
 
 $G_{\langle w \rangle, \varphi} \in \mathcal{O}^+(V)$
 
-\subsubsection{Proposición}
-Sea $V$ un espacio vectorial euclídeo tridimensional y $f \in \mathcal{O}(V)$. Entonces, $\exists v \in V - \{0\}$ tal que $f = f_1 \perp \operatorname{Id}_{\langle w \rangle}$ o $f = f_1 \perp -(\operatorname{Id}_{\langle w \rangle})$, donde $f_1 \in \mathcal{O}(\langle v \rangle^\perp)$.
+\subsubsection{Proposición - Existencia de un eje invariante en los giros tridimensionales}
+Sea $V$ un espacio vectorial euclídeo tridimensional y $f \in \mathcal{O}(V)$. Entonces, $\exists v \in V - \{0\}$ tal que $f = f_1 \perp \operatorname{Id}_{\langle v \rangle}$ o $f = f_1 \perp -(\operatorname{Id}_{\langle v \rangle})$, donde $f_1 \in \mathcal{O}(\langle v \rangle^\perp)$.
 
 \noindent\underline{Demostracion}
 
@@ -4097,7 +3602,7 @@ $$\begin{cases}
 $$
 \ejemplo
 
-$(\mathbb{R}^3, \cdot)$ espacio euclídeo usual. El giro de eje orientado $\langle (0, 1, 1) \rangle$ y ángulo $\displaystyle \frac{2\pi}{3}$. La base 
+\noindent $(\mathbb{R}^3, \cdot)$ espacio euclídeo usual. El giro de eje orientado $\langle (0, 1, 1) \rangle$ y ángulo $\displaystyle \frac{2\pi}{3}$. La base 
 $$
 \displaystyle B_1 = \left(\left(1,0,0\right),\left(0, \frac{\sqrt{2}}{2},-\frac{\sqrt{2}}{2}\right)\right)
 $$
@@ -4107,7 +3612,7 @@ B = \left(\left(1,0,0\right),\left(0, \frac{\sqrt{2}}{2},-\frac{\sqrt{2}}{2}\rig
 $$
 es de orientación positiva
 $$
-\operatorname{det}\left(\operatorname{Id}_{B\mathcal{C}}\right) = \begin{vmatrix}
+\det\left(\operatorname{Id}_{B\mathcal{C}}\right) = \begin{vmatrix}
 	1 & 0 & 0 \\
 	0 & \frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2} \\
 	0 & -\frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2}
@@ -4127,11 +3632,11 @@ $\left(G_{\langle (0,1,1) \rangle, \frac{2\pi}{3}}\right)_B = \begin{pmatrix}
 	0 & 0 & 1
 \end{pmatrix}$
 
-\subsubsection{Teorema}
+\subsubsection{Teorema - Clasificación de las transformaciones ortogonales en el espacio vectorial euclídeo tridimensional}
 Sea $V$ un espacio afín euclídeo tridimensional (orientado) y sea $f \in \mathcal{O}(V)$. $V_1 = \ker (f-\operatorname{Id}_V)$, $V_{-1} = \ker (f+\operatorname{Id}_V)$.
 \begin{enumerate}[label=(\arabic*)]
 	\item Si $f \in \mathcal{O}^+(V)$ y $f \neq \operatorname{Id}_V$, entonces $f$ es un giro de eje $V_1$ ($\operatorname{Id}_V$ es un giro de ángulo $0$ en cualquier eje).
-	\item Si $f \in \mathbb{O}^-(V)$ y $f = -\operatorname{Id}_V$ o $f$ es la simetría con respecto al plano vectorial $V_1$ o $f$ es la composición de un giro de eje $V_{-1}$ y la simetría respecto el plano vectorial $(V_{-1})^\perp$.
+	\item Si $f \in \mathcal{O}^-(V)$ y $f = -\operatorname{Id}_V$ o $f$ es la simetría con respecto al plano vectorial $V_1$ o $f$ es la composición de un giro de eje $V_{-1}$ y la simetría respecto el plano vectorial $(V_{-1})^\perp$.
 \end{enumerate}
 \demostracion
 
@@ -4248,8 +3753,8 @@ Dado $f \in \mathcal{O}(V)$ existe $v \in V-\{0\}$ tal que $f
 	es el giro de eje $\langle v_1' \rangle = V_1$ y $\pi$ grados.
 \end{enumerate}
 
-\subsubsection{Corolario}
-Sea $V$ espacio vectorial euclídeo orientado tridimensional y $f \in \mathcal{O}(V)$.
+\subsubsection{Corolario - Clasificación}
+\noindent Sea $V$ espacio vectorial euclídeo orientado tridimensional y $f \in \mathcal{O}(V)$.
 \begin{enumerate}[label=(\arabic*)]
 	\item Si $1$ es autovalor de $f$ de multiplicidad $1$ y las otras dos raíces del polinomio característico son $a \pm bi \neq 1, \; a^2 + b^2 = 1$, entonces $f$ es un giro de eje orientado $V_1$ y ángulo $\varphi$ (que depende de la orientación del eje) donde $\cos \varphi = a$ y $\sin \varphi = b$. Además, $\lambda = 1$ es triple y $f = \operatorname{Id}_V$ es un giro de $0$ grados en cualquier eje.
 	
@@ -4263,7 +3768,7 @@ Sea $V$ espacio vectorial euclídeo orientado tridimensional y $f \in \mathcal{O
 	$$
 \end{enumerate}
 
-\subsubsection{Corolario}
+\subsubsection{Corolario - Clasificación}
 Sea $V$ espacio vectorial euclídeo orientado tridimensional y $f \in \mathcal{O}(V)$.
 \begin{enumerate}[label=(\arabic*)]
 	\item Si $f$ tiene solo un subespacio de vectores fijos de dimensión $1$, entones $f$ es un giro con respecto ese eje.
