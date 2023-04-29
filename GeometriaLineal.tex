@@ -244,7 +244,7 @@ Un concepto fundamental en este tema es el paralelismo. La teoría de figuras ho
 Las figuras que utilizamos se refieren al plano o espacio ordinario y están aquí principalmente para apoyar nuestra intuición; las demostraciones deben hacerse de forma lógica y ser independientes de las figuras.
 
 \subsection{Espacio afín sobre un espacio vectorial}
-Sea $V$ un espacio vectorial sobre un cuerpo $K$.
+\noindent Sea $V$ un espacio vectorial sobre un cuerpo $K$.
 
 \subsubsection{Definición - Espacio afín}
 Un espacio afín sobre el espacio vectorial $V$ es una terna $(\mathbb{A}, V, \rightarrow)$ formada por un conjunto no vacío $\mathbb{A}$ cuyos elementos se llaman puntos, el espacio vectorial $V$ y una operación externa:
@@ -534,9 +534,9 @@ $$
 \demostracion
 \begin{enumerate}[label=(\alph*)]
 	\item Como $S' \subset \langle\langle S' \rangle\rangle$ y $S \subset S'$, entonces $S \subset \langle\langle S' \rangle\rangle$. Puesto que $\langle\langle S \rangle\rangle$ es la menor variedad lineal que contiene a $S$, se tiene que $\langle\langle S \rangle\rangle \subset \langle\langle S' \rangle\rangle$.
-	\item "$\Longrightarrow$". Veamos el doble contenido. $S \subset \langle\langle S \rangle\rangle$ se cumple siempre, queda ver "$\supset$". Puesto que $S \subset S$ y $S$ es variedad lineal, entonces $\langle\langle S \rangle\rangle \subset S$ por ser $\langle\langle S \rangle\rangle$ la menor variedad lineal que contiene a $S$.
+	\item ''$\Longrightarrow$''. Veamos el doble contenido. $S \subset \langle\langle S \rangle\rangle$ se cumple siempre, queda ver ''$\supset$''. Puesto que $S \subset S$ y $S$ es variedad lineal, entonces $\langle\langle S \rangle\rangle \subset S$ por ser $\langle\langle S \rangle\rangle$ la menor variedad lineal que contiene a $S$.
 	
-	"$\Longleftarrow$". $\langle\langle S \rangle\rangle$ es variedad lineal $\Longrightarrow S = \langle\langle S \rangle\rangle$ es variedad lineal.
+	''$\Longleftarrow$''. $\langle\langle S \rangle\rangle$ es variedad lineal $\Longrightarrow S = \langle\langle S \rangle\rangle$ es variedad lineal.
 	\item Por ser $S \neq \varnothing, \; \exists Q \in S \subset \langle\langle S \rangle\rangle$. Por tanto, $\langle\langle S \rangle\rangle = Q + U$. Como $U \subset V$ y $V$ tiene dimensión finita, entonces $U$ tiene dimensión finita. Tomemos entonces $\{u_1,\ldots,u_r\}$ una base de $U$. Sean $P_i = Q + u_i, \; i = 1,\ldots,r \Longleftrightarrow \overrightarrow{QP_i} = u_i$. Tomemos ahora $S_0 = \{Q, P_1, \ldots, P_r\}$.
 	$$
 	\begin{aligned}
@@ -854,7 +854,7 @@ Sea $\mathbb{A}$ un plano afín ($\dim \mathbb{A} = 2$) sobre $V$. Entonces, dos
 \begin{enumerate}[label=$\Longrightarrow/$]
 	\item $$
 	\left. \begin{array}{r}
-		L || L' \\
+		L \| L' \\
 		L \neq L' \\
 		\dim L = \dim L'
 	\end{array} \right\} \Longrightarrow L \cap L' = \varnothing
@@ -867,7 +867,7 @@ Sea $\mathbb{A}$ un plano afín ($\dim \mathbb{A} = 2$) sobre $V$. Entonces, dos
 \noindent Si $\dim \mathbb{A} = 2$, entonces no existen rectas que se crucen.
 
 \subsubsection{Teorema - Incidencia de variedades lineales en el e.a. tridimensional}
-Sea $\mathbb{A}$ un espacio afín de $\dim = 3$.
+\noindent Sea $\mathbb{A}$ un espacio afín de $\dim = 3$.
 \begin{enumerate}[label=(\alph*)]
 	\item Axioma de incidencia plano-plano en dimensión $3$. Se tiene:
 	\begin{center}
@@ -899,7 +899,7 @@ Sea $\mathbb{A}$ un espacio afín de $\dim = 3$.
 		\Longrightarrow \dim_K (U + U') \le 2 \\
 		\dim_K (U) = \dim_K (U') \\
 		U \subset U + u'
-	\end{array} \right\} \Longrightarrow U = U + u' = u' \Longrightarrow \pi || \pi'
+	\end{array} \right\} \Longrightarrow U = U + u' = u' \Longrightarrow \pi \| \pi'
 	$$}
 	
 	\item Sean $L = P + \langle\{v\}$ y $\pi = Q + U$ un plano tal que $L \not\subset \pi$
@@ -910,7 +910,7 @@ Sea $\mathbb{A}$ un espacio afín de $\dim = 3$.
 	\item
 	\dobleimplicacion
 	{Sean $L = P + \langle\{u\}\rangle$ y $L' = Q + \langle\{u\}\rangle$ paralelas, $L \neq L'$. Ya sabemos que $L \cap L' = \varnothing$, queda ver que son coplanarias. Como $L \cap L' = \varnothing$, $\dim (L \circ L') = 1 + \dim_K (\langle \{u\} \rangle) \Longrightarrow \dim (L \circ L') = 2$. Por tanto, $L, L' \subset L \circ L'$ es un plano.}
-	{Si $L = P + \langle\{u\}\rangle$ y $L' = Q + \langle\{v\}$ son distintas y coplanarias. Tomamos el plano $\pi$ como el plano afín en el que trabajan. Tenemos dos rectas que no se cortan en el plano afín, por tanto son paralelas ($L||L'$).}
+	{Si $L = P + \langle\{u\}\rangle$ y $L' = Q + \langle\{v\}$ son distintas y coplanarias. Tomamos el plano $\pi$ como el plano afín en el que trabajan. Tenemos dos rectas que no se cortan en el plano afín, por tanto son paralelas ($L\|L'$).}
 \end{enumerate}
 \observacion
 
@@ -968,7 +968,7 @@ Se dice que $P_{1}, \ldots, P_{r} \in \mathbb{A}$ son afinmente independientes s
 	r - 1 = \dim(P_1 \circ \ldots \circ P_r) = \dim(P_{\sigma(1)}, \ldots, P_{\sigma(r)})
 	$$
 	
-	\item
+	\item Se tiene:
 	$$
 	\begin{aligned}
 	& P \notin P_1 \circ \ldots \circ P_r \Longrightarrow \notin P_1 + \langle \{\overrightarrow{P_1 P_2}, \ldots, \overrightarrow{P_1 P_r}\} \rangle \Longleftrightarrow \\
@@ -1057,8 +1057,8 @@ $$
 
 \observacion \; - Axioma de dimensión
 \begin{itemize}
-	\item "Toda recta tiene dos puntos distintos"
-	\item "Todo plano tiene tres puntos distintos no alineados"
+	\item ''Toda recta tiene dos puntos distintos''
+	\item ''Todo plano tiene tres puntos distintos no alineados''
 \end{itemize}
 \demostracion
 \begin{enumerate}
@@ -1191,11 +1191,11 @@ En las condiciones anteriores, si $\mathbb{A}$ es una recta, entonces $\mathbb{A
 
 \demostracion
 
-Sabemos que $\exists P_1, P_2 \in \mathbb{A}, P_1 \neq P_2$. Así, $P_3 = P_M(P_1 P_2) \,/\, P_1 \neq P_2 \neq P_3 \neq P_1$.
+\noindent Sabemos que $\exists P_1, P_2 \in \mathbb{A}, P_1 \neq P_2$. Así, $P_3 = P_M(P_1 P_2) \,/\, P_1 \neq P_2 \neq P_3 \neq P_1$.
 
 \ejemplo
 
-$\mathbb{Z}_3$ es una recta y tiene $3$ puntos:
+\noindent $\mathbb{Z}_3$ es una recta y tiene $3$ puntos:
 $$
 \mathbb{Z}_3 = \{0,1,2\}, \quad P_M(0,1) = 2, \; P_M(1,2) = 0, \; P_M(2,0) = 1
 $$
@@ -1282,7 +1282,9 @@ $$
 
 donde $\left(b_{1}, \ldots, b_{n}\right)$ son las coordenadas de $Q^{\prime}$ en $\mathcal{R}$. Esta ecuación se llama ecuación matricial del cambio de coordenadas de $\mathcal{R}^{\prime}$ a $\mathcal{R}$.
 
-\demostracion Es un caso particular de la proposición anterior, basta tomar $L=\mathbb{A}$
+\demostracion
+
+\noindent Es un caso particular de la proposición anterior, basta tomar $L=\mathbb{A}$.
 
 \subsection{Ecuaciones de las variedades lineales}
 
@@ -1299,6 +1301,7 @@ $$
 es una variedad lineal de $\mathbb{A}$. Además, si $S \neq \varnothing$, entonces la dimensión de $S$ es $n$ - rango $\left(c_{i j}\right)$ y los vectores de la dirección de $S$ son los vectores cuyas coordenadas en $B_{\mathcal{R}}$ son solución del sistema de ecuaciones lineales homogéneo asociado al anterior.
 
 \demostracion
+
 \noindent Si $S = \varnothing$, acabamos. Supongamos que $S \neq \varnothing$. Sea $B_\mathcal{R} = \left(\overrightarrow{QP_1},\ldots,\overrightarrow{QP_n}\right) = (v_1,\ldots,v_n)$. Sea $f: V \rightarrow K^{m}$ la aplicación lineal definida por
 $$
 f\left(v_{i}\right)=\left(c_{1 i}, \ldots, c_{m i}\right), \quad i=1, \ldots, n
@@ -1319,15 +1322,11 @@ Por tanto,
 $$
 \dim  S=\dim _{K} \ker f=n-\dim _{K} f(V)=n-\operatorname{rango}\left(c_{i j}\right) .
 $$
-
-Además, un vector de coordenadas $\left(x_{1}, \ldots, x_{n}\right)$ en $B_{\mathcal{R}}$ está en la dirección de $S$, si, y solo si,
-
+\noindent Además, un vector de coordenadas $\left(x_{1}, \ldots, x_{n}\right)$ en $B_{\mathcal{R}}$ está en la dirección de $S$, si, y solo si,
 $$
 f\left(\sum_{i=1}^{n} x_{i} v_{i}\right)=(0, \ldots, 0) \Longleftrightarrow\left(\sum_{i=1}^{n} c_{1 i} x_{i}, \ldots, \sum_{i=1}^{n} c_{m i} x_{i}\right)=(0, \ldots, 0),
 $$
-
-de donde se sigue que unas ecuaciones en la base $B_{\mathcal{R}}$ del subespacio dirección de $S$ son
-
+\noindent de donde se sigue que unas ecuaciones en la base $B_{\mathcal{R}}$ del subespacio dirección de $S$ son
 $$
 \sum_{i=1}^{n} c_{j i} x_{i}=0, \quad j=1, \ldots, m
 $$
@@ -1344,6 +1343,7 @@ $$
 \noindent Los escalares $\lambda_{1}, \ldots, \lambda_{r}$ se llaman parámetros.
 
 \demostracion 
+
 Se tiene que $P \in L$ si, y solo si, existe $u \in U$ tal que $P=A+u$, equivalentemente si existen escalares $\lambda_{1}, \ldots, \lambda_{r} \in K$ tales que
 $$
 P=A+\sum_{j=1}^{r} \lambda_{j} u_{j}
@@ -1447,7 +1447,7 @@ $$
 
 \demostracion
 
-Se tiene que $P \in L$ si, y solo si, $\overrightarrow{A P} \in U$, es decir,
+\noindent Se tiene que $P \in L$ si, y solo si, $\overrightarrow{A P} \in U$, es decir,
 $$
 P \in L \Longleftrightarrow \overrightarrow{A Q}+\overrightarrow{Q P} \in U \Longleftrightarrow \sum_{i=1}^{n}\left(x_{i}-a_{i}\right) v_{i} \in\left\langle\sum_{i=1}^{n} a_{i 1} v_{i}, \ldots, \sum_{i=1}^{n} a_{i r} v_{i}\right\rangle
 $$
@@ -1466,7 +1466,9 @@ Sea $\mathbb{A}$ un espacio afín de dimensión $n$ y $L$ una variedad lineal de
 \ejemplo
 
 Una ecuación lineal del plano $\Pi=(0,1,1)+\langle(1,1,1),(1,0,2)\rangle$ en la referencia canónica se obtiene de la siguiente forma:
-$(x, y, z) \in \Pi \Longleftrightarrow \operatorname{rango}\left(\begin{array}{ccc}x & 1 & 1 \\ y-1 & 1 & 0 \\ z-1 & 1 & 2\end{array}\right)=\dim  \Pi=2 \Longleftrightarrow\left|\begin{array}{ccc}x & 1 & 1 \\ y-1 & 1 & 0 \\ z-1 & 1 & 2\end{array}\right|=0 \Longleftrightarrow 2 x-y-z+2=0$.
+\begin{gather*}
+(x, y, z) \in \Pi \Longleftrightarrow \operatorname{rango}\left(\begin{array}{ccc}x & 1 & 1 \\ y-1 & 1 & 0 \\ z-1 & 1 & 2\end{array}\right)=\dim  \Pi=2 \Longleftrightarrow \\ \Longleftrightarrow \left|\begin{array}{ccc}x & 1 & 1 \\ y-1 & 1 & 0 \\ z-1 & 1 & 2\end{array}\right|=0 \Longleftrightarrow 2 x-y-z+2=0
+\end{gather*}
 Sea $P$ el punto de coordenadas $\left(x^{\prime}, y^{\prime}, z^{\prime}\right)$ en la referencia $\mathcal{R}=\{(1,-1,0),(0,1,0),(0,1,1) ;(1,1,1)\}$. Una ecuación lineal del plano $\Pi$ en $\mathcal{R}$ se obtiene de la siguiente forma:
 $$
 P \in \Pi \Longleftrightarrow\left|\begin{array}{ccr}
@@ -1478,7 +1480,9 @@ $$
 
 También se puede calcular una ecuación lineal de $\Pi$ en $\mathcal{R}$ a partir de su ecuación lineal en la referencia canónica y de las ecuaciones del cambio de coordenadas de la referencia $\mathcal{R}$ a la referencia canónica $(1.2 .14)$.
 
-\ejemplo Sea $H$ el hiperplano de $\mathbb{R}^{4}$ cuya ecuación en la referencia canónica es $x+y+z+t=2$. Sea $L$ la recta de $\mathbb{R}^{4}$ cuyas ecuaciones en la referencia canónica son
+\ejemplo
+
+Sea $H$ el hiperplano de $\mathbb{R}^{4}$ cuya ecuación en la referencia canónica es $x+y+z+t=2$. Sea $L$ la recta de $\mathbb{R}^{4}$ cuyas ecuaciones en la referencia canónica son
 $$
 L \equiv\left\{\begin{array}{l}
 x-y=2 \\
@@ -1530,7 +1534,7 @@ Sea $\mathbb{A}$ un espacio afín sobre el espacio vectorial $V$. Sean $P_{1}, P
 
 Las longitudes de los lados opuestos de un paralelogramo se pueden comparar, ya que los lados opuestos de un paralelogramo son paralelos. La siguiente proposición demuestra que los lados opuestos de un paralelogramo tienen la misma longitud.
 
-\subsubsection{Lema - Propiedad del paralelogramo}
+\subsubsection{Lema - Regla del paralelogramo}
 Sean $P_{1}, P_{2}, P_{3}, P_{4}$ los vértices de un paralelogramo. Se tiene
 $$
 \overrightarrow{P_{1} P_{2}}=\overrightarrow{P_{4} P_{3}}, \quad \overrightarrow{P_{1} P_{4}}=\overrightarrow{P_{2} P_{3}}
@@ -1551,19 +1555,17 @@ $$
 $$
 Dado que $l_{2} \cap l_{3}=\left\{P_{3}\right\}$, los vectores $\overrightarrow{P_{4} P_{3}}$ y $\overrightarrow{P_{2} P_{3}}$ son linealmente independientes, luego $a=b=1$.
 
-\subsection{Aplicaciones afines}
+\subsection{Aplicaciones afines y grupo afín}
 En esta sección consideraremos espacios vectoriales sobre un mismo cuerpo $K$. Si $K=\mathbb{Q}$ o $K=\mathbb{R}$, el teorema fundamental de la geometría afín [14] afirma que las afinidades de un espacio afín de dimensión finita $n \geq 2$ sobre un espacio vectorial son las aplicaciones biyectivas que llevan puntos alineados en puntos alineados. En esta sección damos la definición algebraica de afinidad y estudiamos sus propiedades algebraicas y geométricas; entre las afinidades de un espacio afín destacan las traslaciones y las homotecias que en espacios afines de dimensión $n \geq 2$ son las aplicaciones biyectivas que llevan cada recta en una recta paralela.
 
-\subsection{Grupo afín}
-
-\subsubsection{Definición}
+\subsubsection{Definición - Aplicación afín}
 Sean $V$ y $V^{\prime}$ $K$-espacios vectoriales, $\mathbb{A}$ y $\mathbb{A}^{\prime}$ espacios afines sobre $V$ y $V^{\prime}$, respectivamente, y $O$ un punto de $\mathbb{A}$. Se dice que una aplicación $\alpha: \mathbb{A} \rightarrow \mathbb{A}^{\prime}$ es afín si la aplicación $\vec{\alpha}: V \rightarrow V^{\prime}$ definida como
 
 $$
 \vec{\alpha}(v)=\overrightarrow{\alpha(O), \alpha(O+v)}, \quad v \in V
 $$
 
-es una aplicación lineal.
+\noindent es una aplicación lineal.
 
 \subsubsection{Lema - Independencia del origen y unicidad de $\overrightarrow{\alpha}$}
 \noindent (Independencia del origen y unicidad de $\overrightarrow{\alpha}$). Si $\alpha: \mathbb{A} \rightarrow \mathbb{A}^{\prime}$ es una aplicación afín, entonces
@@ -1619,7 +1621,7 @@ La aplicación afín $\alpha: \mathbb{R}^{3} \rightarrow \mathbb{R}^{4}$ tal que
 \end{gather*}
 
 \subsubsection{Proposición - Más propiedades de las aplicaciones afines}
-\begin{enumerate}
+\begin{enumerate}[label=(\arabic*)]
 \item Si $\alpha: \mathbb{A}_{1} \rightarrow \mathbb{A}_{2}$ y $\beta: \mathbb{A}_{2} \rightarrow \mathbb{A}_{3}$ son aplicaciones afines, entonces $\beta \circ \alpha$ es una aplicación afín con $\overrightarrow{\alpha_{2}\circ\alpha_{1}}=\overrightarrow{\alpha_{2}}\circ\overrightarrow{\alpha_{1}}$.
 
 \item $\operatorname{Id}_{\mathbb{A}}: \mathbb{A} \rightarrow \mathbb{A}$ es una aplicación afín con $\overrightarrow{\operatorname{Id}_{\mathbb{A}}}=\operatorname{Id_{V}}$.
@@ -1636,7 +1638,7 @@ es un grupo con la operación composición.
 \end{enumerate}
 
 \demostracion
-\begin{enumerate}
+\begin{enumerate}[label=(\arabic*)]
 \item Para cada $v \in V$,
 
 \begin{gather*}
@@ -1656,7 +1658,7 @@ El grupo $(G(\mathbb{A}), \circ)$ se llama grupo afín de $\mathbb{A}$ y se deno
 
 \subsubsection{Proposición - Condiciones equivalentes a afinidad}
 	\noindent Sea $\alpha: \mathbb{A} \rightarrow \mathbb{A}^{\prime}$ una aplicación afín. Son equivalentes:
-	\begin{enumerate}
+	\begin{enumerate}[label=(\arabic*)]
 		\item $\alpha$ es una afinidad,
 		
 		\item $\alpha$ es una aplicación biyectiva,
@@ -1700,7 +1702,7 @@ El grupo $(G(\mathbb{A}), \circ)$ se llama grupo afín de $\mathbb{A}$ y se deno
 	\end{itemize}
 
 \subsubsection{Proposición - Translación}
-\begin{enumerate}
+\begin{enumerate}[label=(\arabic*)]
 \item Sean $\mathbb{A}$ un espacio afín sobre el espacio vectorial $V$ y $v \in V$. La aplicación traslación por el vector $v$, dada por
 
 $$
@@ -1733,7 +1735,7 @@ es un grupo abeliano con la operación composición. En particular:
 
 \end{enumerate}
 \demostracion
-\begin{enumerate}
+\begin{enumerate}[label=(\arabic*)]
 \item Si $O$ es un punto de $\mathbb{A}$, entonces
 
 $$
@@ -1765,39 +1767,34 @@ El grupo $(T(\mathbb{A}), \circ)$ se llama grupo de traslaciones de $\mathbb{A}$
 \subsubsection{Lema - Relación entre translaciones y la identidad}
 Sea $\mathbb{A}$ un espacio afín sobre $V$ y $\alpha: \mathbb{A} \rightarrow \mathbb{A}$ una aplicación afín. Si $\vec{\alpha}=\operatorname{Id}_{V}$, entonces $\alpha$ es una traslación.
 
-Demostración. Para cada $P, Q \in \mathbb{A}$,
+\demostracion
 
+Para cada $P, Q \in \mathbb{A}$,
 $$
 \overrightarrow{\alpha(P), \alpha(Q)}=\overrightarrow{P Q}
 $$
-
 y por la relación del paralelogramo,
-
 $$
 \overrightarrow{P, \alpha(P)}=\overrightarrow{Q, \alpha(Q)}
 $$
-
 Pongamos $v=\overrightarrow{P, \alpha(P)}$,
-
 $$
 \alpha(P)=P+\overrightarrow{P, \alpha(P)}=P+v=t_{v}(P), \quad P \in \mathbb{A} .
 $$
 
 \subsubsection{Teorema - Isomorfismo entre los grupos $G(\mathbb{A}) / T(\mathbb{A})$ y $G L(V)$}
-Los grupos $G(\mathbb{A}) / T(\mathbb{A})$ y $G L(V)$ son isomorfos.
+\noindent Los grupos $G(\mathbb{A}) / T(\mathbb{A})$ y $G L(V)$ son isomorfos.
 
 \demostracion
 
-Tomamos
+\noindent Tomamos
 $$
 \begin{aligned}
 \phi: G(\mathbb{A}) & \longrightarrow G L(V) \\
 \alpha & \longmapsto \vec{\alpha}
 \end{aligned}
 $$
-
-$\phi$ es un homomorfismo de grupos ya que
-
+\noindent $\phi$ es un homomorfismo de grupos ya que
 $$
 \begin{aligned}
 	\phi(\beta\circ\alpha)=\overrightarrow{\beta\circ\alpha}=\vec{\beta}\circ\vec{\alpha}=\phi(\beta)\circ\phi(\alpha)
@@ -1866,11 +1863,11 @@ Basta tomar $v^{\prime}=\alpha(0)$.
 \end{enumerate}
 
 \subsubsection{Proposición - Afinidades, puntos afínmente independientes y variedades lineales}
-\begin{enumerate}
+\begin{enumerate}[label=(\arabic*)]
 	\item Sean $\mathbb{A}$ y $\mathbb{A}^{\prime}$ espacios afines sobre los espacios vectoriales $V$ y $V^{\prime}$, respectivamente, $\dim  \mathbb{A}=$ $\dim  \mathbb{A}^{\prime}=n$. Sea $\alpha: \mathbb{A} \rightarrow \mathbb{A}^{\prime}$ una aplicación afín y $P_{1}, \ldots, P_{n+1}$ puntos de $\mathbb{A}$ afínmente independientes. Entonces $\alpha$ es una afinidad si, y solo si, $\alpha\left(P_{1}\right), \ldots, \alpha\left(P_{n+1}\right)$ son puntos afínmente independientes.
 	
 	\item Sea $\alpha: \mathbb{A} \rightarrow \mathbb{A}^{\prime}$ una aplicación afín. Se tiene:
-	\begin{enumerate}
+	\begin{enumerate}[label=(\alph*)]
 		\item Si $L$ es una variedad lineal de $\mathbb{A}$, entonces $\alpha(L)\subset\mathbb{A}$ es una variedad lineal de $\mathbb{A}^{\prime}$.
 		
 		\item Si $\alpha$ es una afinidad y $L$ es una variedad lineal de $\mathbb{A}$, entonces $\dim  \alpha(L)=\dim  L$.
@@ -1881,7 +1878,7 @@ Basta tomar $v^{\prime}=\alpha(0)$.
 		\alpha\left(\circ_{i \in I} L_{i}\right)=\circ_{i \in I} \alpha\left(L_{i}\right)
 		$$
 		
-		y si $\alpha$ es una afinidad,
+		\noindent y si $\alpha$ es una afinidad,
 		
 		$$
 		\alpha\left(\bigcap_{i \in I} L_{i}\right)=\bigcap_{i \in I} \alpha\left(L_{i}\right)
@@ -1896,7 +1893,7 @@ Basta tomar $v^{\prime}=\alpha(0)$.
 \end{enumerate}
 
 \demostracion 
-\begin{enumerate}
+\begin{enumerate}[label=(\arabic*)]
 	
 	\item Sean $P_{1}, \ldots, P_{n+1}$ puntos de $\mathbb{A}$ afínmente independientes. Dado que $\alpha$ es una afinidad si, y solo si, $\vec{\alpha}$ es un isomorfismo de espacios vectoriales, y que $\vec{\alpha}$ es un isomorfismo si, y solo si, los vectores
 	
@@ -1907,7 +1904,7 @@ Basta tomar $v^{\prime}=\alpha(0)$.
 	son linealmente independientes, $\alpha$ es una afinidad si, y solo si, los puntos $\alpha\left(P_{1}\right), \ldots, \alpha\left(P_{n+1}\right)$ son afínmente independientes.
 	
 	\item 
-	\begin{enumerate}
+	\begin{enumerate}[label=(\alph*)]
 		\item Si $L=A+U$, entonces $\alpha(L)=\alpha(A)+\vec{\alpha}(U)$.
 		
 		\item Si $\alpha$ es una afinidad, $\dim  L=\dim _{K} U=\dim _{K} \vec{\alpha}(U)=\dim  \alpha(L)$.
@@ -1977,40 +1974,37 @@ Basta tomar $v^{\prime}=\alpha(0)$.
 
 \demostracion
 
-Dado $\varphi : \mathbb{A} \longrightarrow V$ afinidad, es un isomorfismo la aplicación
-$$
+\noindent Dado $\varphi : \mathbb{A} \longrightarrow V$ afinidad, es un isomorfismo la aplicación
+$$6
 \psi : G(\mathbb{A}) \longrightarrow G(V) \Longrightarrow \alpha \longmapsto \psi \circ \alpha \circ \psi^{-1}
 $$
 
 \subsection{Determinación de una aplicación afín}
 
-\subsubsection{Teorema.} Sean $\mathbb{A}$ y $\mathbb{A}^{\prime}$ espacios afines sobre los espacios vectoriales $V$ y $V^{\prime}$, respectivamente. Sea $\mathcal{R}=\left\{P_{1}, \ldots, P_{n} ; Q\right\}$ una referencia afín de $\mathbb{A}$ y $P_{1}^{\prime}, \ldots, P_{n+1}^{\prime}$ puntos de $\mathbb{A}^{\prime}$. Existe una única aplicación afín $\alpha: \mathbb{A} \rightarrow \mathbb{A}^{\prime}$ tal que $\alpha\left(P_{i}\right)=P_{i}^{\prime}, i=1, \ldots, n$, y $\alpha(Q)=P_{n+1}^{\prime}$. En particular, si $\dim  \mathbb{A}^{\prime}=n \mathrm{y}$ $P_{1}^{\prime}, \ldots, P_{n}^{\prime}, P_{n+1}^{\prime}$ son puntos afínmente independientes, entonces $\alpha$ es una afinidad.\\
+\subsubsection{Teorema - Una aplicación afín está determinada unívocamente por la imagen de una referencia} Sean $\mathbb{A}$ y $\mathbb{A}^{\prime}$ espacios afines sobre los espacios vectoriales $V$ y $V^{\prime}$, respectivamente. Sea $\mathcal{R}=\left\{P_{1}, \ldots, P_{n} ; Q\right\}$ una referencia afín de $\mathbb{A}$ y $P_{1}^{\prime}, \ldots, P_{n+1}^{\prime}$ puntos de $\mathbb{A}^{\prime}$. Existe una única aplicación afín $\alpha: \mathbb{A} \rightarrow \mathbb{A}^{\prime}$ tal que $\alpha\left(P_{i}\right)=P_{i}^{\prime}, i=1, \ldots, n$, y $\alpha(Q)=P_{n+1}^{\prime}$. En particular, si $\dim  \mathbb{A}^{\prime}=n \mathrm{y}$ $P_{1}^{\prime}, \ldots, P_{n}^{\prime}, P_{n+1}^{\prime}$ son puntos afínmente independientes, entonces $\alpha$ es una afinidad.\\
 
-\demostracion Consideremos la aplicación lineal dada por
+\demostracion
 
+\noindent Consideremos la aplicación lineal dada por
 $$
 \begin{aligned}
 f: V & \longrightarrow V^{\prime} \\
 \overrightarrow{Q P}_{i} & \longmapsto \vec{P}_{n+1}^{\prime} P_{i}^{\prime},
 \end{aligned}
 $$
-
-y la aplicación afín
-
+\noindent y la aplicación afín
 $$
 \begin{aligned}
 \alpha: \mathbb{A} & \longrightarrow \mathbb{A}^{\prime} \\
 P & \longmapsto P_{n+1}^{\prime}+f(\overrightarrow{Q P}) .
 \end{aligned}
 $$
-
-Se tiene
-
+\noindent Se tiene
 $$
 \alpha\left(P_{i}\right)=P_{i}^{\prime}, \quad \alpha(Q)=P_{n+1}^{\prime}, \quad i=1, \ldots, n .
 $$
 
-Sea $\beta$ otra aplicación afín tal que $\beta\left(P_{i}\right)=P_{i}^{\prime}, i=1, \ldots, n$, y $\beta(Q)=P_{n+1}^{\prime}$. Entonces
+\noindent Sea $\beta$ otra aplicación afín tal que $\beta\left(P_{i}\right)=P_{i}^{\prime}, i=1, \ldots, n$, y $\beta(Q)=P_{n+1}^{\prime}$. Entonces
 
 $$
 \overrightarrow{P_{n+1}^{\prime} P_{i}^{\prime}}=\overrightarrow{\beta(Q), \beta\left(P_{i}\right)}=\vec{\beta}\left(\overrightarrow{Q P}_{i}\right), \quad i=1, \ldots, n
@@ -2018,9 +2012,10 @@ $$
 
 Por tanto, $\vec{\beta}=f$ y por la proposición 1.3.5 (3), $\beta=\alpha$. Por la proposición 1.3.9 (2), Si dim $\mathbb{A}=n$ y $P_{1}^{\prime}, \ldots, P_{n}^{\prime}, P_{n+1}^{\prime}$ son afínmente independientes, por la proposición $1.3 .9$ (2) se tiene que $\alpha$ es una afinidad.
 
-\subsubsection{Corolario.} Sea $\mathcal{R}=\left\{P_{1}, \ldots, P_{n} ; Q\right\}$ una referencia afín de $\mathbb{A}$. Se tiene:
+\subsubsection{Corolario - Propiedades}
+\noindent Sea $\mathcal{R}=\left\{P_{1}, \ldots, P_{n} ; Q\right\}$ una referencia afín de $\mathbb{A}$. Se tiene:
 
-\begin{enumerate}
+\begin{enumerate}[label=(\arabic*)]
 
 \item Si $\alpha, \beta: \mathbb{A} \rightarrow \mathbb{A}^{\prime}$ son aplicaciones afines tales que $\alpha\left(P_{i}\right)=\beta\left(P_{i}\right), i=1, \ldots, n$, y $\alpha(Q)=\beta(Q)$, entonces $\alpha=\beta$.
 
@@ -2028,14 +2023,14 @@ Por tanto, $\vec{\beta}=f$ y por la proposición 1.3.5 (3), $\beta=\alpha$. Por 
 
 \end{enumerate}
 
-\subsubsection{Ejemplo.} Existe una única aplicación afín $\alpha: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ tal que $\alpha(1,0,0)=(2,1,2), \alpha(1,1,0)=$ $(2,0,2), \alpha(0,1,-1)=(1,1,1)$ y $\alpha(0,0,0)=(1,0,2)$, puesto que los puntos $(1,0,0),(1,1,0),(0,1,-1)$ y $(0,0,0)$ son afínmente independientes. La aplicación lineal asociada a $\alpha$ es la aplicación $\vec{\alpha}: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ tal que
+\ejemplo
 
+Existe una única aplicación afín $\alpha: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ tal que $\alpha(1,0,0)=(2,1,2), \alpha(1,1,0)=$ $(2,0,2), \alpha(0,1,-1)=(1,1,1)$ y $\alpha(0,0,0)=(1,0,2)$, puesto que los puntos $(1,0,0),(1,1,0),(0,1,-1)$ y $(0,0,0)$ son afínmente independientes. La aplicación lineal asociada a $\alpha$ es la aplicación $\vec{\alpha}: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ tal que
 $$
 \vec{\alpha}(1,0,0)=(1,1,0), \vec{\alpha}(1,1,0)=(1,0,0), \vec{\alpha}(0,1,-1)=(0,1,-1) .
 $$
 
-Se tiene que $\vec{\alpha}(x, y, z)=(x, x-y-2 z, z)$. Por tanto,
-
+\noindent Se tiene que $\vec{\alpha}(x, y, z)=(x, x-y-2 z, z)$. Por tanto,
 $$
 \begin{aligned}
 \alpha(x, y, z) & =\alpha(0,0,0)+\vec{\alpha}(x, y, z) \\
@@ -2045,9 +2040,12 @@ $$
 
 Además, $\alpha$ es una afinidad, puesto que los puntos $(2,1,2),(2,0,2),(1,1,1)$ y $(1,0,2)$ son afínmente independientes.
 
-\subsubsection{Proposición.} Si $\alpha: \mathbb{A} \rightarrow \mathbb{A}$ es una aplicación afín, $L\in\mathbb{A}$ es una variedad lineal de $\mathbb{A}$ de dimensión $r$ y $\alpha$ deja fijos $r+1$ puntos afínmente independientes de $L$, entonces $\alpha$ deja fijos todos los puntos de $L$.\\
+\subsubsection{Proposición - Aplicación afín y puntos fijos}
+Si $\alpha: \mathbb{A} \rightarrow \mathbb{A}$ es una aplicación afín, $L\in\mathbb{A}$ es una variedad lineal de $\mathbb{A}$ de dimensión $r$ y $\alpha$ deja fijos $r+1$ puntos afínmente independientes de $L$, entonces $\alpha$ deja fijos todos los puntos de $L$.\\
 
-\demostracion Sean $L=A+U$ y $P_{1}, \ldots, P_{r+1}$ puntos de $L$ afínmente independientes y tales que $\alpha\left(P_{i}\right)=P_{i}$, para $i=1, \ldots, r+1$. Se tiene que $L=P_{1} \circ \ldots \circ P_{r+1}$ y entonces, por la proposición 1.3.9 (3) (c), $\alpha(L)=\alpha\left(P_{1}\right) \circ \ldots \circ \alpha\left(P_{r+1}\right)=P_{1} \circ \ldots \circ P_{r+1}=L$. Veamos que $\alpha_{\mid L}: L \rightarrow L$ es una aplicación afín. Dado que
+\demostracion
+
+Sean $L=A+U$ y $P_{1}, \ldots, P_{r+1}$ puntos de $L$ afínmente independientes y tales que $\alpha\left(P_{i}\right)=P_{i}$, para $i=1, \ldots, r+1$. Se tiene que $L=P_{1} \circ \ldots \circ P_{r+1}$ y entonces, por la proposición 1.3.9 (3) (c), $\alpha(L)=\alpha\left(P_{1}\right) \circ \ldots \circ \alpha\left(P_{r+1}\right)=P_{1} \circ \ldots \circ P_{r+1}=L$. Veamos que $\alpha_{\mid L}: L \rightarrow L$ es una aplicación afín. Dado que
 
 $$
 \overrightarrow{\alpha_{\mid L}}(u)=\overrightarrow{\alpha\left(P_{1}\right), \alpha\left(P_{1}+u\right)}=\vec{\alpha}_{\mid U}(u), \quad u \in U
@@ -2055,36 +2053,33 @@ $$
 
 $\alpha_{\mid L}$ es una aplicación afín con aplicación lineal asociada $\vec{\alpha}_{\mid U}$. Por el corolario $1.3 .15(2), \alpha_{\mid L}=\operatorname{id}_{L}$.
 
-\subsubsection{Ejemplo.} Sea $\Pi$ el plano de $\mathbb{R}^{3}$ cuya ecuación en la referencia canónica es $y-2 z=2$. Vamos a calcular la afinidad $\alpha: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ que deja fijos los puntos del plano $\Pi$ y tal que $\alpha(1,0,0)=(0,0,0)$.
+\ejemplo
 
-La aplicación buscada es la aplicación afín dada por
+Sea $\Pi$ el plano de $\mathbb{R}^{3}$ cuya ecuación en la referencia canónica es $y-2 z=2$. Vamos a calcular la afinidad $\alpha: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ que deja fijos los puntos del plano $\Pi$ y tal que $\alpha(1,0,0)=(0,0,0)$.
 
+\noindent La aplicación buscada es la aplicación afín dada por
 $$
 \alpha(1,2,0)=(1,2,0), \quad \alpha(0,0,-1)=(0,0,-1), \quad \alpha(0,2,0)=(0,2,0), \quad \alpha(1,0,0)=(0,0,0) .
 $$
 
-Su aplicación lineal asociada es la aplicación $\vec{\alpha}: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ dada por
-
+\noindent Su aplicación lineal asociada es la aplicación $\vec{\alpha}: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ dada por
 $$
 \vec{\alpha}(0,2,0)=(1,2,0), \quad \vec{\alpha}(-1,0,-1)=(0,0,-1), \quad \vec{\alpha}(-1,2,0)=(0,2,0),
 $$
 
-equivalentemente, $\vec{\alpha}(x, y, z)=(x+1 / 2 y-z, y, z)$, luego
-
+\noindent equivalentemente, $\vec{\alpha}(x, y, z)=(x+1 / 2 y-z, y, z)$, luego
 $$
 \alpha(x, y, z)=\alpha(1,0,0)+\vec{\alpha}(x-1, y, z)=(-1+x+1 / 2 y-z, y, z)
 $$
 
 La afinidad $\alpha$ deja fijos los puntos de $\Pi$, puesto que deja fijos los puntos $(1,2,0),(0,0,-1)$ y $(0,2,0)$, que son tres puntos de $\Pi$ afínmente independientes.
 
-\subsubsection{Definición (recordatorio).} Sean $V$ y $V^{\prime}$ espacios vectoriales sobre $K, B=\left(v_{1}, \ldots, v_{n}\right)$ una base de $V$ y $B^{\prime}=\left(v_{1}^{\prime}, \ldots, v_{m}^{\prime}\right)$ una base de $V^{\prime}$. Si $f: V \rightarrow V^{\prime}$ es una aplicación lineal y
-
+\subsubsection{Definición (recordatorio) - Matriz asociada a una aplicación lineal} Sean $V$ y $V^{\prime}$ espacios vectoriales sobre $K, B=\left(v_{1}, \ldots, v_{n}\right)$ una base de $V$ y $B^{\prime}=\left(v_{1}^{\prime}, \ldots, v_{m}^{\prime}\right)$ una base de $V^{\prime}$. Si $f: V \rightarrow V^{\prime}$ es una aplicación lineal y
 $$
 f\left(v_{i}\right)=\sum_{j=1}^{m} a_{j i} v_{j}^{\prime}, \quad i=1, \ldots, n,
 $$
 
-la matriz
-
+\noindent la matriz
 $$
 f_{B B^{\prime}}=\left(\begin{array}{rrr}
 a_{11} & \ldots & a_{1 n} \\
@@ -2095,8 +2090,7 @@ $$
 
 se llama matriz asociada a $f$ respecto a las bases $B$ y $B^{\prime}$. Si $V=V^{\prime}$ y $B=B^{\prime}$ denotaremos $f_{B B^{\prime}}$ por $f_{B}$.
 
-\subsubsection{Definición (Ecuaciones de una aplicación afín).} Sean:
-
+\subsubsection{Definición - Ecuación matricial de una aplicación afín} \noindent Sean:
 \begin{itemize}
 
 \item$V$ un espacio vectorial de dimensión $n$ y $V^{\prime}$ un espacio vectorial de dimensión $m$.
@@ -2107,8 +2101,7 @@ se llama matriz asociada a $f$ respecto a las bases $B$ y $B^{\prime}$. Si $V=V^
 
 \end{itemize}
 
-Entonces
-
+\noindent Entonces
 $$
 \left(\begin{array}{c}
 x_{1}^{\prime} \\
@@ -2136,21 +2129,19 @@ $$
 \overrightarrow{Q P}=\sum_{i=1}^{n} x_{i} v_{i}, \quad \overrightarrow{Q^{\prime} \alpha(P)}=\sum_{i=1}^{m} x_{i}^{\prime} v_{i}^{\prime}, \quad \vec{\alpha}\left(v_{j}\right)=\sum_{i=1}^{m} a_{i j} v_{i}^{\prime}, j=1, \ldots, n
 $$
 
-Puesto que $\overrightarrow{Q^{\prime} \alpha(P)}=\overrightarrow{Q^{\prime} \alpha(Q)}+\overrightarrow{\alpha(Q) \alpha(P)}=\overrightarrow{Q^{\prime} \alpha(Q)}+\vec{\alpha}(\overrightarrow{Q P})$, se tiene
-
+\noindent Puesto que $\overrightarrow{Q^{\prime} \alpha(P)}=\overrightarrow{Q^{\prime} \alpha(Q)}+\overrightarrow{\alpha(Q) \alpha(P)}=\overrightarrow{Q^{\prime} \alpha(Q)}+\vec{\alpha}(\overrightarrow{Q P})$, se tiene
 $$
 \sum_{i=1}^{m} x_{i}^{\prime} v_{i}^{\prime}=\sum_{i=1}^{m} b_{i} v_{i}^{\prime}+\vec{\alpha}\left(\sum_{j=1}^{n} x_{j} v_{j}\right)=\sum_{i=1}^{m} b_{i} v_{i}^{\prime}+\sum_{j=1}^{n} x_{j}\left(\sum_{i=1}^{m} a_{i j} v_{i}^{\prime}\right)=\sum_{i=1}^{m}\left(b_{i}+\sum_{j=1}^{n} a_{i j} x_{j}\right) v_{i}^{\prime},
 $$
 
-de donde se sigue
-
+\noindent de donde se sigue
 $$
 x_{i}^{\prime}=b_{i}+\sum_{j=1}^{n} a_{i j} x_{j}, \quad i=1, \ldots, m
 $$
 
-Como consecuencia, se obtiene la ecuación del cambio de coordenadas ya estudiado en 1.2.14. En efecto, la ecuación del cambio de coordenadas de la referencia $\mathcal{R}$ a la referencia $\mathcal{R}^{\prime}$ es la ecuación de la afinidad $\alpha=\operatorname{id}_{\mathbb{A}}: \mathbb{A} \rightarrow \mathbb{A}$ en las referencias $\mathcal{R}$ y $\mathcal{R}^{\prime}$. Si $L$ es una variedad lineal de $\mathbb{A}, \mathcal{R}^{\prime}$ es una referencia de $L$ y $\mathcal{R}$ es una referencia de $\mathbb{A}$, la ecuación de cambio de coordenadas de los puntos de $L$ de la referencia $\mathcal{R}^{\prime}$ a $\mathcal{R}$ es la ecuación de inclusión $i_{L}: L \rightarrow \mathbb{A}$ en las referencias $\mathcal{R}^{\prime}$ y $\mathcal{R}$.
+Como consecuencia, se obtiene la ecuación del cambio de coordenadas ya estudiado. En efecto, la ecuación del cambio de coordenadas de la referencia $\mathcal{R}$ a la referencia $\mathcal{R}^{\prime}$ es la ecuación de la afinidad $\alpha=\operatorname{id}_{\mathbb{A}}: \mathbb{A} \rightarrow \mathbb{A}$ en las referencias $\mathcal{R}$ y $\mathcal{R}^{\prime}$. Si $L$ es una variedad lineal de $\mathbb{A}, \mathcal{R}^{\prime}$ es una referencia de $L$ y $\mathcal{R}$ es una referencia de $\mathbb{A}$, la ecuación de cambio de coordenadas de los puntos de $L$ de la referencia $\mathcal{R}^{\prime}$ a $\mathcal{R}$ es la ecuación de inclusión $i_{L}: L \rightarrow \mathbb{A}$ en las referencias $\mathcal{R}^{\prime}$ y $\mathcal{R}$.
 
-\section{EJEMPLOS DE AFINIDADES. DILATACIONES}
+\subsection{Ejemplos de afinidades y dilataciones}
 Sea $\mathbb{A}$ un espacio afín sobre un espacio vectorial $V, \dim  \mathbb{A} \geq 2$.
 
 1.3.21. Definición. ([11, p. 37]) Se dice que $D: \mathbb{A} \rightarrow \mathbb{A}$ es una dilatación si $D$ es una aplicación biyectiva tal que para toda recta $L$ de $\mathbb{A}$ se tiene que $\alpha(L)$ es una recta y $\alpha(L) \| L$.
@@ -2316,59 +2307,65 @@ $$
 
 El centro de $\alpha$ es el único punto fijo de $\alpha$, es decir el punto $(1,1,-1 / 3)$.
 
-\subsection{Ejercicios.}
-(1) Sea $\mathbb{A}$ un espacio afín de dimensión $n \geq 4$ sobre un espacio vectorial. Estudia cuales de las propiedades de incidencia de (1.1.28) relativas a puntos, rectas y planos se verifican en $\mathbb{A}$.
+\ejercicio
+\begin{enumerate}[label=(\arabic*)]
+\item Sea $\mathbb{A}$ un espacio afín de dimensión $n \geq 4$ sobre un espacio vectorial. Estudia cuales de las propiedades de incidencia de (1.1.28) relativas a puntos, rectas y planos se verifican en $\mathbb{A}$.
 
-(2) Prueba que si $L_{1}$ y $L_{2}$ son rectas del espacio afín $\mathbb{A}$ de dimensión $n \geq 3$ sobre un espacio vectorial, entonces $L_{1}$ y $L_{2}$ se cruzan si, y solo si, no son coplanarias.
+\item Prueba que si $L_{1}$ y $L_{2}$ son rectas del espacio afín $\mathbb{A}$ de dimensión $n \geq 3$ sobre un espacio vectorial, entonces $L_{1}$ y $L_{2}$ se cruzan si, y solo si, no son coplanarias.
 
-(3) Sea $\mathbb{A}$ un espacio afín de dimensión $n \geq 2$ sobre un espacio vectorial, $L$ una variedad lineal y $P$ un punto de $\mathbb{A}$. Prueba que si $P \notin L$, entonces $\dim (L \circ P)=1+\dim  L$.
+\item Sea $\mathbb{A}$ un espacio afín de dimensión $n \geq 2$ sobre un espacio vectorial, $L$ una variedad lineal y $P$ un punto de $\mathbb{A}$. Prueba que si $P \notin L$, entonces $\dim (L \circ P)=1+\dim  L$.
+\end{enumerate}
 
-\section{ESPACIOS VECTORIALES EUCLÍDEOS}
+\begin{center}
+\section{Espacios Vectoriales Euclídeos}
+\end{center}
+
 En este tema se introduce el concepto de producto escalar en un espacio vectorial real, que generaliza el concepto de producto escalar usual de vectores libres del plano o espacio. Trasladaremos a los espacios vectoriales euclídeos las nociones de longitud de un vector y ángulo entre dos vectores, de forma que se conserven las propiedades que tienen en el espacio vectorial de los vectores libres.
 
 Probaremos la existencia de bases ortonormales en un espacio vectorial euclídeo de dimensión finita. Las transformaciones ortonormales de un espacio vectorial euclídeo son las aplicaciones lineales que conservan el producto escalar o, equivalentemente, la longitud de los vectores. Se estudian y clasifican las transformaciones ortogonales de un plano y de un espacio vectorial euclídeo tridimensional.
 
 \subsection{Preliminares}
-\subsubsection{Definición}
-Sean $u,v \in V$. Se dice que son ortogonales si $u\cdot v = 0$.
 
-\subsubsection{Definición}
-Sea $v \in V$, definimos la "norma" o longitud de $v$, y la denotamos $||v|| = \sqrt{v \cdot v}$. Decimos que v es unitario si $||v|| = 1$.\\\\
+\subsubsection{Definición - Ortogonalidad entre vectores}
+\noindent Sean $u,v \in V$. Se dice que son ortogonales si $u\cdot v = 0$.
+
+\subsubsection{Definición - Longitud}
+Sea $v \in V$, definimos la ''norma'' o longitud de $v$, y la denotamos $\|v\| = \sqrt{v \cdot v}$. Decimos que v es unitario si $\|v\| = 1$.
 \underline{Cuestión:}
-¿Es esta longitud con la "norma" una norma "de verdad"?
+¿Es esta longitud con la ''norma'' una norma ''de verdad''?
 
-\subsubsection{Definición}
-Una norma en V es una aplicación $||\cdot|| : V \longrightarrow \mathbb{R}$ satisfaciendo:
+\subsubsection{Definición - Norma}
+\noindent Una norma en V es una aplicación $\|\cdot\| : V \longrightarrow \mathbb{R}$ satisfaciendo:
 \begin{enumerate}
-	\item $||u + v || \le ||u|| + ||v||$.
-	\item $||\lambda \cdot v|| = |\lambda| \cdot| ||v|| \forall v \in V, \lambda \in \mathbb{R}$.
-	\item $||v|| > 0, \forall v \in V - \{0\}$.
+	\item $\|u + v \| \le \|u\| + \|v\|$.
+	\item $\|\lambda \cdot v\| = |\lambda| \cdot \|v\|, \; \forall v \in V, \lambda \in \mathbb{R}$.
+	\item $\|v\| > 0, \forall v \in V - \{0\}$.
 \end{enumerate}
 
-\subsubsection{Teorema (Propiedades de una norma).}
-Sea $V$ un espacio vectorial euclídeo. Entonces:
+\subsubsection{Teorema - Propiedades de una norma}
+\noindent Sea $V$ un espacio vectorial euclídeo. Entonces:
 \begin{enumerate}
-	\item $||v|| = 0 \Longleftrightarrow v = 0$.
-	\item $||\lambda v|| = |\lambda| \cdot ||v|| \space \forall v \in V, \lambda \in \mathbb{R}$.
+	\item $\|v\| = 0 \Longleftrightarrow v = 0$.
+	\item $\|\lambda v\| = |\lambda| \cdot \|v\| \space, \; \forall v \in V, \lambda \in \mathbb{R}$.
 	\item (Desigualdad de Cauchy-Schwarz) 
-	$|u \cdot v| = ||u|| \cdot ||v||$.
-	\item (Desigualdad Triangular) $||u + v|| \le ||u|| + ||v||$.
-	\item (Teorema de Pitágoras) Si $u \cdot v = 0$, $||u + v||^{2} = ||u||^{2} + ||v||^{2}$.
+	$|u \cdot v| = \|u\| \cdot \|v\|$.
+	\item (Desigualdad Triangular) $\|u + v\| \le \|u\| + \|v\|$.
+	\item (Teorema de Pitágoras) Si $u \cdot v = 0$, $\|u + v\|^{2} = \|u\|^{2} + \|v\|^{2}$.
 \end{enumerate}
 \demostracion
 \begin{enumerate}
-	\item 
-	\item 
+	\item No la hizo.
+	\item No la hizo.
 	\item Si $u = 0$ o $v = 0$, es trivial. Supongamos que no es el caso. Para cada $\lambda \in \mathbb{R}$, tenemos:
 	\begin{align*}
-		||\lambda u - v||^{2} = (\lambda u - v) (\lambda u - v) = \lambda^{2} ||u||^{2} + ||v||^{2} - 2 \lambda u \cdot v \Longrightarrow
+		\|\lambda u - v\|^{2} = (\lambda u - v) (\lambda u - v) = \lambda^{2} \|u\|^{2} + \|v\|^{2} - 2 \lambda u \cdot v \Longrightarrow
 	\end{align*}
 	\begin{align*}
-		\Longrightarrow 2 \lambda u \cdot v \le \lambda^{2} ||u||^{2} + ||v||^{2}, \forall \lambda \in \mathbb{R} / u, v \ne 0.
+		\Longrightarrow 2 \lambda u \cdot v \le \lambda^{2} \|u\|^{2} + \|v\|^{2}, \forall \lambda \in \mathbb{R} / u, v \ne 0.
 	\end{align*}
-	Tomemos $\lambda = \frac{u \cdot v}{||u||^{2}}$
+	Tomemos $\lambda = \frac{u \cdot v}{\|u\|^{2}}$
 	\begin{align*}
-		2 \frac{u \cdot v}{||u||^{2}} u \cdot v \le \left(\frac{u \cdot v}{||u||^{2}}\right) ||u||^{2} + ||v||^{2} \Longrightarrow |u \cdot v| \le ||u|| \cdot ||v||.
+		2 \frac{u \cdot v}{\|u\|^{2}} u \cdot v \le \left(\frac{u \cdot v}{\|u\|^{2}}\right) \|u\|^{2} + \|v\|^{2} \Longrightarrow |u \cdot v| \le \|u\| \cdot \|v\|.
 	\end{align*}
 	
 	\underline{Cuestión:} ¿Cuándo se da la igualdad en C-S?\\
@@ -2378,30 +2375,33 @@ Sea $V$ un espacio vectorial euclídeo. Entonces:
 		f: \; \$^{2} & \longrightarrow \mathbb{R} \\
 		(x,y,z) & \longmapsto f(x,y,z) = x + 2y + 3z
 	\end{align*}
-	Tomemos los vectores $(x, y, z)$ y $|(x, y, z) \cdot (1, 2, 3)| \le ||(x, y, z)|| \cdot ||(1, 2, 3)|| = \sqrt{x^{2} + y^{2} + z^{2}}$. Lo borró T\_T.
-	\item $||u + v ||^{2} = (u + v) (u + v) = u \cdot u + v \cdot v + 2u \cdot v \le u \cdot u + v \cdot v + |2u \cdot v| = ||u||^{2} + ||v||^2 + 2|u \cdot v| \le ||u||^{2} + ||v||^{2} + 2||u||\,||v||$.
-	\item $||u + v ||^{2} = |u \cdot u + v \cdot v + 2uv| = ||u||^{2} + ||v||^{2}$.\\\\
-	La igualdad en $(4)$: $2uv = 2||u||\,||v||$. Si tenemos la igualdad en $(4)$, entonces la tenemos en $(3)$. Si el ángulo entre $u$ y $v$ es 0, entonces $u \cdot v = ||u||\,||v||$. Ahora, si
+	Tomemos los vectores $(x, y, z)$ y $|(x, y, z) \cdot (1, 2, 3)| \le \|(x, y, z)\| \cdot \|(1, 2, 3)\| = \sqrt{x^{2} + y^{2} + z^{2}}$. Lo borró T\_T.
+	\item $\|u + v \|^{2} = (u + v) (u + v) = u \cdot u + v \cdot v + 2u \cdot v \le u \cdot u + v \cdot v + |2u \cdot v| = \|u\|^{2} + \|v\|^2 + 2|u \cdot v| \le \|u\|^{2} + \|v\|^{2} + 2\|u\|\,\|v\|$.
+	\item $\|u + v \|^{2} = |u \cdot u + v \cdot v + 2uv| = \|u\|^{2} + \|v\|^{2}$.
+	La igualdad en $(4)$: $2uv = 2\|u\|\,\|v\|$. Si tenemos la igualdad en $(4)$, entonces la tenemos en $(3)$. Si el ángulo entre $u$ y $v$ es 0, entonces $u \cdot v = \|u\|\,\|v\|$. Ahora, si
 	\begin{align*}
-		u,v \ne 0 \Longrightarrow -||u||\,||v|| \le u \cdot v \le ||u||\,||v|| \Longrightarrow -1 \le \frac{u \cdot v}{||u||\,||v||} \le 1
+		u,v \ne 0 \Longrightarrow -\|u\|\,\|v\| \le u \cdot v \le \|u\|\,\|v\| \Longrightarrow -1 \le \frac{u \cdot v}{\|u\|\,\|v\|} \le 1
 	\end{align*}
 	Ahora, sea $cos: [0,\pi] \longrightarrow [-1,1]$. Definimos $\angle(u,v)$ como el único número real tal que
 	\begin{align*}
-		cos(\angle(u,v)) = \frac{u \cdot v}{||u||\,||v||}
+		cos(\angle(u,v)) = \frac{u \cdot v}{\|u\|\,\|v\|}
 	\end{align*}
-	La igualdad se da cuando $||\lambda u - v||^{2} \Longleftrightarrow \lambda u - v = 0 \Longleftrightarrow \exists \lambda \in \mathbb{R} \,/\, v = \lambda u \Longleftrightarrow u$ y $v$ son linealmente independientes.
+	La igualdad se da cuando $\|\lambda u - v\|^{2} \Longleftrightarrow \lambda u - v = 0 \Longleftrightarrow \exists \lambda \in \mathbb{R} \,/\, v = \lambda u \Longleftrightarrow u$ y $v$ son linealmente independientes.
 	
 	\underline{Cuestión:} Decidir si $\sigma : VxV \longrightarrow \mathbb{R}$ es producto escalar.\\
-	\underline{Objetivo:} encontrar bases "buenas" de $V$.
+	\underline{Objetivo:} encontrar bases ''buenas'' de $V$.
 \end{enumerate}
 
-\subsubsection{Definición.} Sea $(V,\sigma)$ euclídeo, decimos que la base $\{v_{1},...,v_{n}\}$ de $V$ es ortonormal si \\ $v_{i} \cdot v_{j} = \delta_{ij}$.\\\\
-\underline{Ejemplo:} Base canónica de $\mathbb{R}^{n}$ con el producto escalar usual.
+\subsubsection{Definición - Base ortonormal} Sea $(V,\sigma)$ euclídeo, decimos que la base $\{v_{1},...,v_{n}\}$ de $V$ es ortonormal si \\ $v_{i} \cdot v_{j} = \delta_{ij}$.
 
-\subsubsection{Propiedad 1.}
+\ejemplo
+
+Base canónica de $\mathbb{R}^{n}$ con el producto escalar usual.
+
+\subsubsection{Propiedad 1}
 Sea $x = (x_1,...,x_n) \in \mathbb{R}$. Entonces:
 \begin{align*}
-	||x|| = \sqrt{\sum_{}^{}x_i^2}\\
+	\|x\| = \sqrt{\sum_{}^{}x_i^2}\\
 \end{align*}
 Con $\sigma: \mathbb{R}^n \times \mathbb{R}^n \longrightarrow \mathbb{R}$ producto escalar usual, su matriz de Gram es la identidad:
 \begin{align*}
@@ -2415,57 +2415,67 @@ Con $\sigma: \mathbb{R}^n \times \mathbb{R}^n \longrightarrow \mathbb{R}$ produc
 \end{align*}
 
 \subsubsection{Propiedad 2.}
-Sea $\{v_1,...,v_n\}$ un conjunto e vectores no nulos y ortogonales dos a dos. Entonces, son linealmente independientes.\\\\
+Sea $\{v_1,...,v_n\}$ un conjunto e vectores no nulos y ortogonales dos a dos. Entonces, son linealmente independientes.
 \demostracion
 \begin{align*}
 	\sum_{i=1}^{n} \lambda_i v_i = 0 \Longrightarrow \lambda_i = 0, \forall i \in \{1,...,n\}\\
 	v_j \left( \sum_{i=1}^{n} \lambda_i v_i \right) = \lambda_j v_j \cdot v_j \Longrightarrow \lambda_j = 0
 \end{align*}
 
-\subsubsection{Teorema (Método de ortogonalización de Gram-Schmidt)}
-Sea $V$ un espacio vectorial euclídeo. Si $B = \{u_1,...,u_n\}$ es una base, entonces
+\subsubsection{Teorema - Método de ortogonalización de Gram-Schmidt}
+\noindent Sea $V$ un espacio vectorial euclídeo. Si $B = \{u_1,...,u_n\}$ es una base, entonces
 \begin{align*}
 	&v_1 = u_1 \\
-	&v_i = u_i - \sum_{j=1}^{i-1} \frac{u_i \cdot v_j}{||v_j||^2} v_j, i \in \{2,...,n\}
+	&v_i = u_i - \sum_{j=1}^{i-1} \frac{u_i \cdot v_j}{\|v_j\|^2} v_j, i \in \{2,...,n\}
 \end{align*}
-forma una base ortogonal de $V$.\\\\
-\demostracion\\
-Inducción (ejercicio).\\\\
-\underline{Observación}\\
+forma una base ortogonal de $V$.
+
+\demostracion
+
+\noindent Inducción (ejercicio).
+
+\observacion
+
 $B$ base es una hipótesis innecesaria, se puede partir de un conjunto de vectores linealmente independientes y obtener otro conjunto linealmente independiente de la misma cardinalidad.
 
-\subsubsection{Teorema}
-Sea $(V,\sigma)$ un espacio vectorial euclídeo de dirección finita. Entonces, existe una base ortonormal.\\\\
-\demostracion\\
-$B \longrightarrow B'$ ortogonal (Gram-Schmidt). $B'=\{v_1,...,v_n\}$, $B''=\{\frac{v_1}{||v_1||},...,\frac{v_n}{||v_n||}\}$. Se tiene que:
+\subsubsection{Teorema - Existencia de bases ortonormales}
+Sea $(V,\sigma)$ un espacio vectorial euclídeo de dirección finita. Entonces, existe una base ortonormal.
 
-\begin{align*}
-	\frac{v_i}{||v_i||} \cdot \frac{v_j}{||v_j||} =
-\end{align*}
-Abrir llave grande: $0$ si $i \ne j$ y $\frac{v_j \cdot v_i}{||||}$
+\demostracion
 
-\subsubsection{Corolario}
-Sea $(V,\sigma)$ un espacio vectorial euclídeo de dimensión finita. Entonces:
+$B \longrightarrow B'$ ortogonal (Gram-Schmidt). $B'=\{v_1,...,v_n\}$, $B''=\{\frac{v_1}{\|v_1\|},...,\frac{v_n}{\|v_n\|}\}$. Se tiene que:
+$$
+\frac{v_i}{\|v_i\|} \cdot \frac{v_j}{\|v_j\|} =
+\begin{cases}
+	0 \text{ si } i \ne j \\
+	\displaystyle \frac{v_j \cdot v_i}{\|v_i\| \cdot \|v_j\|} = \frac{v_i \cdot v_i}{\|v_i\|^2} = \frac{1}{1^2} = 1 \text{ si } i = j
+\end{cases}
+$$
+
+\subsubsection{Corolario - Matriz de Gram del producto escalar congruente a la identidad}
+\noindent Sea $(V,\sigma)$ un espacio vectorial euclídeo de dimensión finita. Entonces:
 \begin{align*}
-	& G_\sigma^B ~ Id \\
+	& G_\sigma^B \cong Id \\
 	& G_\sigma^B = P^tIdP
 \end{align*}
-\underline{Consecuencia:} Dos espacios vectoriales euclídeos son isométricos $\Longleftrightarrow$ tienen la misma dimensión.\\\\
-\underline{Cuestión:} Cuándo es (V,$\sigma$) un esp. vec. simétrico?
+
+\underline{Consecuencia:} Dos espacios vectoriales euclídeos son isométricos $\Longleftrightarrow$ tienen la misma dimensión.
+
+\noindent \underline{Cuestión:} Cuándo es (V,$\sigma$) un espacio vectorial simétrico?
 \begin{itemize}
 	\item $\sigma$ fuese simétrica ($G_\sigma^B$ simétrica).
-	\item $\sigma$ sea definida positiva ($\sigma(v,v)=v \cdot v > 0 \forall v \in v - \{0\}$).
+	\item $\sigma$ sea definida positiva ($\sigma(v,v)=v \cdot v > 0, \; \forall v \in v - \{0\}$).
 \end{itemize}
 
-\subsubsection{Recordatorio: Propiedades de los determinantes}
-\begin{enumerate}
+\subsubsection{Recordatorio - Propiedades de los determinantes}
+\begin{enumerate}[label=(\arabic*)]
 	\item Al cambiar dos columnas de la matriz, cambia el signo.
 	\item Multiplicar una columna por un escalar es multiplicar el determinante por el escalar.
 	\item Lineal en cada componente.
 	\item $det(Id) = 1$
 	\item $det(AB) = det(A) \cdot det(B)$
 \end{enumerate}
-\underline{Observación:} Se puede pensar en el determinante en $\mathbb{R}^2$ como el área que forman los vectores columna de la matriz. De la misma forma, en $\mathbb{R}^3$ sería el volumen.\\\\
+\underline{Observación:} Se puede pensar en el determinante en $\mathbb{R}^2$ como el área que forman los vectores columna de la matriz. De la misma forma, en $\mathbb{R}^3$ sería el volumen.
 
 \subsubsection{Teorema de Sylvester.}
 Sea $(V,\sigma)$ un espacio vectorial dotado de una aplicación bilineal simétrica, $B = \{v_1,...,v_n\}$ una base de $V$, y $G_\sigma^B = (g_{ij})$ la matriz de Gram asociada. Entonces, $\sigma$ es definida positiva $\Longleftrightarrow det\Delta_i > 0, \forall i \in \{1,...,n\}$, donde
@@ -2512,7 +2522,7 @@ me cansé, al pdf original
 $$
 \sigma_{i}(\vec{u}, \vec{v})=\left\{\begin{array}{l}
 	0, \quad \text { si } \quad \vec{u}=\overrightarrow{0} \quad \text { o } \quad \vec{v}=\overrightarrow{0}, \\
-	|\vec{u}||\vec{v}| \cos \angle(\vec{u}, \vec{v}), \quad \text { si } \vec{u} \neq \overrightarrow{0} \quad \text { y } \quad \vec{v} \neq \overrightarrow{0},
+	|\vec{u}\|\vec{v}| \cos \angle(\vec{u}, \vec{v}), \quad \text { si } \vec{u} \neq \overrightarrow{0} \quad \text { y } \quad \vec{v} \neq \overrightarrow{0},
 \end{array}\right.
 $$
 
@@ -2578,7 +2588,7 @@ $$
 
 2.1.5. Definición. Sea $K$ un cuerpo y $C$ y $D$ matrices $n \times n$ sobre $K$. Se dice que $C$ y $D$ son congruentes, si existe una matriz regular $\mathcal{P}$ tal que $\mathcal{P}^{t} C \mathcal{P}=D$, donde $\mathcal{P}^{t}$ es la matriz traspuesta de la matriz $\mathcal{P}$.
 
-La relación "ser congruentes" en el conjunto de matrices $n \times n$ sobre $K$ es una relación de equivalencia.
+La relación ''ser congruentes'' en el conjunto de matrices $n \times n$ sobre $K$ es una relación de equivalencia.
 
 2.1.6. Proposición. Sea $V$ un espacio vectorial euclídeo, $B=\left\{v_{1}, \ldots v_{n}\right\}$ y $B^{\prime}=\left\{v_{1}^{\prime}, \ldots v_{n}^{\prime}\right\}$ bases de $V$ y sean
 
@@ -2830,10 +2840,10 @@ $$
 $$\\
 \demostracion (No entraría en el examen)
 
-\textbf{$"\Longrightarrow"$}	Supongamos que $\sigma$ es definida positiva. Sea $B=\left(v_{1}, \ldots, v_{n}\right)$ una base cualquiera de $V$, $B_{j}=\left(v_{1}, \ldots, v_{j}\right), V_{j}=\left\langle B_{j}\right\rangle, \sigma_{j}=\sigma_{\left.\right|_{V_j}}$ y $G_{j}=G_{\sigma_{j}}^{B_{j}}$, para $j=1, \ldots, n$.
+\textbf{$''\Longrightarrow''$}	Supongamos que $\sigma$ es definida positiva. Sea $B=\left(v_{1}, \ldots, v_{n}\right)$ una base cualquiera de $V$, $B_{j}=\left(v_{1}, \ldots, v_{j}\right), V_{j}=\left\langle B_{j}\right\rangle, \sigma_{j}=\sigma_{\left.\right|_{V_j}}$ y $G_{j}=G_{\sigma_{j}}^{B_{j}}$, para $j=1, \ldots, n$.
 Como $\left(V_{j}, \sigma_{j}\right)$ es un espacio vectorial euclídeo, en consecuencia, existe una matriz regular $\mathcal{P}_{j}$ tal que $G_{j}^{B_{j}}=\mathcal{P}_{j}^{t} I_{j} \mathcal{P}_{j}$ (al poder llegar a una base ortonormal), luego $\Delta_{j}=\operatorname{det} G_{j}=\operatorname{det}\left(\mathcal{P}_{j}\right)^{2}>0$, para $j=1, \ldots, n$.\\
 
-\textbf{$"\Longleftarrow"$}	Para probar el recíproco, razonaremos por inducción sobre la dimensión de $V$. Si la dimensión de $V$ es 1 , el resultado es cierto trivialmente. Supongamos el resultado cierto para espacios vectoriales de dimensión $n-1$ y veamos que es cierto para espacios vectoriales de dimensión $n$.
+\textbf{$''\Longleftarrow''$}	Para probar el recíproco, razonaremos por inducción sobre la dimensión de $V$. Si la dimensión de $V$ es 1 , el resultado es cierto trivialmente. Supongamos el resultado cierto para espacios vectoriales de dimensión $n-1$ y veamos que es cierto para espacios vectoriales de dimensión $n$.
 
 Sea $V$ un espacio vectorial de dimensión $n, \sigma: V \times V \rightarrow \mathbb{R}$ una forma bilineal simétrica y $B=\{v_{1}, \ldots, v_{n}\}$ una base de $V$ tal que $\Delta_{i}>0$, para $i=1, \ldots, n$. La idea es encontrar una base $\widetilde{B}$ de $V$ tal que $v^t G_\sigma^{\widetilde{B}} v > 0, \forall v \in V - \{0\}$.
 
@@ -2907,8 +2917,8 @@ Vamos a calcular una base ortogonal $B^{\prime}=\left(w_{1}, w_{2}, w_{3}\right)
 $$
 \begin{aligned}
 	& w_{1}=e_{1}=(1,0,0) \\
-	& w_{2}=e_{2}-\frac{e_{2} w_{1}}{||w_{1}||^2} w_{1}=(0,1,0)-(-1 / 2)(1,0,0)=(1 / 2,1,0) \\
-	& w_{3}=e_{3}-\frac{e_{3} w_{1}}{||w_{1}||^2} w_{1}-\frac{e_{3} w_{2}}{||w_{2}||^2} w_{2}=(0,0,1)-(-2)(1 / 2,1,0)=(1,2,1) .
+	& w_{2}=e_{2}-\frac{e_{2} w_{1}}{\|w_{1}\|^2} w_{1}=(0,1,0)-(-1 / 2)(1,0,0)=(1 / 2,1,0) \\
+	& w_{3}=e_{3}-\frac{e_{3} w_{1}}{\|w_{1}\|^2} w_{1}-\frac{e_{3} w_{2}}{\|w_{2}\|^2} w_{2}=(0,0,1)-(-2)(1 / 2,1,0)=(1,2,1) .
 \end{aligned}
 $$
 Obsérvese que
@@ -2948,7 +2958,7 @@ $$
 se llama subespacio ortogonal a $U$.
 
 \subsubsection{Proposición}
-Sea $V$ un espacio vectorial euclídeo y $U$ un subespacio de $V$ de dimensión finita. Se tiene que $V=U \perp U^{\perp}$.\\\\
+Sea $V$ un espacio vectorial euclídeo y $U$ un subespacio de $V$ de dimensión finita. Se tiene que $V=U \perp U^{\perp}$.
 \demostracion
 
 Sea $B=\{u_{1}, \ldots, u_{r}\}$ una base ortonormal de $U$ y $v \in V$. Consideremos el vector
@@ -2961,7 +2971,7 @@ $$
 $$
 Así, $V=U+U^{\perp}$. Además, si $v \in U \cap U^{\perp}$, entonces $v \cdot v=0$ y por ser $V$ un espacio vectorial euclídeo, se tiene que $v=0$. Por tanto $V=U \perp U^{\perp}$.
 
-Los números reales $v \cdot u_{i}$ se llaman coeficientes de Fourier de $v$ respecto a la base ortonormal $B$ de $U$.\\\\
+Los números reales $v \cdot u_{i}$ se llaman coeficientes de Fourier de $v$ respecto a la base ortonormal $B$ de $U$.
 \underline{Observación}\\
 Si tenemos una base ortonormal de un espacio euclídeo $V$, $B = \{v_1,\ldots,v_n\}$ y $v = (x_1,\ldots,x_n)\in V$. Entonces $x_i = v \cdot v_i$.
 
@@ -2977,7 +2987,7 @@ $$
 v_{U}=\left(v \cdot u_{1}\right) u_{1}+\ldots+\left(v \cdot u_{r}\right) u_{r} \in U
 $$
 
-Veamos un ejemplo de como calcular la proyección ortogonal de un vector sobre un plano vectorial de $\mathbb{R}^{3}$.\\\\
+Veamos un ejemplo de como calcular la proyección ortogonal de un vector sobre un plano vectorial de $\mathbb{R}^{3}$.
 \underline{Ejemplo}\\
 Consideremos el plano vectorial $U$ de $\mathbb{R}^{3}$ cuya ecuación en la base canónica es $2 x+y-z=0$ y el vector $v=(-3,1,1)$. Se tiene
 
@@ -2997,9 +3007,9 @@ $$
 
 \subsection{Producto vectorial}
 \subsubsection{Definición}
-Sea $V$ un espacio vectorial de dimensión finita. Decimos que dos bases $B$ y $B'$ tienen la misma orientación si $\operatorname{det}(\operatorname{Id}_{BB'})>0$. En caso contrario, diremos que tienen distinta orientación.\\\\
+Sea $V$ un espacio vectorial de dimensión finita. Decimos que dos bases $B$ y $B'$ tienen la misma orientación si $\operatorname{det}(\operatorname{Id}_{BB'})>0$. En caso contrario, diremos que tienen distinta orientación.
 \underline{Notación}\\
-Se denota por $[B]$ a la clase de equivalencia respecto de la orientación. Diremos que la orientación positiva es la de la base canónica (en el caso de $\mathbb{R}^n$).\\\\
+Se denota por $[B]$ a la clase de equivalencia respecto de la orientación. Diremos que la orientación positiva es la de la base canónica (en el caso de $\mathbb{R}^n$).
 \underline{Ejemplos}\\
 \begin{enumerate}
 	\item La base $\{e_1,e_2\}$ de $\mathbb{R}^2$ es de orientación positiva.
@@ -3035,7 +3045,7 @@ $$
 	\item Los vectores $u$ y $v$ no nulos son linealmente dependientes $\Longleftrightarrow u \wedge v = 0$.
 	\item $u \wedge v$ es ortogonal a $u$ y a $v$.
 	\item Si $u$ y $v$ son linealmente independientes, entonces $(u,v,u \wedge v)$ son una base de $V$ positivamente orientado.
-	\item $||u \wedge v || = ||u|| \cdot ||v|| \cdot \operatorname{sen} \angle (u,v) = ||u|| \cdot ||v|| \cdot \operatorname{sen} \angle (v,u)$.
+	\item $\|u \wedge v \| = \|u\| \cdot \|v\| \cdot \operatorname{sen} \angle (u,v) = \|u\| \cdot \|v\| \cdot \operatorname{sen} \angle (v,u)$.
 	\item La aplicación
 	\begin{align*}
 		\wedge : V \times V & \longrightarrow V \\
@@ -3116,8 +3126,8 @@ $$
 	$\operatorname{det}(\operatorname{Id}_{B'B})$
 	\item
 	\begin{align*}
-		||u \wedge v||^2 & = ||u||^2 \cdot ||v||^2 \operatorname{sen} 	\angle (u,v) \\
-		& = ||u||^2 \cdot ||v||^2 - ||u||^2 \cdot ||v||^2 	\operatorname{cos} \angle (u,v) \\
+		\|u \wedge v\|^2 & = \|u\|^2 \cdot \|v\|^2 \operatorname{sen} 	\angle (u,v) \\
+		& = \|u\|^2 \cdot \|v\|^2 - \|u\|^2 \cdot \|v\|^2 	\operatorname{cos} \angle (u,v) \\
 		& = (x^2_1 + x^2_2 + x^2_3)(y^2_1 + y^2_2 + y^2_3) - 
 		(x_1 y_1 + x_2 y_2 + x_3 y_3)
 	\end{align*}
@@ -3125,7 +3135,7 @@ $$
 \end{enumerate}
 
 \subsubsection{Proposicion}
-Si $u$ y $v$ son vectores linealmente independientes, entonces $u \wedge v$ está determinado por (2), (3) y (4). Así, $u \wedge v$ no depende de la base ortonormal de orientación positiva escogida.\\\\
+Si $u$ y $v$ son vectores linealmente independientes, entonces $u \wedge v$ está determinado por (2), (3) y (4). Así, $u \wedge v$ no depende de la base ortonormal de orientación positiva escogida.
 \demostracion\\
 Sea $w \in V$ satisfaciendo (2), (3) y (4).
 \begin{align*}
@@ -3141,7 +3151,7 @@ Sea $w \in V$ satisfaciendo (2), (3) y (4).
 	\end{cases}\\
 	& \operatorname{dim}(V) = 3 \Longrightarrow <w> = <u \cdot w> \Longrightarrow \exists \lambda \in \mathbb{R} : w = \lambda \cdot (u \wedge v)
 	\Longrightarrow \\
-	& ||w|| = ||u|| \cdot ||v|| \operatorname{sen}(u,v) \Longrightarrow |\lambda| = 1 \Longrightarrow \begin{cases}
+	& \|w\| = \|u\| \cdot \|v\| \operatorname{sen}(u,v) \Longrightarrow |\lambda| = 1 \Longrightarrow \begin{cases}
 		\lambda_1 = 1 \\
 		\lambda_2 = -1
 	\end{cases}
@@ -3191,7 +3201,7 @@ verificando:
 	\item $g_1(g_2 \cdot a) = (g_1 * g_2) \cdot a, \; \forall g_1, g_2 \in \mathcal{G}, \; a \in A$
 	\item $e \cdot a = a, \; \forall a \in A$
 \end{enumerate}
-\underline{Observación}\\\\
+\underline{Observación}
 Podemos definir
 $$
 \begin{aligned}
@@ -3199,7 +3209,7 @@ $$
 	a & \longmapsto g \cdot a
 \end{aligned}
 $$
-\underline{Ejemplos}\\\\
+\underline{Ejemplos}
 \begin{enumerate}
 	\item $\triangle$
 	\item $(\mathbb{Z},+)$
@@ -3497,8 +3507,8 @@ Sea $V$ un espacio vectorial euclídeo de dimensión $n$ y sea $U$ un subespacio
 
 Dado que $U \perp U^\perp = V$, si $B_U$ es una base ortonormal de $U$ y $B_U$ es una base ortonormal de $U^\perp$, juntándolas se obtiene una base ortonormal de $V$.
 \begin{gather*}
-	B = \{v_1,\ldots,v_{n-m},\ldots,v_n\} \\\\
-	(S_U)_B = (\operatorname{Id}_U \perp (-\operatorname{Id}_{U^\perp}))_B = \operatorname{diag}(1, \ldots, 1, -1, \ldots, -1) \\\\
+	B = \{v_1,\ldots,v_{n-m},\ldots,v_n\} 
+	(S_U)_B = (\operatorname{Id}_U \perp (-\operatorname{Id}_{U^\perp}))_B = \operatorname{diag}(1, \ldots, 1, -1, \ldots, -1) 
 	\operatorname{det}(S_U) = (-1)^m
 	\begin{cases*}
 		1 \text{ si m par} \\
@@ -3806,7 +3816,7 @@ $$
 \subsubsection{Definición - Orientación}
 Sea $V$ un espacio vectorial real de dimensión finita. Se dice que las bases $B$ y $B^{\prime}$ ortonormales tienen la misma orientación si el determinante de la matriz de cambio de base $\operatorname{Id}_{BB^{\prime}}$ es positivo ($\operatorname{Id}_{BB'} \in \mathcal{O}(n,\mathbb{R})$). En caso contrario, se dice que tienen distinta orientación.
 
-La relación "tener la misma orientación" en el conjunto de bases de $V$ es una relación de equivalencia.
+La relación ''tener la misma orientación'' en el conjunto de bases de $V$ es una relación de equivalencia.
 \begin{itemize}
 	\item Reflexiva: $\operatorname{det}(\operatorname{Id}_{BB}) = 1$.
 	\item Simétrica: $\operatorname{det}(\operatorname{Id}_{B'B}) = \operatorname{det}(\operatorname{Id}_{BB'})^{-1} = 1^{-1} = 1$
@@ -3996,7 +4006,7 @@ Sea $V$ un plano vectorial euclídeo y $f \in \mathcal{O}(V)$.
 	$$
 	v \cdot w = f(v) \cdot f(w) = v \cdot (-w) = - v \cdot w \Longrightarrow 2(v \cdot w) = 0 \Longrightarrow v \cdot w = 0
 	$$
-	Si tomamos $v_1 = \frac{v}{||v||}$ y $v_2 = \frac{w}{||w|}$ entones $B = (v_1, v_2)$ es una base ortonormal y
+	Si tomamos $v_1 = \frac{v}{\|v\|}$ y $v_2 = \frac{w}{\|w|}$ entones $B = (v_1, v_2)$ es una base ortonormal y
 	$$
 	(f_b) = \begin{pmatrix}
 		1 & 0 \\
@@ -4032,10 +4042,10 @@ f = f_1 \perp \operatorname{Id}_{\langle w \rangle} \text{ donde } f_1 \in \math
 $$
 
 \subsubsection{Definición}
-Sea $V$ un espacio vectorial euclídeo. Sea $w \in W, \; w \neq 0$. Se llama eje orientado al subespacio vectorial $\langle w \rangle$ donde tomamos la orientación en la cual una base de orientación positiva es $\displaystyle B = \left\{ \frac{w}{||w||} \right\}$.
+Sea $V$ un espacio vectorial euclídeo. Sea $w \in W, \; w \neq 0$. Se llama eje orientado al subespacio vectorial $\langle w \rangle$ donde tomamos la orientación en la cual una base de orientación positiva es $\displaystyle B = \left\{ \frac{w}{\|w\|} \right\}$.
 
 \subsubsection{Proposición}
-Sea $V$ un espacio vectorial euclídeo tridimensional orientado. Tomemos un eje orientado $\langle w \rangle$, podemos considerar $||w|| = 1$. Entonces, $\langle w \rangle$ induce una orientación en el plano vectorial $\langle w \rangle^\perp$ dada por considerar una base ortonormal $B_1 = (u,v)$ en el plano $\langle w \rangle^\perp$ tal que $B = (u,v,w)$ es de orientación positiva en $V$.
+Sea $V$ un espacio vectorial euclídeo tridimensional orientado. Tomemos un eje orientado $\langle w \rangle$, podemos considerar $\|w\| = 1$. Entonces, $\langle w \rangle$ induce una orientación en el plano vectorial $\langle w \rangle^\perp$ dada por considerar una base ortonormal $B_1 = (u,v)$ en el plano $\langle w \rangle^\perp$ tal que $B = (u,v,w)$ es de orientación positiva en $V$.
 
 \demostracion
 
@@ -4126,7 +4136,7 @@ Sea $V$ un espacio afín euclídeo tridimensional (orientado) y sea $f \in \math
 \demostracion
 
 Dado $f \in \mathcal{O}(V)$ existe $v \in V-\{0\}$ tal que $f 
-= f_1 \perp \operatorname{Id}_{\langle v \rangle^\perp}$ o $f = f_1 \perp (-\operatorname{Id}_{\langle v \rangle})$ donde $f_1 \in \mathcal{O}(\langle v \rangle^\perp)$. Consideremos $B_1 = (v_1, v_2)$ una base ortonormal de $\langle v \rangle^\perp$ y tomemos $B = (v_1,v_2,v_3)$ con $\displaystyle v_3 = \frac{v}{||v||}$ base ortonormal de $V$. Tenemos 4 casos.
+= f_1 \perp \operatorname{Id}_{\langle v \rangle^\perp}$ o $f = f_1 \perp (-\operatorname{Id}_{\langle v \rangle})$ donde $f_1 \in \mathcal{O}(\langle v \rangle^\perp)$. Consideremos $B_1 = (v_1, v_2)$ una base ortonormal de $\langle v \rangle^\perp$ y tomemos $B = (v_1,v_2,v_3)$ con $\displaystyle v_3 = \frac{v}{\|v\|}$ base ortonormal de $V$. Tenemos 4 casos.
 \begin{enumerate}[label=(\arabic*)]
 	\item $f = f_1 \perp \operatorname{Id}_{\langle v_3 \rangle}$ con $f_1 \in \mathcal{O}^+(\langle v_3 \rangle)^\perp$. Se tiene que
 	$$
@@ -4273,7 +4283,7 @@ Un espacio afín $\mathbb{A}$ sobre $V$ se dice espacio afín euclídeo si $V$ e
 \subsubsection{Definición - Distancia}
 Sean $P,Q \in \mathbb{A}$ espacio afín euclídeo. Se define la distancia de $P$ a $Q$ como
 $$
-\operatorname{d}(P,Q) := ||\overrightarrow{PQ}||
+\operatorname{d}(P,Q) := \|\overrightarrow{PQ}\|
 $$
 
 \subsubsection{Propiedades de la distancia}
@@ -4295,7 +4305,7 @@ $$
 $$
 \demostracion
 $$
-\distancia{P,P'} = || \overrightarrow{PP'} || = ||\overrightarrow{PQ} + \overrightarrow{QP}|| = ||\overrightarrow{QP'} - \overrightarrow{QP}|| = \sqrt{\sum_{i = 1}^{n}(y_i - x_i)^2}
+\distancia{P,P'} = \| \overrightarrow{PP'} \| = \|\overrightarrow{PQ} + \overrightarrow{QP}\| = \|\overrightarrow{QP'} - \overrightarrow{QP}\| = \sqrt{\sum_{i = 1}^{n}(y_i - x_i)^2}
 $$
 con $y_i - x_i$ en base $B_\mathcal{R}$ ortonormal.
 
@@ -4380,8 +4390,8 @@ Sea $\mathbb{A}$ espacio afín euclídeo, y sean $L_1, L_2$ variedades lineales 
 
 	\item $\forall P \in L_1$ y $\forall Q \in L_2$,
 	\begin{gather*}
-	\distancia{P, Q}^2 = ||\overrightarrow{PQ}||^2 = || \overrightarrow{PP_1} + \overrightarrow{P_1 P_2} + \overrightarrow{P_2 Q} ||^2 \stackrel{\text{Pitágoras}}{=} \\
-	\stackrel{\text{Pitágoras}}{=} || \overrightarrow{PP_1} + \overrightarrow{P_2 Q}||^2 + ||\overrightarrow{P_1 P_2}||^2 \ge ||\overrightarrow{P_1,P_2}||^2 = \distancia{P_1,P_2}^2 \Longrightarrow \\ \Longrightarrow \distancia{P_1,P_2} \le \distancia{P,Q}, \; \forall P \in L_1, \; \forall Q \in L_2
+	\distancia{P, Q}^2 = \|\overrightarrow{PQ}\|^2 = \| \overrightarrow{PP_1} + \overrightarrow{P_1 P_2} + \overrightarrow{P_2 Q} \|^2 \stackrel{\text{Pitágoras}}{=} \\
+	\stackrel{\text{Pitágoras}}{=} \| \overrightarrow{PP_1} + \overrightarrow{P_2 Q}\|^2 + \|\overrightarrow{P_1 P_2}\|^2 \ge \|\overrightarrow{P_1,P_2}\|^2 = \distancia{P_1,P_2}^2 \Longrightarrow \\ \Longrightarrow \distancia{P_1,P_2} \le \distancia{P,Q}, \; \forall P \in L_1, \; \forall Q \in L_2
 	\Longrightarrow \distancia{L_1, L_2} = \distancia{P_1, P_2}
 	\end{gather*}
 \end{enumerate}
@@ -4433,7 +4443,7 @@ Sea $H = Q + U$. Sabemos que $\distancia{P,H} = \distancia{P_1 P_2}$ con $P_0$ l
 Así,
 $$
 \begin{aligned}
-	\distancia{P,H} = \distancia{P_1 P_0} & = ||\overrightarrow{PP_0}|| = \\
+	\distancia{P,H} = \distancia{P_1 P_0} & = \|\overrightarrow{PP_0}\| = \\
 	& = \sqrt{(\lambda a_1)^2 + \ldots + (\lambda a_n^2)} = \\
 	& = |\lambda| + \sqrt{a_1^2 + \ldots + a_n^2} = \\
 	& = \frac{|a_1 z_1 + \ldots + a_n z_n + d|}{\sqrt{a_1^2 + \ldots + a_n^2}}
@@ -4460,7 +4470,7 @@ Suponemos $\mathbb{A}$ espacio afín euclídeo tridimensional orientado ($\Longl
 \subsubsection{Proposición - Distancia de un punto a una recta}
 Si $P \in \mathbb{A}$ y $r = A + \langle v \rangle$ es una recta, entonces
 $$
-\distancia{P,r} = \frac{||\overrightarrow{AP} \wedge v||}{||v||}
+\distancia{P,r} = \frac{\|\overrightarrow{AP} \wedge v\|}{\|v\|}
 $$
 \demostracion
 
