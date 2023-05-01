@@ -864,6 +864,7 @@ Sea $\mathbb{A}$ un plano afín ($\dim \mathbb{A} = 2$) sobre $V$. Entonces, dos
 	\item $L \cap L' = \varnothing \Longleftrightarrow \overrightarrow{PP'} \notin \langle\{u\}\rangle + \langle\{v\}\rangle = \langle\{u,v\}\rangle$. Ahora bien, $L = P + \langle\{u\}\rangle$ y $L' = P' + \langle\{v\}\rangle$. Como $\dim_K V = 2 \Longrightarrow \dim_K \langle\{u,v\}\rangle = 1 \Longrightarrow \langle\{u\}\rangle = \langle\{v\}\rangle \Longleftrightarrow L = L'$.
 \end{enumerate}
 \observacion
+
 \noindent Si $\dim \mathbb{A} = 2$, entonces no existen rectas que se crucen.
 
 \subsubsection{Teorema - Incidencia de variedades lineales en el e.a. tridimensional}
@@ -888,7 +889,7 @@ Sea $\mathbb{A}$ un plano afín ($\dim \mathbb{A} = 2$) sobre $V$. Entonces, dos
 	$$
 	Como $\pi \cap \pi' \neq \varnothing$, usando Grassmann:
 	$$
-	\dim(\pi \cap \pi') = \dim(\pi) + \dim(\pi') - \dim(\pi - \pi') = 2 + 2 - 3 = 1
+	\dim(\pi \cap \pi') = \dim(\pi) + \dim(\pi') - \dim(\pi \circ \pi') = 2 + 2 - 3 = 1
 	$$
 	
 	\item Sean $\pi = P + U$ y $\pi' = P' + U'$ planos distintos.
@@ -993,7 +994,7 @@ Se dice que $P_{1}, \ldots, P_{r} \in \mathbb{A}$ son afinmente independientes s
 \begin{enumerate}[label=(\arabic*)]
 	\item Dos puntos $P_1, P_2 \in \mathbb{A}$ son afínmente independientes si, y solo si, $P_1 \neq P_2$.
 	\item Si $\dim(\mathbb{A}) \ge 1$, tres puntos $P_1, P_2, P_3 \in \mathbb{A}$ son afínmente independientes si, y solo si, son no alineados.
-	\item Si $\dim(\mathbb{A}) \ge 2$, cuatro puntos $P_1, P_2, P_3, P_4 \in \mathbb{A}$ son afínmente independientes si, y solo si, son no alineados.
+	\item Si $\dim(\mathbb{A}) \ge 2$, cuatro puntos $P_1, P_2, P_3, P_4 \in \mathbb{A}$ son afínmente independientes si, y solo si, son no coplanarios.
 \end{enumerate}
 \demostracion
 \begin{enumerate}[label=(\arabic*)]
@@ -1008,7 +1009,7 @@ Se dice que $P_{1}, \ldots, P_{r} \in \mathbb{A}$ son afinmente independientes s
 	\end{itemize}
 	}
 	\item \dobleimplicacion{Por contrarrecíproco.
-	Si $P_1, P_2, P_3, P_4$ son alineados $\Longrightarrow \exists \pi \subset \mathbb{A}$ plano $/\, P_1, P_2, P_3, P_4 \in \pi \Longrightarrow P_1 \circ P_2 \circ P_3 \circ P_4 \subset \pi \Longrightarrow \dim P_1 \circ P_2 \circ P_3 \circ P_4 \le 2 \Longrightarrow P_1, P_2, P_3, P_4$ son afínmente independientes.
+	Si $P_1, P_2, P_3, P_4$ son coplanarios $\Longrightarrow \exists \pi \subset \mathbb{A}$ plano $/\, P_1, P_2, P_3, P_4 \in \pi \Longrightarrow P_1 \circ P_2 \circ P_3 \circ P_4 \subset \pi \Longrightarrow \dim P_1 \circ P_2 \circ P_3 \circ P_4 \le 2 \Longrightarrow P_1, P_2, P_3, P_4$ son afínmente independientes.
 	}{Reducción al absurdo.
 	Supongamos que $P_1, P_2, P_3, P_4$ no son afínmente independientes. Entonces, $\dim (P_1 \circ P_2 \circ P_3 \circ P_4) \le 2$. Ahora,
 	\begin{itemize}
@@ -1203,7 +1204,7 @@ $$
 \subsubsection{Definición - Matriz de cambio de base}
 \noindent Sean $B=\left(v_{1}, \ldots, v_{n}\right)$ y $B^{\prime}=\left(v_{1}^{\prime}, \ldots, v_{n}^{\prime}\right)$ bases de un espacio vectorial $V$ y sea
 $$
-\overrightarrow{QP}^{\prime}=\sum_{j=1}^{n} a_{j i} v_{j}, \quad i=1, \ldots, n
+v_i^{\prime}=\sum_{j=1}^{n} a_{j i} v_{j}, \quad i=1, \ldots, n
 $$
 La matriz
 $$
@@ -1215,7 +1216,7 @@ $$
 $$
 se llama matriz de cambio de base de $B^{\prime}$ a $B$.
 
-\subsubsection{Proposición}
+\subsubsection{Proposición - Ecuación matricial del cambio de coordenadas}
 Sean $L$ una variedad lineal de $\mathbb{A}, \mathcal{R}=\left\{P_{1}, \ldots, P_{n} ; Q\right\}$ una referencia de $\mathbb{A}$, $\mathcal{R}^{\prime}=\left(P_{1}^{\prime}, \ldots, P_{r}^{\prime} ; Q^{\prime}\right)$ una referencia de $L$. Supongamos que $\left(a_{1}, \ldots, a_{n}\right)$ son las coordenadas de $Q^{\prime}$ en $\mathcal{R}$ y que
 $$
 Q_{j}^{\prime} P_j'=\sum_{i=1}^{n} a_{i j} \overrightarrow{QP_{i}}, \quad j=1, \ldots, r
@@ -1261,7 +1262,7 @@ $$
 x_{i}=a_{i}+\sum_{j=1}^{r} a_{i j} x_{j}^{\prime}, \quad i=1, \ldots, n \text {. }
 $$
 
-\subsubsection{Teorema - Cambio de coordenadas.}
+\subsubsection{Teorema - Cambio de coordenadas}
 Sean $\mathcal{R}=\left\{P_{1}, \ldots, P_{n} ; Q\right\}$ y $\mathcal{R}^{\prime}=\left\{P_{1}^{\prime}, \ldots, P_{n}^{\prime} ; Q^{\prime}\right\}$ referencias de $\mathbb{A}$. Sea $P$ un punto de coordenadas $\left(x_{1}, \ldots, x_{n}\right)$ en la referencia $\mathcal{R}$ y coordenadas $\left(x_{1}^{\prime}, \ldots, x_{n}^{\prime}\right)$ en la referencia $\mathcal{R}^{\prime}$. Si $\left(\operatorname{Id}_{B_{\mathcal{R}^{\prime}} B_{\mathcal{R}}}\right)=\left(a_{i j}\right)$ es la matriz de cambio de base de $B_{\mathcal{R}^{\prime}}$ a $B_{\mathcal{R}}$, entonces
 
 $$
@@ -1443,7 +1444,7 @@ x_{r}-a_{r} & a_{r 1} & \ldots & a_{r r} \\
 x_{j}-a_{j} & a_{j 1} & \ldots & a_{j r}
 \end{array}\right|=0, \quad j=r+1, \ldots, n .
 $$
-\noindent Así, toda variedad lineal de dimensión $r$ en un espacio afín de dimensión $n$ queda determinada por el conjunto de soluciones de un sistema de $n-r$ ecuaciones lineales y $n$ incógnitas, donde el rango de la matriz de coeficientes es $n-r$. Por la proposición 1.2.15, unas ecuaciones del subespacio dirección $U$ de $L$ en la base $B_{\mathcal{R}}$ están dadas por el sistema de ecuaciones lineales homogéneo asociado al sistema de ecuaciones lineales de $L$ en $\mathcal{R}$.
+\noindent Así, toda variedad lineal de dimensión $r$ en un espacio afín de dimensión $n$ queda determinada por el conjunto de soluciones de un sistema de $n-r$ ecuaciones lineales y $n$ incógnitas, donde el rango de la matriz de coeficientes es $n-r$. Así, unas ecuaciones del subespacio dirección $U$ de $L$ en la base $B_{\mathcal{R}}$ están dadas por el sistema de ecuaciones lineales homogéneo asociado al sistema de ecuaciones lineales de $L$ en $\mathcal{R}$.
 
 \demostracion
 
@@ -1461,7 +1462,7 @@ x_{n}-a_{n} & a_{n 1} & \cdots & a_{n r}
 $$
 \observacion
 
-Sea $\mathbb{A}$ un espacio afín de dimensión $n$ y $L$ una variedad lineal de $\mathbb{A}$ de dimensión $r$. El menor número de ecuaciones lineales de un sistema de ecuaciones lineales de $L$ es $n-r$. En efecto, las coordenadas de los puntos de $L$ son el conjunto de soluciones de un sistema de $n-r$ ecuaciones lineales y $n$ incógnitas. Si las coordenadas de los puntos de $L$ fuesen el conjunto de soluciones de un sistema de $m<n-r$ ecuaciones lineales y $n$ incógnitas y $\mathcal{A}$ es la matriz de coeficientes de este sistema, entonces por la proposición 1.2.15, $\dim  L=n-\operatorname{rango} \mathcal{A} \geq n-m>n-(n-r)=r$.
+Sea $\mathbb{A}$ un espacio afín de dimensión $n$ y $L$ una variedad lineal de $\mathbb{A}$ de dimensión $r$. El menor número de ecuaciones lineales de un sistema de ecuaciones lineales de $L$ es $n-r$. En efecto, las coordenadas de los puntos de $L$ son el conjunto de soluciones de un sistema de $n-r$ ecuaciones lineales y $n$ incógnitas. Si las coordenadas de los puntos de $L$ fuesen el conjunto de soluciones de un sistema de $m<n-r$ ecuaciones lineales y $n$ incógnitas y $\mathcal{A}$ es la matriz de coeficientes de este sistema. Entonces, $\dim  L=n-\operatorname{rango} \mathcal{A} \geq n-m>n-(n-r)=r$.
 
 \ejemplo
 

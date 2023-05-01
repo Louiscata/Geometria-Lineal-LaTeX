@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.7)  29 APR 2023 20:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.7)  1 MAY 2023 12:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -847,31 +847,31 @@ d on input line 680.
 (pdftex.def)             Requested size: 827.08797pt x 419.56647pt.
  [12 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-08.jpg>] [13]
 [14] [15] [16] [17]
-Overfull \hbox (2.28058pt too wide) in paragraph at lines 937--938
+Overfull \hbox (2.28058pt too wide) in paragraph at lines 938--939
 []\T1/cmr/m/n/12 Los pun-tos $\OML/cmm/m/it/12 P[]; [] ; P[]$ \T1/cmr/m/n/12 so
 n afín-men-te in-de-pen-dien-tes si, y so-lo si, los pun-tos $\OML/cmm/m/it/12 
 P[]; [] ; P[]$
  []
 
 [18] [19]
-Overfull \hbox (16.75641pt too wide) in paragraph at lines 1019--1019
+Overfull \hbox (27.19827pt too wide) in paragraph at lines 1020--1020
 []\T1/cmr/m/n/12 Por con-tra-rre-cí-pro-co. Si $\OML/cmm/m/it/12 P[]; P[]; P[];
- P[]$ \T1/cmr/m/n/12 son ali-nea-dos $\OT1/cmr/m/n/12 =[]\OMS/cmsy/m/n/12 ) 9\O
-ML/cmm/m/it/12 ^^Y \OMS/cmsy/m/n/12 ^^Z \U/bbold/m/n/12 A$ \T1/cmr/m/n/12 plano
- $\OML/cmm/m/it/12 = P[]; P[]; P[]; P[] \OMS/cmsy/m/n/12 2
+ P[]$ \T1/cmr/m/n/12 son co-pla-na-rios $\OT1/cmr/m/n/12 =[]\OMS/cmsy/m/n/12 ) 
+9\OML/cmm/m/it/12 ^^Y \OMS/cmsy/m/n/12 ^^Z \U/bbold/m/n/12 A$ \T1/cmr/m/n/12 pl
+ano $\OML/cmm/m/it/12 = P[]; P[]; P[]; P[] \OMS/cmsy/m/n/12 2
  []
 
 [20]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1033.
+(hyperref)                removing `math shift' on input line 1034.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1033.
+(hyperref)                removing `math shift' on input line 1034.
 
 
-Overfull \hbox (0.34132pt too wide) in paragraph at lines 1055--1056
+Overfull \hbox (0.34132pt too wide) in paragraph at lines 1056--1057
 \T1/cmr/m/n/12 to-res li-neal-men-te in-de-pen-dien-tes. Co-mo $[][] \OML/cmm/m
 /it/12 V \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 r;  \OMS/cmsy/m/n/12 9\OML/cmm/m/it
 /12 v[]; [] ; v[] \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 V = []; [] ; []; [] 
@@ -884,15 +884,15 @@ File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-11.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-11.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-11.jpg  use
-d on input line 1081.
+d on input line 1082.
 (pdftex.def)             Requested size: 780.91559pt x 315.17673pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1081--1083
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 1082--1084
 [][]
  []
 
 
-Overfull \hbox (33.3051pt too wide) in paragraph at lines 1090--1091
+Overfull \hbox (33.3051pt too wide) in paragraph at lines 1091--1092
 []\T1/cmr/m/n/12 La re-fe-ren-cia ca-nó-ni-ca $\OMS/cmsy/m/n/12 C \OT1/cmr/m/n/
 12 = []$ \T1/cmr/m/n/12 del es-pa-cio or-di-na-rio es una cua-ter-na $[]$
  []
@@ -904,7 +904,7 @@ File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(1).jpg Graphic file (type j
 pg)
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(1).jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(1).jpg  
-used on input line 1092.
+used on input line 1093.
 (pdftex.def)             Requested size: 921.44026pt x 355.32661pt.
 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(2).jpg, id=976, 506.89375pt x 38
 1.425pt>
@@ -912,10 +912,10 @@ File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(2).jpg Graphic file (type j
 pg)
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(2).jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12(2).jpg  
-used on input line 1107.
+used on input line 1108.
 (pdftex.def)             Requested size: 506.89252pt x 381.42406pt.
 
-Overfull \hbox (14.28577pt too wide) in paragraph at lines 1112--1113
+Overfull \hbox (14.28577pt too wide) in paragraph at lines 1113--1114
 []\T1/cmr/m/n/12 En la re-fe-ren-cia ca-nó-ni-ca $\OMS/cmsy/m/n/12 C$ \T1/cmr/m
 /n/12 de $\OML/cmm/m/it/12 K[]$\T1/cmr/m/n/12 , el pun-to $\OML/cmm/m/it/12 P \
 OT1/cmr/m/n/12 = []$ \T1/cmr/m/n/12 tie-ne coor-de-na-das $[]$. 
@@ -929,37 +929,37 @@ File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-12.jpg  use
-d on input line 1124.
+d on input line 1125.
 (pdftex.def)             Requested size: 510.9075pt x 151.56587pt.
 
-Overfull \hbox (15.31401pt too wide) in paragraph at lines 1150--1151
+Overfull \hbox (15.31401pt too wide) in paragraph at lines 1151--1152
 []$ \T1/cmr/m/n/12 en $\OML/cmm/m/it/12 B[]$\T1/cmr/m/n/12 , en-ton-ces las coo
 r-de-na-das del pun-to $\OML/cmm/m/it/12 P \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 v
 $ \T1/cmr/m/n/12 en $\OMS/cmsy/m/n/12 R$ \T1/cmr/m/n/12 son $[]$. 
  []
 
 
-Overfull \hbox (1.58252pt too wide) in paragraph at lines 1152--1153
+Overfull \hbox (1.58252pt too wide) in paragraph at lines 1153--1154
 \T1/cmr/m/n/12 te, en-ton-ces las coor-de-na-das del pun-to me-dio de $\OML/cmm
 /m/it/12 P$ \T1/cmr/m/n/12 y $\OML/cmm/m/it/12 P[]$ \T1/cmr/m/n/12 en $\OMS/cms
 y/m/n/12 R$ \T1/cmr/m/n/12 son $[] []$. 
  []
 
 [24 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-12.jpg>]
-Overfull \hbox (8.56017pt too wide) detected at line 1176
+Overfull \hbox (8.56017pt too wide) detected at line 1177
 []
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1189.
+(hyperref)                removing `math shift' on input line 1190.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1189.
+(hyperref)                removing `math shift' on input line 1190.
 
 [25]
-Overfull \hbox (18.30086pt too wide) in paragraph at lines 1219--1220
+Overfull \hbox (18.30086pt too wide) in paragraph at lines 1220--1221
 []\T1/cmr/m/n/12 Sean $\OML/cmm/m/it/12 L$ \T1/cmr/m/n/12 una va-rie-dad li-nea
 l de $\U/bbold/m/n/12 A\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 R \OT1/cmr/m/n/12 = 
 []$ \T1/cmr/m/n/12 una re-fe-ren-cia de $\U/bbold/m/n/12 A$\T1/cmr/m/n/12 , $\O
@@ -972,10 +972,10 @@ File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-14.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-14.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-14.jpg  use
-d on input line 1246.
+d on input line 1247.
 (pdftex.def)             Requested size: 851.1779pt x 610.2785pt.
 [26] [27 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-14.jpg>]
-Overfull \hbox (41.90413pt too wide) detected at line 1320
+Overfull \hbox (41.90413pt too wide) detected at line 1321
 \OML/cmm/m/it/12 P \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 S \OMS/cmsy/m/n/12 ([]) 
 \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 ([]) = [] = \OML/cmm/m/it/12 f\OT1/cmr/m/n/12
  ([]) \OMS/cmsy/m/n/12 ([]) [] ^^@ [] 2 [] \OML/cmm/m/it/12 f \OMS/cmsy/m/n/12 
@@ -984,7 +984,7 @@ msy/m/n/12 2 \OML/cmm/m/it/12 A \OT1/cmr/m/n/12 + [] \OML/cmm/m/it/12 f
  []
 
 [28]
-Overfull \hbox (15.7626pt too wide) detected at line 1354
+Overfull \hbox (15.7626pt too wide) detected at line 1355
 \OML/cmm/m/it/12 P \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 L \OMS/cmsy/m/n/12 ([]) 
 9\OML/cmm/m/it/12 ^^U[]; [] ; ^^U[] \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 K \OMS/
 cmsy/m/n/12 j [] \OT1/cmr/m/n/12 = [] + \OML/cmm/m/it/12 ^^U[] [] \OT1/cmr/m/n/
@@ -992,7 +992,7 @@ cmsy/m/n/12 j [] \OT1/cmr/m/n/12 = [] + \OML/cmm/m/it/12 ^^U[] [] \OT1/cmr/m/n/
  []
 
 [29] [30]
-Overfull \hbox (23.497pt too wide) in paragraph at lines 1471--1473
+Overfull \hbox (23.497pt too wide) in paragraph at lines 1472--1474
 \T1/cmr/m/n/12 Sea $\OML/cmm/m/it/12 P$ \T1/cmr/m/n/12 el pun-to de coor-de-na-
 das $[]$ en la re-fe-ren-cia $\OMS/cmsy/m/n/12 R \OT1/cmr/m/n/12 = \OMS/cmsy/m/
 n/12 f\OT1/cmr/m/n/12 (1\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 
@@ -1010,206 +1010,206 @@ File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-19.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-19.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-19.jpg  use
-d on input line 1532.
+d on input line 1533.
 (pdftex.def)             Requested size: 512.915pt x 326.21794pt.
  [33 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-19.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1570.
+(hyperref)                removing `math shift' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathchoice' on input line 1570.
+(hyperref)                removing `\mathchoice' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\vbox' on input line 1570.
+(hyperref)                removing `\vbox' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\everycr' on input line 1570.
+(hyperref)                removing `\everycr' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tabskip' on input line 1570.
+(hyperref)                removing `\tabskip' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 1570.
+(hyperref)                removing `\z@skip' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\halign' on input line 1570.
+(hyperref)                removing `\halign' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\vbox' on input line 1570.
+(hyperref)                removing `\vbox' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\everycr' on input line 1570.
+(hyperref)                removing `\everycr' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tabskip' on input line 1570.
+(hyperref)                removing `\tabskip' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 1570.
+(hyperref)                removing `\z@skip' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\halign' on input line 1570.
+(hyperref)                removing `\halign' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\vbox' on input line 1570.
+(hyperref)                removing `\vbox' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\everycr' on input line 1570.
+(hyperref)                removing `\everycr' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tabskip' on input line 1570.
+(hyperref)                removing `\tabskip' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 1570.
+(hyperref)                removing `\z@skip' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\halign' on input line 1570.
+(hyperref)                removing `\halign' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\vbox' on input line 1570.
+(hyperref)                removing `\vbox' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\everycr' on input line 1570.
+(hyperref)                removing `\everycr' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tabskip' on input line 1570.
+(hyperref)                removing `\tabskip' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 1570.
+(hyperref)                removing `\z@skip' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\halign' on input line 1570.
+(hyperref)                removing `\halign' on input line 1571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1570.
+(hyperref)                removing `math shift' on input line 1571.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1587--1588
+Underfull \hbox (badness 10000) in paragraph at lines 1588--1589
 
  []
 
 [34]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1589.
+(hyperref)                removing `math shift' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathchoice' on input line 1589.
+(hyperref)                removing `\mathchoice' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\vbox' on input line 1589.
+(hyperref)                removing `\vbox' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\everycr' on input line 1589.
+(hyperref)                removing `\everycr' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tabskip' on input line 1589.
+(hyperref)                removing `\tabskip' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 1589.
+(hyperref)                removing `\z@skip' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\halign' on input line 1589.
+(hyperref)                removing `\halign' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\vbox' on input line 1589.
+(hyperref)                removing `\vbox' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\everycr' on input line 1589.
+(hyperref)                removing `\everycr' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tabskip' on input line 1589.
+(hyperref)                removing `\tabskip' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 1589.
+(hyperref)                removing `\z@skip' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\halign' on input line 1589.
+(hyperref)                removing `\halign' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\vbox' on input line 1589.
+(hyperref)                removing `\vbox' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\everycr' on input line 1589.
+(hyperref)                removing `\everycr' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tabskip' on input line 1589.
+(hyperref)                removing `\tabskip' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 1589.
+(hyperref)                removing `\z@skip' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\halign' on input line 1589.
+(hyperref)                removing `\halign' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\vbox' on input line 1589.
+(hyperref)                removing `\vbox' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\everycr' on input line 1589.
+(hyperref)                removing `\everycr' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tabskip' on input line 1589.
+(hyperref)                removing `\tabskip' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 1589.
+(hyperref)                removing `\z@skip' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\halign' on input line 1589.
+(hyperref)                removing `\halign' on input line 1590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1589.
+(hyperref)                removing `math shift' on input line 1590.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1594--1595
+Underfull \hbox (badness 10000) in paragraph at lines 1595--1596
 
  []
 
 
-Overfull \hbox (182.85649pt too wide) detected at line 1610
+Overfull \hbox (182.85649pt too wide) detected at line 1611
 []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 ) = [] = [] = \OMS/cmsy/m/
 n/12 ^^@\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 ([]) + \OML/cmm/m/it/12 f\OT1/cmr/m/n
 /12 ([]) = \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 ([] + []) = \OML/cmm/m/it/12 f\OT1
@@ -1224,24 +1224,24 @@ File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-22.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-22.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-22.jpg  use
-d on input line 1716.
+d on input line 1717.
 (pdftex.def)             Requested size: 372.39034pt x 103.38599pt.
  [38 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-22.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1785.
+(hyperref)                removing `math shift' on input line 1786.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1785.
+(hyperref)                removing `math shift' on input line 1786.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1785.
+(hyperref)                removing `math shift' on input line 1786.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1785.
+(hyperref)                removing `math shift' on input line 1786.
 
 [39]
 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-25.jpg, id=1091, 430.60875pt x 169.
@@ -1250,22 +1250,22 @@ File: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-25.jpg Graphic file (type jpg)
 
 <use ./images//2023_03_01_7659aec5e35f9a9b2d3cg-25.jpg>
 Package pdftex.def Info: ./images//2023_03_01_7659aec5e35f9a9b2d3cg-25.jpg  use
-d on input line 1842.
+d on input line 1843.
 (pdftex.def)             Requested size: 430.60768pt x 169.63332pt.
  [40 <./images//2023_03_01_7659aec5e35f9a9b2d3cg-25.jpg>]
-Overfull \hbox (18.6085pt too wide) in paragraph at lines 1904--1905
+Overfull \hbox (18.6085pt too wide) in paragraph at lines 1905--1906
 []\T1/cmr/m/n/12 son li-neal-men-te in-de-pen-dien-tes, $\OML/cmm/m/it/12 $ \T
 1/cmr/m/n/12 es una afi-ni-dad si, y so-lo si, los pun-tos $\OML/cmm/m/it/12  
 [] ; [] ;  []$
  []
 
 [41] [42]
-Underfull \hbox (badness 10000) in paragraph at lines 1984--1985
+Underfull \hbox (badness 10000) in paragraph at lines 1985--1986
 
  []
 
 [43]
-Overfull \hbox (31.63025pt too wide) in paragraph at lines 2028--2029
+Overfull \hbox (31.63025pt too wide) in paragraph at lines 2029--2030
 \OT1/cmr/m/n/12 (2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/c
 mr/m/n/12 2)\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m
 /n/12 1\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1) = (1\OML/cmm/m
@@ -1281,29 +1281,29 @@ mr/m/n/12 1)$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2044--2045
+Underfull \hbox (badness 10000) in paragraph at lines 2045--2046
 
  []
 
 
-Overfull \hbox (1.0831pt too wide) in paragraph at lines 2054--2055
+Overfull \hbox (1.0831pt too wide) in paragraph at lines 2055--2056
 []$\OML/cmm/m/it/12 []$ \T1/cmr/m/n/12 es una apli-ca-ción afín con apli-ca-ci
 ón li-neal aso-cia-da $[]$. Por el co-ro-la-rio $\OT1/cmr/m/n/12 1[]3[]15(2)\OM
 L/cmm/m/it/12 ; [] \OT1/cmr/m/n/12 =
  []
 
 [44] [45]
-Underfull \hbox (badness 10000) in paragraph at lines 2125--2126
+Underfull \hbox (badness 10000) in paragraph at lines 2126--2127
 
  []
 
 [46] [47]
-Underfull \hbox (badness 10000) in paragraph at lines 2220--2221
+Underfull \hbox (badness 10000) in paragraph at lines 2221--2222
 
  []
 
 
-Overfull \hbox (13.75943pt too wide) in paragraph at lines 2226--2228
+Overfull \hbox (13.75943pt too wide) in paragraph at lines 2227--2229
 \T1/cmr/m/n/12 Tomemos los vec-to-res $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y; 
 z\OT1/cmr/m/n/12 )$ \T1/cmr/m/n/12 y $\OMS/cmsy/m/n/12 j\OT1/cmr/m/n/12 (\OML/c
 mm/m/it/12 x; y; z\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 (1\OML
@@ -1321,35 +1321,35 @@ File: ./images//2023_03_20_c2fe6c117849a1a0e8afg-048.jpg Graphic file (type jpg
 )
 <use ./images//2023_03_20_c2fe6c117849a1a0e8afg-048.jpg>
 Package pdftex.def Info: ./images//2023_03_20_c2fe6c117849a1a0e8afg-048.jpg  us
-ed on input line 2491.
+ed on input line 2492.
 (pdftex.def)             Requested size: 593.2148pt x 337.25917pt.
  [55 <./images//2023_03_20_c2fe6c117849a1a0e8afg-048.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2571--2573
+Underfull \hbox (badness 10000) in paragraph at lines 2572--2574
 
  []
 
 [56] [57]
-Underfull \hbox (badness 10000) in paragraph at lines 2685--2686
+Underfull \hbox (badness 10000) in paragraph at lines 2686--2687
 
  []
 
 [58] [59]
-Underfull \hbox (badness 10000) in paragraph at lines 2758--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2759--2760
 
  []
 
 [60]
-Underfull \hbox (badness 10000) in paragraph at lines 2813--2814
+Underfull \hbox (badness 10000) in paragraph at lines 2814--2815
 
  []
 
 [61] [62]
-Underfull \hbox (badness 10000) in paragraph at lines 2879--2880
+Underfull \hbox (badness 10000) in paragraph at lines 2880--2881
 
  []
 
 [63]
-Underfull \hbox (badness 10000) in paragraph at lines 2915--2916
+Underfull \hbox (badness 10000) in paragraph at lines 2916--2917
 
  []
 
@@ -1360,7 +1360,7 @@ File: ./images//2023_03_20_c2fe6c117849a1a0e8afg-052.jpg Graphic file (type jpg
 )
 <use ./images//2023_03_20_c2fe6c117849a1a0e8afg-052.jpg>
 Package pdftex.def Info: ./images//2023_03_20_c2fe6c117849a1a0e8afg-052.jpg  us
-ed on input line 2957.
+ed on input line 2958.
 (pdftex.def)             Requested size: 426.5927pt x 432.6152pt.
  [65 <./images//2023_03_20_c2fe6c117849a1a0e8afg-052.jpg>]
 <./images//2023_03_20_c2fe6c117849a1a0e8afg-053.jpg, id=1292, 574.145pt x 359.3
@@ -1369,84 +1369,84 @@ File: ./images//2023_03_20_c2fe6c117849a1a0e8afg-053.jpg Graphic file (type jpg
 )
 <use ./images//2023_03_20_c2fe6c117849a1a0e8afg-053.jpg>
 Package pdftex.def Info: ./images//2023_03_20_c2fe6c117849a1a0e8afg-053.jpg  us
-ed on input line 3012.
+ed on input line 3013.
 (pdftex.def)             Requested size: 574.1436pt x 359.34161pt.
 
-Overfull \hbox (127.92671pt too wide) detected at line 3034
+Overfull \hbox (127.92671pt too wide) detected at line 3035
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3037--3038
+Underfull \hbox (badness 10000) in paragraph at lines 3038--3039
 
  []
 
 [66 <./images//2023_03_20_c2fe6c117849a1a0e8afg-053.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 3082--3083
+Underfull \hbox (badness 10000) in paragraph at lines 3083--3084
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3092--3093
+Underfull \hbox (badness 10000) in paragraph at lines 3093--3094
 
  []
 
 [67] [68]
-Underfull \hbox (badness 10000) in paragraph at lines 3172--3173
+Underfull \hbox (badness 10000) in paragraph at lines 3173--3174
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3184.
+(hyperref)                removing `math shift' on input line 3185.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 3184.
+(hyperref)                removing `superscript' on input line 3185.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3184.
+(hyperref)                removing `math shift' on input line 3185.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3185--3186
+Underfull \hbox (badness 10000) in paragraph at lines 3186--3187
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3205.
+(hyperref)                removing `math shift' on input line 3206.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 3205.
+(hyperref)                removing `superscript' on input line 3206.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3205.
+(hyperref)                removing `math shift' on input line 3206.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3206--3207
+Underfull \hbox (badness 10000) in paragraph at lines 3207--3208
 
  []
 
 [69]
-Underfull \hbox (badness 10000) in paragraph at lines 3213--3214
+Underfull \hbox (badness 10000) in paragraph at lines 3214--3215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3251--3252
+Underfull \hbox (badness 10000) in paragraph at lines 3252--3253
 
  []
 
 [70]
-Underfull \hbox (badness 10000) in paragraph at lines 3288--3289
+Underfull \hbox (badness 10000) in paragraph at lines 3289--3290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3297--3298
+Underfull \hbox (badness 10000) in paragraph at lines 3298--3299
 
  []
 
@@ -1457,53 +1457,53 @@ File: ./images//2023_03_20_c2fe6c117849a1a0e8afg-057.jpg Graphic file (type jpg
 )
 <use ./images//2023_03_20_c2fe6c117849a1a0e8afg-057.jpg>
 Package pdftex.def Info: ./images//2023_03_20_c2fe6c117849a1a0e8afg-057.jpg  us
-ed on input line 3353.
+ed on input line 3354.
 (pdftex.def)             Requested size: 726.71321pt x 271.01183pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3387.
+(hyperref)                removing `math shift' on input line 3388.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\displaystyle' on input line 3387.
+(hyperref)                removing `\displaystyle' on input line 3388.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 3387.
+(hyperref)                removing `\begingroup' on input line 3388.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endgroup' on input line 3387.
+(hyperref)                removing `\endgroup' on input line 3388.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@over' on input line 3387.
+(hyperref)                removing `\@@over' on input line 3388.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 3387.
+(hyperref)                removing `\pi' on input line 3388.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3387.
+(hyperref)                removing `math shift' on input line 3388.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3387.
+(hyperref)                removing `math shift' on input line 3388.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 3387.
+(hyperref)                removing `superscript' on input line 3388.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3387.
+(hyperref)                removing `math shift' on input line 3388.
 
 [73 <./images//2023_03_20_c2fe6c117849a1a0e8afg-057.jpg>] [74] [75] [76]
 [77] [78]
 
-LaTeX Warning: Command \i invalid in math mode on input line 3665.
+LaTeX Warning: Command \i invalid in math mode on input line 3666.
 
 [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89]
 <./images//2023_04_25_301d1803eaf1bc74cfd9g-080(1).jpg, id=1449, 307.1475pt x 2
@@ -1512,7 +1512,7 @@ File: ./images//2023_04_25_301d1803eaf1bc74cfd9g-080(1).jpg Graphic file (type
 jpg)
 <use ./images//2023_04_25_301d1803eaf1bc74cfd9g-080(1).jpg>
 Package pdftex.def Info: ./images//2023_04_25_301d1803eaf1bc74cfd9g-080(1).jpg 
- used on input line 4075.
+ used on input line 4076.
 (pdftex.def)             Requested size: 307.14674pt x 280.04555pt.
 <./images//2023_04_25_301d1803eaf1bc74cfd9g-080.jpg, id=1450, 568.1225pt x 516.
 93124pt>
@@ -1520,7 +1520,7 @@ File: ./images//2023_04_25_301d1803eaf1bc74cfd9g-080.jpg Graphic file (type jpg
 )
 <use ./images//2023_04_25_301d1803eaf1bc74cfd9g-080.jpg>
 Package pdftex.def Info: ./images//2023_04_25_301d1803eaf1bc74cfd9g-080.jpg  us
-ed on input line 4096.
+ed on input line 4097.
 (pdftex.def)             Requested size: 568.1211pt x 516.92998pt.
  [90 <./images//2023_04_25_301d1803eaf1bc74cfd9g-080(1).jpg> <./images//2023_04
 _25_301d1803eaf1bc74cfd9g-080.jpg>]
@@ -1530,21 +1530,15 @@ File: ./images//2023_04_25_301d1803eaf1bc74cfd9g-081.jpg Graphic file (type jpg
 )
 <use ./images//2023_04_25_301d1803eaf1bc74cfd9g-081.jpg>
 Package pdftex.def Info: ./images//2023_04_25_301d1803eaf1bc74cfd9g-081.jpg  us
-ed on input line 4115.
+ed on input line 4116.
 (pdftex.def)             Requested size: 462.72762pt x 419.56647pt.
  [91] [92 <./images//2023_04_25_301d1803eaf1bc74cfd9g-081.jpg>]
 [93] (GeometriaLineal.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-
-Package rerunfilecheck Warning: File `GeometriaLineal.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `GeometriaLineal.out':
-(rerunfilecheck)             Before: D06977201ACA294D52D1AC8B4C5C3F8E;51559
-(rerunfilecheck)             After:  8171CA0286630F6B273A88399B19D17A;52279.
+Package rerunfilecheck Info: File `GeometriaLineal.out' has not changed.
+(rerunfilecheck)             Checksum: EC769EFDBC38E6B4559023914B429AEA;52533.
  ) 
 Here is how much of TeX's memory you used:
  17614 strings out of 476339
@@ -1584,7 +1578,7 @@ cm/cmsy6.pfb><C:/Users/lbcpd/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb><C:/Users/lbcpd/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/symbols/msam10.pfb><C:/Users/lbcpd/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on GeometriaLineal.pdf (94 pages, 992052 bytes).
+Output written on GeometriaLineal.pdf (94 pages, 993009 bytes).
 PDF statistics:
  1996 PDF objects out of 2073 (max. 8388607)
  572 named destinations out of 1000 (max. 500000)
