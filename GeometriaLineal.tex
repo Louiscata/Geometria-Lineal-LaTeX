@@ -208,6 +208,8 @@
 \newcommand{\ejercicio}{\noindent\underline{\textbf{Ejercicio}}}
 
 \newcommand{\distancia}[1]{\operatorname{d}(#1)}
+\newcommand{\imagen}{\operatorname{Im}}
+\newcommand{\identidad}{\operatorname{Id}}
 
 \date{Curso 2022-2023}
 \author{}
@@ -1677,7 +1679,7 @@ El grupo $(G(\mathbb{A}), \circ)$ se llama grupo afín de $\mathbb{A}$ y se deno
 		\overrightarrow{\alpha(P), \alpha(P+v)}=\overrightarrow{\alpha}(\overrightarrow{P, P+v})=\overrightarrow{\alpha}(v)=0
 		$$
 		
-		luego $\alpha(P+v)=\alpha(P)$. Por ser $\alpha$ inyectiva, $P=P+v$, y por la proposición $1.1 .2(7)$ y $(9), v=0$. Para probar que $\overrightarrow{\alpha}$ es suprayectiva tomamos $v^{\prime} \in V^{\prime}$. Si $P^{\prime} \in \mathbb{A}^{\prime}$, por la definición 1.1.1 (2), existe un punto $Q^{\prime} \in \mathbb{A}^{\prime}$ tal que $v^{\prime}=\overrightarrow{P^{\prime} Q^{\prime}}$. Sean $P, Q \in \mathbb{A}$ tales que $\alpha(P)=P^{\prime}$ y $\alpha(Q)=Q^{\prime}$. Entonces
+		luego $\alpha(P+v)=\alpha(P)$. Por ser $\alpha$ inyectiva, $P=P+v$, y $(9), v=0$. Para probar que $\overrightarrow{\alpha}$ es sobreyectiva tomamos $v^{\prime} \in V^{\prime}$. Si $P^{\prime} \in \mathbb{A}^{\prime}$, existe un punto $Q^{\prime} \in \mathbb{A}^{\prime}$ tal que $v^{\prime}=\overrightarrow{P^{\prime} Q^{\prime}}$. Sean $P, Q \in \mathbb{A}$ tales que $\alpha(P)=P^{\prime}$ y $\alpha(Q)=Q^{\prime}$. Entonces
 		
 		$$
 		v^{\prime}=\overrightarrow{\alpha(P), \alpha(Q)}=\overrightarrow{\alpha}(\overrightarrow{P Q})
@@ -1719,7 +1721,7 @@ $$
 
 se denomina \underline{traslación por el vector v}, y es una afinidad.
 
-\item Si $\alpha:\mathbb{A}\longleftarrow\mathbb{A}$ es una aplicación afín con $\overrightarrow{\alpha}=Id_{V}$, entonces es una traslación.
+\item Si $\alpha:\mathbb{A}\longrightarrow\mathbb{A}$ es una aplicación afín con $\overrightarrow{\alpha}=Id_{V}$, entonces es una traslación.
 
 \item El conjunto
 
@@ -1743,7 +1745,7 @@ $$
 \overrightarrow{t_{v}}(w):=\overrightarrow{t_{v}(O), t_{v}(O+w)}=\overrightarrow{O+v, O+w+v}=w, \quad w \in V
 $$
 
-Así, $t_{v}$ es una aplicación afín cuya aplicación lineal asociada es id $V$; además, $t_{v}$ es una afinidad, puesto que $\left(t_{v}\right)^{-1}=t_{-v}$ es una aplicación afín.
+Así, $t_{v}$ es una aplicación afín cuya aplicación lineal asociada es $\identidad_V$; además, $t_{v}$ es una afinidad, puesto que $\left(t_{v}\right)^{-1}=t_{-v}$ es una aplicación afín.
 
 \item Para cada $P,Q\in\mathbb{A}$ sabemos que
 \begin{gather*}
@@ -1770,7 +1772,7 @@ Sea $\mathbb{A}$ un espacio afín sobre $V$ y $\alpha: \mathbb{A} \rightarrow \m
 
 \demostracion
 
-Para cada $P, Q \in \mathbb{A}$,
+\noindent Para cada $P, Q \in \mathbb{A}$,
 $$
 \overrightarrow{\alpha(P), \alpha(Q)}=\overrightarrow{P Q}
 $$
@@ -1976,13 +1978,16 @@ Basta tomar $v^{\prime}=\alpha(0)$.
 \demostracion
 
 \noindent Dado $\varphi : \mathbb{A} \longrightarrow V$ afinidad, es un isomorfismo la aplicación
-$$6
-\psi : G(\mathbb{A}) \longrightarrow G(V) \Longrightarrow \alpha \longmapsto \psi \circ \alpha \circ \psi^{-1}
+$$
+\begin{aligned}
+\psi : G(\mathbb{A}) & \longrightarrow G(V) \\
+\alpha & \longmapsto \psi \circ \alpha \circ \psi^{-1}
+\end{aligned}
 $$
 
 \subsection{Determinación de una aplicación afín}
 
-\subsubsection{Teorema - Una aplicación afín está determinada unívocamente por la imagen de una referencia} Sean $\mathbb{A}$ y $\mathbb{A}^{\prime}$ espacios afines sobre los espacios vectoriales $V$ y $V^{\prime}$, respectivamente. Sea $\mathcal{R}=\left\{P_{1}, \ldots, P_{n} ; Q\right\}$ una referencia afín de $\mathbb{A}$ y $P_{1}^{\prime}, \ldots, P_{n+1}^{\prime}$ puntos de $\mathbb{A}^{\prime}$. Existe una única aplicación afín $\alpha: \mathbb{A} \rightarrow \mathbb{A}^{\prime}$ tal que $\alpha\left(P_{i}\right)=P_{i}^{\prime}, i=1, \ldots, n$, y $\alpha(Q)=P_{n+1}^{\prime}$. En particular, si $\dim  \mathbb{A}^{\prime}=n \mathrm{y}$ $P_{1}^{\prime}, \ldots, P_{n}^{\prime}, P_{n+1}^{\prime}$ son puntos afínmente independientes, entonces $\alpha$ es una afinidad.\\
+\subsubsection{Teorema - Una aplicación afín está determinada unívocamente por la imagen de una referencia} Sean $\mathbb{A}$ y $\mathbb{A}^{\prime}$ espacios afines sobre los espacios vectoriales $V$ y $V^{\prime}$, respectivamente. Sea $\mathcal{R}=\left\{P_{1}, \ldots, P_{n} ; Q\right\}$ una referencia afín de $\mathbb{A}$ y $P_{1}^{\prime}, \ldots, P_{n+1}^{\prime}$ puntos de $\mathbb{A}^{\prime}$. Existe una única aplicación afín $\alpha: \mathbb{A} \rightarrow \mathbb{A}^{\prime}$ tal que $\alpha\left(P_{i}\right)=P_{i}^{\prime}, i=1, \ldots, n$, y $\alpha(Q)=P_{n+1}^{\prime}$. En particular, si $\dim  \mathbb{A}^{\prime}=n$ y $P_{1}^{\prime}, \ldots, P_{n}^{\prime}, P_{n+1}^{\prime}$ son puntos afínmente independientes, entonces $\alpha$ es una afinidad.\\
 
 \demostracion
 
@@ -2141,6 +2146,8 @@ x_{i}^{\prime}=b_{i}+\sum_{j=1}^{n} a_{i j} x_{j}, \quad i=1, \ldots, m
 $$
 
 Como consecuencia, se obtiene la ecuación del cambio de coordenadas ya estudiado. En efecto, la ecuación del cambio de coordenadas de la referencia $\mathcal{R}$ a la referencia $\mathcal{R}^{\prime}$ es la ecuación de la afinidad $\alpha=\operatorname{id}_{\mathbb{A}}: \mathbb{A} \rightarrow \mathbb{A}$ en las referencias $\mathcal{R}$ y $\mathcal{R}^{\prime}$. Si $L$ es una variedad lineal de $\mathbb{A}, \mathcal{R}^{\prime}$ es una referencia de $L$ y $\mathcal{R}$ es una referencia de $\mathbb{A}$, la ecuación de cambio de coordenadas de los puntos de $L$ de la referencia $\mathcal{R}^{\prime}$ a $\mathcal{R}$ es la ecuación de inclusión $i_{L}: L \rightarrow \mathbb{A}$ en las referencias $\mathcal{R}^{\prime}$ y $\mathcal{R}$.
+
+\newpage
 
 \begin{center}
 \section{Espacios Vectoriales Euclídeos}
@@ -4259,7 +4266,7 @@ $$
 donde $G_{\langle w\rangle, \varphi} \in \mathbb{O}^{+}(V)$ es un giro de eje orientado $\langle w\rangle$ y ángulo $\varphi$. Ya se vieron giros con un eje en el espacio tridimensional, pero ahora el eje no tiene que pasar por el origen.
 
 \begin{center}
-	\includegraphics[max width=5cm]{2023_05_02_d6703e6c81ebe4fb6eaag-083}
+	\includegraphics[max width=6cm]{2023_05_02_d6703e6c81ebe4fb6eaag-083}
 \end{center}
 
 \observacion
@@ -4271,294 +4278,178 @@ donde $G_{\langle w\rangle, \varphi} \in \mathbb{O}^{+}(V)$ es un giro de eje or
 \subsubsection{Proposición - Puntos fijos del giro}
 Los únicos puntos fijos del giro $G_{r, \varphi}$, si $\varphi \neq 0$, son los puntos del eje $r=A+\langle w\rangle$.
 
-Demostración. Se tiene
+\demostracion
 
+\noindent Se tiene
 $$
 G_{r, \varphi}(P)=P \Longleftrightarrow A+G_{\langle w\rangle, \varphi}(\overrightarrow{A P})=P \Longleftrightarrow G_{\langle w\rangle, \varphi}(\overrightarrow{A P})=\overrightarrow{A P} \Longleftrightarrow \overrightarrow{A P} \in\langle w\rangle \Longleftrightarrow P \in r
 $$
 
-3.5.4. Definición. Sea $r=A+\langle w\rangle$ una recta y sea $v \in\langle w\rangle, v \neq 0$. Se llama movimiento helicoidal de eje la recta $r$, ángulo $\varphi \neq 0$ y vector de traslación $v$, a la aplicación $H_{r, v, \varphi}=t_{v} \circ G_{r, \varphi}$ donde $G_{r, \varphi}$ es el giro de eje $r$ y ángulo $\varphi$.
+\subsubsection{Definición - Movimiento helicoidal}
+Sea $r=A+\langle w\rangle$ una recta y sea $v \in\langle w\rangle, v \neq 0$. Se llama movimiento helicoidal de eje la recta $r$, ángulo $\varphi \neq 0$ y vector de traslación $v$, a la aplicación $H_{r, v, \varphi}=t_{v} \circ G_{r, \varphi}$ donde $G_{r, \varphi}$ es el giro de eje $r$ y ángulo $\varphi$.
 
 \begin{center}
-	\includegraphics[max width=\textwidth]{2023_05_02_d6703e6c81ebe4fb6eaag-084}
+	\includegraphics[max width=6cm]{2023_05_02_d6703e6c81ebe4fb6eaag-084}
 \end{center}
 
-Por $3.3 .3(3), H_{r, v, \varphi}$ es un movimiento.
+\observacion
+\begin{itemize}
+\item $H_{r, v, \varphi}$ es un movimiento, no es una 	traslación.
+\item $\overrightarrow{H_{r, v, \varphi}} = G_{\langle w \rangle, \varphi} \in \mathcal{O}^+(V)$.
+\item $\displaystyle H_{r, v, \varphi} = H_{s, w, \psi} \Longleftrightarrow \begin{cases}
+	r = s \\
+	v = w \\
+	\varphi = \psi
+\end{cases}$
+\end{itemize}
 
-3.5.5. Proposición. Un movimiento helicoidal $H_{r, v, \varphi}$ no tiene puntos fijos.
-
-Demostración. Sea $H_{r, v, \varphi}=t_{v} \circ G_{r, \varphi}$. Por el lema 2.2.9,
-
+\subsubsection{Lema - Imagen y núcleo de transposición ortogonal}
+Si $V$ es un espacio vectorial euclídeo de dimensión finita y $f \in \mathcal{O}(V)$, entonces
 $$
-\operatorname{Im}\left(G_{\langle w\rangle, \varphi}-\mathrm{id}_{V}\right)=\operatorname{Nuc}\left(G_{\langle w\rangle, \varphi}-\mathrm{id}_{V}\right)^{\perp}=\langle w\rangle^{\perp}
+\imagen(f - \identidad) = \ker(f - \identidad)^\perp
 $$
 
-Razonemos por reducción al absurdo: Si $P$ es un punto fijo de $H_{r, v, \varphi}$, entonces
+\demostracion
 
-$H_{r, v, \alpha}(P)=P \Longleftrightarrow A+G_{\langle w\rangle, \varphi}(\overrightarrow{A P})+v=P \Longleftrightarrow G_{\langle w\rangle, \varphi}(\overrightarrow{A P})+v=\overrightarrow{A P} \Longleftrightarrow\left(G_{\langle w\rangle, \varphi}-\mathrm{id}_{V}\right)(\overrightarrow{A P})=-v$
+No me dio tiempo equisde
 
-Luego $v \in\langle w\rangle \bigcap \operatorname{Im}\left(G_{\langle w\rangle, \varphi}-\operatorname{id}_{V}\right)=\langle w\rangle \bigcap\langle w\rangle^{\perp}=0$.
+\subsubsection{Proposición - Puntos fijos de un movimiento helicoidal}
+\noindent Un movimiento helicoidal $H_{r, v, \varphi}$ no tiene puntos fijos.
 
-3.5.6. Ejercicio. Prueba que la descomposición de un movimiento helicoidal como composición de un giro y una traslación de vector traslación en la dirección del eje de giro es única.
+\demostracion
 
-3.5.7. Definición. Se llama simetría central de centro $C$ a la aplicación $S_{C}: \mathbb{A} \rightarrow \mathbb{A}$ dada por $S_{C}(P)=$ $C-\overrightarrow{C P}$, para todo $P \in \mathbb{A}$
+\noindent Sea $H_{r, v, \varphi}=t_{v} \circ G_{r, \varphi}$. Se tiene:
+$$
+\operatorname{Im}\left(G_{\langle w\rangle, \varphi}-\mathrm{id}_{V}\right)=\ker\left(G_{\langle w\rangle, \varphi}-\mathrm{id}_{V}\right)^{\perp}=\langle w\rangle^{\perp}
+$$
+
+\noindent Razonemos por reducción al absurdo: Si $P$ es un punto fijo de $H_{r, v, \varphi}$, entonces
+$$
+\begin{aligned}
+H_{r, v, \alpha}(P)=P & \Longleftrightarrow A+G_{\langle w\rangle, \varphi}(\overrightarrow{A P})+v=P \Longleftrightarrow \\
+& \Longleftrightarrow G_{\langle w\rangle, \varphi}(\overrightarrow{A P})+v=\overrightarrow{A P} \Longleftrightarrow \\
+& \Longleftrightarrow \left(G_{\langle w\rangle, \varphi}-\mathrm{id}_{V}\right)(\overrightarrow{A P})=-v \Longleftrightarrow \\
+& \Longleftrightarrow -v \in \langle w \rangle^\perp \Longleftrightarrow v \in \langle w \rangle^\perp
+\end{aligned}
+$$
+
+\noindent Luego $v \in\langle w\rangle \bigcap \operatorname{Im}\left(G_{\langle w\rangle, \varphi}-\operatorname{id}_{V}\right)=\langle w\rangle \bigcap\langle w\rangle^{\perp}=0$.
+
+\subsubsection{Definición}
+Se llama simetría central de centro $C$ a la aplicación $S_{C}: \mathbb{A} \rightarrow \mathbb{A}$ dada por $S_{C}(P)=$ $C-\overrightarrow{C P}$, para todo $P \in \mathbb{A}$
 
 \begin{center}
-	\includegraphics[max width=\textwidth]{2023_05_02_d6703e6c81ebe4fb6eaag-084(1)}
+	\includegraphics[max width=5cm]{2023_05_02_d6703e6c81ebe4fb6eaag-084(1)}
 \end{center}
 
-Por $3.3 .3(4), S_{C}$ es un movimiento. 3.5.8. Proposición. El único punto fijo de una simetría central de centro $C$ es el punto $C$.
+\observacion
 
-Demostración. Si $P$ es un punto fijo de $S_{C}$, entonces
+\begin{itemize}
+	\item $S_C$ es un movimiento, $\overrightarrow{S_C} = -\identidad_V \in \mathcal{O}^-(V)$
+	\item $S_C(P) = P \Longleftrightarrow C - \overrightarrow{CP} = P \Longleftrightarrow - \overrightarrow{CP} = \overrightarrow{CP} \Longleftrightarrow C = P$
+	\item Si $r \perp \pi$ con $r \cap \pi = \{C\}$.
+	\item $S_C = S_\pi \circ G_{r,\pi}$. $S_\pi$ se definirá a continuación.
+\end{itemize}
 
-$$
-C-\overrightarrow{C P}=P \Longleftrightarrow-\overrightarrow{C P}=\overrightarrow{C P} \Longleftrightarrow C=P
-$$
-
-3.5.9. Definición. Se llama simetría respecto al plano $\Pi=A+U$ a la aplicación $S_{\Pi}: \mathbb{A} \rightarrow \mathbb{A}$ dada por $S_{\Pi}(P)=A+S_{U}(\overrightarrow{A P})$, donde $S_{U} \in \mathbb{O}^{-}(V)$ es la simetría respecto al subespacio $U$.
+\subsubsection{Definición - Simetría respecto a un plano}
+Se llama simetría respecto al plano $\Pi=A+U$ a la aplicación $S_{\Pi}: \mathbb{A} \rightarrow \mathbb{A}$ dada por $S_{\Pi}(P)=A+S_{U}(\overrightarrow{A P})$, donde $S_{U} \in \mathbb{O}^{-}(V)$ es la simetría respecto al subespacio $U$.
 
 \begin{center}
-	\includegraphics[max width=\textwidth]{2023_05_02_d6703e6c81ebe4fb6eaag-085}
+	\includegraphics[max width=5cm]{2023_05_02_d6703e6c81ebe4fb6eaag-085}
 \end{center}
 
-Por $3.3 .3(4), S_{\Pi}$ es un movimiento.
+\observacion
 
-3.5.10. Observación. Si $A^{\prime} \in \Pi$, entonces $A+S_{U}(\overrightarrow{A P})=A^{\prime}+S_{U}\left(\overrightarrow{A^{\prime} P}\right)$. En efecto, dado que $\overrightarrow{A A^{\prime}} \in U$, se tiene que $S_{U}\left(\overrightarrow{A A^{\prime}}\right)=\overrightarrow{A A^{\prime}}$
+\begin{itemize}
+	\item $S_\pi$ es un movimiento con $\overrightarrow{S_\pi} = S_U \in \mathcal{O}^-(V)$.
+	\item $S_\pi$ no depende de $A$.
+	\item Los puntos fijos de $S_\pi$ son los del plano $\pi$.
+\end{itemize}
 
-3.5.11. Proposición. Los únicos puntos fijos de la simetría $S_{\Pi}$ son los puntos del plano $\Pi$.
-
-Demostración. Si $\Pi=A+U$, entonces
-
-$$
-S_{\Pi}(P)=P \Longleftrightarrow A+S_{U}(\overrightarrow{A P})=P \Longleftrightarrow S_{U}(\overrightarrow{A P})=\overrightarrow{A P} \Longleftrightarrow \overrightarrow{A P} \in U \Longleftrightarrow P \in \Pi
-$$
-
-3.5.12. Definición. Se llama simetría deslizante respecto al plano $\Pi=A+U$ y vector de traslación $v \in U, v \neq 0$, a la composición $S_{\Pi, v}=t_{v} \circ S_{\Pi}$, donde $S_{\Pi}$ es la simetría respecto al plano $\Pi$.
+\subsubsection{Definición - Simetría deslizante respecto a un plano} Se llama simetría deslizante respecto al plano $\Pi=A+U$ y vector de traslación $v \in U, v \neq 0$, a la composición $S_{\Pi, v}=t_{v} \circ S_{\Pi}$, donde $S_{\Pi}$ es la simetría respecto al plano $\Pi$.
 
 \begin{center}
-	\includegraphics[max width=\textwidth]{2023_05_02_d6703e6c81ebe4fb6eaag-085(1)}
+	\includegraphics[max width=5cm]{2023_05_02_d6703e6c81ebe4fb6eaag-085(1)}
 \end{center}
 
-Por $3.3 .3(3), S_{r, v}$ es un movimiento.
+\observacion
 
-3.5.13. Proposición. La simetría deslizante $S_{\Pi, v}$ no tiene puntos fijos.
+\begin{itemize}
+	\item $S_{\pi, v}$ es un movimiento y $\overrightarrow{S_{\pi,v}} = S_U \in \mathcal{O}^-(V)$
+	\item $S_{\pi,v} = S_{\pi',w} \Longleftrightarrow \pi = \pi'$ y $v = w$
+	\item $S_{\pi,v}$ no tiene puntos fijos.
+\end{itemize}
 
-Demostración. Sea $\Pi=A+U$. Razonemos por reducción al absurdo: Si $P$ es un punto fijo de $S_{\Pi, v}$, entonces
+\subsubsection{Teorema - Clasificación de movimientos en el espacio afín euclídeo tridimensional}
+Sea $\mathbb{A}$ un espacio afín euclídeo orientado de dimensión $3, M$ un movimiento de $\mathbb{A}$ y $A$ un punto cualquiera de $\mathbb{A}$. Sean $V_{1}=\ker\left(\overrightarrow{M}-\operatorname{id}_{V}\right)$ y $V_{-1}=\ker\left(\overrightarrow{M}+\operatorname{id}_{V}\right)$. Se tiene:
+\begin{enumerate}[label=(\arabic*)]
+\item Si $\overrightarrow{M}=\operatorname{id}_{V}$, entonces $M=t_{v}$ es una traslación con $v=\overrightarrow{A, M(A)}$.
 
-$$
-S_{\Pi, v}(P)=P \Longleftrightarrow A+S_{U}(\overrightarrow{A P})+v=P \Longleftrightarrow \overrightarrow{A P}=S_{U}(\overrightarrow{A P})+v
-$$
+\item Si $\overrightarrow{M} \in \mathbb{O}^{+}(V)$ y $\overrightarrow{M} \neq \identidad_{V}$, entonces $\overrightarrow{M}$ es un giro de eje $V_{1}$ y ángulo $\varphi \neq 0$, que depende de la orientación de $V_{1}$.
+\begin{enumerate}[label=(\alph*)]
+	\item Si el vector $\overrightarrow{A, M(A)} \in\left(V_{1}\right)^{\perp}$, entonces $M$ es un giro de eje orientado $r=A-v+V_{1}$ y ángulo $\varphi$, siendo $v$ un vector que verifica $\overrightarrow{M}(v)-v=\overrightarrow{A, M(A)}$.
+	
+	\item Si el vector $\overrightarrow{A, M(A)} \notin\left(V_{1}\right)^{\perp}$ y $\overrightarrow{A, M(A)}=v_{1}+v_{2}$, con $v_{1} \in V_{1}$ y $v_{2} \in\left(V_{1}\right)^{\perp}$ únicos, se tiene que $M$ es un movimiento helicoidal de eje $r=A-v+V_{1}$, ángulo $\varphi$ y vector de traslación $v_{1}$, siendo $v$ un vector que verifica $\overrightarrow{M}(v)-v=v_{2}$.
+\end{enumerate}
 
-Dado que además $S_{U}(\overrightarrow{A P})=\overrightarrow{A P}+v$, se tiene que $v=0$
+\item Si $\overrightarrow{M} \in \mathbb{O}^{-}(V)$ y $V_1$ tiene dimensión $2$, entonces $\overrightarrow{M}n = S_{V_1}$, y se tienen dos casos.
+\begin{enumerate}[label=(\arabic*)]
+	\item Si el vector $\overrightarrow{A, M(A)} \in\left(V_{1}\right)^{\perp}$, entonces $M = S_\pi$ es la simetría respecto al plano $\Pi=A+$ $\frac{1}{2} \overrightarrow{A, M(A)}+V_{1}$
+	
+	\item Si el vector $\overrightarrow{A, M(A)} \notin\left(V_{1}\right)^{\perp}$, entonces $\overrightarrow{A, M(A)}=v_{1}+v_{2}$, con $v_{1} \in V_{1} \mathrm{y} v_{2} \in\left(V_{1}\right)^{\perp}$ únicos, se tiene que $M$ es la simetría deslizante respecto al plano $\Pi=A+\frac{1}{2} v_{2}+V_{1}$ y vector de traslación $v_{1}$.
+\end{enumerate}
 
-3.5.14. Ejercicio. Prueba que la descomposición de una simetría deslizante como composición de la simetría respecto a un plano y una traslación por un vector de la dirección del plano es única.
+\item Si $\overrightarrow{M} \in \mathbb{O}^{-}(V)$ es la composición de un giro de eje $V_{-1}$ (con ángulo $\varphi \neq 0$) y la simetría respecto al plano $\left(V_{-1}\right)^{\perp}$ (i.e., los autovalores de $\overrightarrow{M}$ son -1 y $a \pm b i \neq \pm 1$ ), entonces $M$ tiene un único punto fijo $C$ y $M$ es la composición del giro de eje orientado $C+V_{-1}$ y ángulo $\varphi$ con simetría respecto al plano $C+\left(V_{-1}\right)^{\perp}$. $C = A - v$ donde $v$ es el único que verifica $\overrightarrow{M}(v) - v \overrightarrow{A,M(A)}$.
 
-3.5.15. Ejemplo. El giro de eje orientado $r=(1,2,-1)+\langle(1,1,-1)\rangle$ y ángulo $4 \pi / 3$ es el movimiento dado por
+\item Si $\overrightarrow{M}=-\mathrm{id}_{V}$, entonces $M$ es la simetría central de centro $C=A+\frac{1}{2} \overrightarrow{A, M(A)}$.
+\end{enumerate}
 
-$$
-G_{r, 4 \pi / 3}(x, y, z)=(1,2,-1)+G_{\langle(1,1,-1)\rangle, 4 \pi / 3}(x-1, y-2, z+1),
-$$
+\demostracion
+\begin{enumerate}[label=(\arabic*)]
+\item Se sigue del lema 1.3.10.
 
-donde $G_{\langle(1,1,-1)\rangle, 4 \pi / 3}$ es el giro de eje orientado $\langle(1,1,-1)\rangle$ y ángulo $4 \pi / 3$, es decir,
+\item Sea $\overrightarrow{M} \in \mathbb{O}^{+}(V)$ el giro de eje orientado $V_{1}$ y ángulo $\varphi$
 
-$$
-G_{\langle(1,1,-1)\rangle, 4 \pi / 3}=G_{4 \pi / 3} \perp \operatorname{id}_{\langle(1,1,-1)\rangle}, \quad G_{4 \pi / 3} \in \mathcal{O}^{+}\left(\langle(1,1,-1)\rangle^{\perp}\right)
-$$
+\item
+\begin{enumerate}[label=(\alph*)]
+	\item Dado que $\overrightarrow{A, M(A)} \in\left(V_{1}\right)^{\perp}=\operatorname{Im}\left(\overrightarrow{M}-\operatorname{id}_{V}\right)$, existe $v \in V$ tal que $\left(\overrightarrow{M}-\operatorname{id}_{V}\right)(v)=\overrightarrow{A M(A)}$. Consideremos la recta $r=A-v+V_{1}$. Para todo $P \in \mathbb{A}$,
+	$$
+	M(P)=M(A)+\overrightarrow{M}(\overrightarrow{A P})=A+\overrightarrow{A, M(A)}+\overrightarrow{M}(\overrightarrow{A P})=A-v+\overrightarrow{M}(\overrightarrow{A-v, P})=G_{r, \varphi}(P)
+	$$
 
-Una base ortonormal de $\langle(1,1,-1)\rangle^{\perp}$ es
+	\item Si $\overrightarrow{A, M(A)}=v_{1}+v_{2} \operatorname{con} v_{1} \in V_{1}$ y $v_{2} \in\left(V_{1}\right)^{\perp}$, como $\left(V_{1}\right)^{\perp}=\operatorname{Im}\left(\overrightarrow{M}-\mathrm{id}_{V}\right)$, existe $v \in V$ tal que $\overrightarrow{M}(v)-v=v_{2}$. Si $r=A-v+V_{1}$ y $P \in \mathbb{A}$,
+	$$
+	\begin{aligned}
+		M(P) & =M(A)+\overrightarrow{M}(\overrightarrow{A P})=A+\overrightarrow{A, M(A)}+\overrightarrow{M}(\overrightarrow{A P})=A+v_{1}+v_{2}+\overrightarrow{M}(\overrightarrow{A P}) \\
+		& =A-v+\overrightarrow{M}(v)+\overrightarrow{M}(\overrightarrow{A P})+v_{1}=A-v+\overrightarrow{M}(\overrightarrow{A-v P})+v_{1} \\
+		& =G_{r, \varphi}(P)+v_{1}=H_{r, \varphi, v_{1}}(P) .
+	\end{aligned}
+	$$
+\end{enumerate}
 
-$$
-B_{1}=((0, \sqrt{2} / 2, \sqrt{2} / 2),(\sqrt{6} / 3,-\sqrt{6} / 6, \sqrt{6} / 6))
-$$
+\item Sea $\overrightarrow{M} \in \mathbb{O}^{-}(V)$ la simetría respecto al subespacio $V_{1}$ de dimensión 2.
+\begin{enumerate}[label=(\alph*)]
+	\item Si $\overrightarrow{A, M(A)} \in\left(V_{1}\right)^{\perp}, \Pi=A+\frac{1}{2} \overrightarrow{A, M(A)}+V_{1}$ y $P \in \mathbb{A}$
+	$$
+	\begin{aligned}
+		M(P) & =M(A)+\overrightarrow{M}(\overrightarrow{A P})=A+\overrightarrow{A, M(A)}+\overrightarrow{M}(\overrightarrow{A P}) \\
+		& =A+\frac{1}{2} \overrightarrow{A, M(A)}-\overrightarrow{M}\left(\frac{1}{2} \overrightarrow{A, M(A)}\right)+\overrightarrow{M}(\overrightarrow{A P}) \\
+		& =A+\frac{1}{2} \overrightarrow{A, M(A)}+\overrightarrow{M}\left(A+\frac{1}{2} \overrightarrow{A, M(A)}, P\right)=S_{\Pi}(P) .
+	\end{aligned}
+	$$
 
-Pongamos
+	\item Si $\overrightarrow{A, M(A)} \notin\left(V_{1}\right)^{\perp}, \overrightarrow{A, M(A)}=v_{1}+v_{2}$, con $v_{1} \in V_{1}, v_{2} \in\left(V_{1}\right)^{\perp}, \Pi=A+\frac{1}{2} v_{2}+V_{1}$ y $P \in \mathbb{A}$,
+	
+	$$
+	\begin{aligned}
+		M(P) & =M(A)+\overrightarrow{M}(\overrightarrow{A P})=A+\overrightarrow{A, M(A)}+\overrightarrow{M}(\overrightarrow{A P})=A+v_{1}+v_{2}+\overrightarrow{M}(\overrightarrow{A P}) \\
+		& =A+\frac{1}{2} v_{2}-\overrightarrow{M}\left(\frac{1}{2} v_{2}\right)+\overrightarrow{M}(\overrightarrow{A P})+v_{1}=A+\frac{1}{2} v_{2}+\overrightarrow{M}\left(A+\frac{1}{2} v_{2}, P\right)+v_{1} \\
+		& =S_{\Pi, v_{1}}(P)
+	\end{aligned}
+	$$
+\end{enumerate}
 
-$$
-B=((0, \sqrt{2} / 2, \sqrt{2} / 2),(\sqrt{6} / 3,-\sqrt{6} / 6, \sqrt{6} / 6),(\sqrt{3} / 3, \sqrt{3} / 3,-\sqrt{3} / 3)) \text {. }
-$$
-
-La base $B$ es una base de orientación positiva, puesto que $\operatorname{det}\left(1_{B C}\right)>0$. Por tanto, $B_{1}$ es una base ortonormal de $\langle(1,1,-1)\rangle^{\perp}$ de orientación positiva. Así,
-
-$$
-\left(G_{4 \pi / 3}\right)_{B_{1}}=\left(\begin{array}{rr}
-	\cos 4 \pi / 3 & -\operatorname{sen} 4 \pi / 3 \\
-	\operatorname{sen} 4 \pi / 3 & \cos 4 \pi / 3
-\end{array}\right)=\left(\begin{array}{rr}
-	-1 / 2 & \sqrt{3} / 2 \\
-	-\sqrt{3} / 2 & -1 / 2
-\end{array}\right),
-$$
-
-luego
-
-$$
-\left(G_{\langle(1,1,-1)\rangle, 4 \pi / 3}\right)_{B}=\left(\begin{array}{rrr}
-	-1 / 2 & \sqrt{3} / 2 & 0 \\
-	-\sqrt{3} / 2 & -1 / 2 & 0 \\
-	0 & 0 & 1
-\end{array}\right)
-$$
-
-Se tiene
-
-$$
-\begin{aligned}
-	\left(G_{\langle(1,1,-1)\rangle, 4 \pi / 3}\right)_{C} & =\operatorname{id}_{B C}\left(G_{\langle(1,1,-1)\rangle, 4 \pi / 3}\right)_{B} \mathrm{id}_{C B} \\
-	& =\left(\begin{array}{rrr}
-		0 & \sqrt{6} / 3 & \sqrt{3} / 3 \\
-		\sqrt{2} / 2 & -\sqrt{6} / 6 & \sqrt{3} / 3 \\
-		\sqrt{2} / 2 & \sqrt{6} / 6 & -\sqrt{3} / 3
-	\end{array}\right)\left(\begin{array}{rrr}
-		-1 / 2 & \sqrt{3} / 2 & 0 \\
-		-\sqrt{3} / 2 & -1 / 2 & 0 \\
-		0 & 0 & 1
-	\end{array}\right)\left(\begin{array}{rrr}
-		0 & \sqrt{2} / 2 & \sqrt{2} / 2 \\
-		\sqrt{6} / 3 & -\sqrt{6} / 6 & \sqrt{6} / 6 \\
-		\sqrt{3} / 3 & \sqrt{3} / 3 & -\sqrt{3} / 3
-	\end{array}\right) \\
-	& =\left(\begin{array}{rrr}
-		0 & 0 & -1 \\
-		1 & 0 & 0 \\
-		0 & -1 & 0
-	\end{array}\right)
-\end{aligned}
-$$
-
-donde $\operatorname{id}_{C B}=\left(\operatorname{id}_{B C}\right)^{t}$ por ser la base $B$ ortogonal. Por tanto,
-
-$$
-G_{\langle(1,1,-1)\rangle, 4 \pi / 3}(x, y, z)=(-z, x,-y)
-$$
-
-luego
-
-$$
-\begin{aligned}
-	G_{r, 4 \pi / 3}(x, y, z) & =(1,2,-1)+G_{\langle(1,1,-1), 4 \pi / 3}(x-1, y-2, z+1) \\
-	& =(1,2,-1)+(-z-1, x-1,-y+2)=(-z, 1+x, 1-y) .
-\end{aligned}
-$$
-
-Las ecuaciones del giro de eje $r=(1,2,-1)+\langle(1,1,-1)\rangle$ y ángulo $4 \pi / 3$ en la referencia canónica son
-
-$$
-x^{\prime}=-z, \quad y^{\prime}=1+x, \quad z^{\prime}=1-y
-$$
-
-3.5.16. Ejemplo. La simetría deslizante respecto al plano de $\Pi$ cuya ecuación en la referencia canónica es $x+y+3=0$, y con vector de traslación $v=(-2,2,3)$, es el movimiento
-
-$$
-S_{\Pi, v}=t_{v} \circ S_{\Pi}
-$$
-
-donde $S_{\Pi}$ es la simetría respecto al plano $\Pi$. Dado que $\Pi=(-3,0,0)+\langle(1,-1,0),(0,0,1)\rangle$,
-
-$$
-S_{\Pi}(x, y, z)=(-3,0,0)+S_{U}(x+3, y, z)
-$$
-
-donde $U=\langle(1,-1,0),(0,0,1)\rangle$ y $S_{U}=\operatorname{id}_{U} \perp\left(-\mathrm{id}_{U^{\perp}}\right)$. Se tiene que $U^{\perp}=\langle(1,1,0)\rangle$. La transformación ortogonal $S_{U}: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ es la aplicación lineal dada por:
-
-$$
-S_{U}(1,-1,0)=(1,-1,0), \quad S_{U}(0,0,1)=(0,0,1), \quad S_{U}(1,1,=(-1,-1,0) .
-$$
-
-Sea $B=((1,-1,0),(0,0,1),(1,1,0))$. Se tiene
-
-$$
-\left(S_{U}\right)_{C}=\left(S_{U}\right)_{B C} \operatorname{id}_{C B}=\left(\begin{array}{rrr}
-	1 & 0 & -1 \\
-	-1 & 0 & -1 \\
-	0 & 1 & 0
-\end{array}\right)\left(\begin{array}{rrr}
-	1 & 0 & 1 \\
-	-1 & 0 & 1 \\
-	0 & 1 & 0
-\end{array}\right)^{-1}=\left(\begin{array}{rrr}
-	0 & -1 & 0 \\
-	-1 & 0 & 0 \\
-	0 & 0 & 1
-\end{array}\right)
-$$
-
-luego $S_{U}(x, y, z)=(-y,-x, z)$. Por tanto
-
-$$
-S_{\Pi}(x, y, z)=(-3,0,0)+S_{U}(x+3, y, z)=(-3,0,0)+(-y,-3-x, z)=(-3-y,-3-x, z) .
-$$
-
-Así,
-
-$$
-S_{\Pi, v}(x, y, z)=S_{\Pi}(x, y, z)+(-2,2,3)=(-3-y,-3-x, z)+(-2,2,3)=(-5-y,-1-x, 3+z) .
-$$
-
-Las ecuaciones de $S_{\Pi, v}$ en la referencia canónica son
-
-$$
-x^{\prime}=-5-y, \quad y^{\prime}=-1-x, \quad z^{\prime}=3+z
-$$
-
-3.5.17. Teorema. (Teorema de clasificación de los movimientos del espacio afín euclídeo tridimensional) Sea $\mathbb{A}$ un espacio afín euclídeo orientado de dimensión $3, M$ un movimiento de $\mathbb{A}$ y $A$ un punto cualquiera de $\mathbb{A}$. Sean $V_{1}=\operatorname{Nuc}\left(\overrightarrow{M}-\operatorname{id}_{V}\right)$ y $V_{-1}=\operatorname{Nuc}\left(\overrightarrow{M}+\operatorname{id}_{V}\right)$. Se tiene:
-
-(1) Si $\overrightarrow{M}=\operatorname{id}_{V}$, entonces $M=t_{v}$ es una traslación con $v=\overrightarrow{A, M(A)}$. (2) Si $\overrightarrow{M} \in \mathbb{O}^{+}(V)$ y $\overrightarrow{M} \neq$ id $_{V}$, entonces $\overrightarrow{M}$ es un giro de eje $V_{1}$ y ángulo $\varphi, \varphi \neq 0$, que depende de la orientación de $V_{1}$.
-
-(a) Si el vector $\overrightarrow{A, M(A)} \in\left(V_{1}\right)^{\perp}$, entonces $M$ es un giro de eje orientado $r=A-v+V_{1} \mathrm{y}$ ángulo $\varphi$, siendo $v$ un vector que verifica $\overrightarrow{M}(v)-v=\overrightarrow{A, M(A)}$.
-
-(b) Si el vector $\overrightarrow{A, M(A)} \notin\left(V_{1}\right)^{\perp}$ y $\overrightarrow{A M(A)}=v_{1}+v_{2}$, con $v_{1} \in V_{1}$ y $v_{2} \in\left(V_{1}\right)^{\perp}$, se tiene que $M$ es un movimiento helicoidal de eje $r=A-v+V_{1}$, ángulo $\varphi$ y vector de traslación $v_{1}$, siendo $v$ un vector que verifica $\overrightarrow{M}(v)-v=v_{2}$.
-
-(3) Si $\overrightarrow{M} \in \mathbb{O}^{-}(V)$ es la simetría respecto al subespacio $V_{1}$ de dimensión 2, se tienen dos casos:
-
-(a) Si el vector $\overrightarrow{A, M(A)} \in\left(V_{1}\right)^{\perp}$, entonces $M$ es la simetría respecto al plano $\Pi=A+$ $\frac{1}{2} \overrightarrow{A, M(A)}+V_{1}$
-
-(b) Si el vector $\overrightarrow{A, M(A)} \notin\left(V_{1}\right)^{\perp}$, poniendo $\overrightarrow{A, M(A)}=v_{1}+v_{2}$, con $v_{1} \in V_{1} \mathrm{y} v_{2} \in\left(V_{1}\right)^{\perp}$, se tiene que $M$ es la simetría deslizante respecto al plano $\Pi=A+\frac{1}{2} v_{2}+V_{1} \mathrm{y}$ vector de traslación $v_{1}$.
-
-(4) Si $\overrightarrow{M} \in \mathbb{O}^{-}(V)$ es la composición de un giro de eje $V_{-1}$ y la simetría respecto al plano $\left(V_{-1}\right)^{\perp}$ (i.e., los autovalores de $\overrightarrow{M}$ son -1 y $a \pm b i \neq \pm 1$ ), entonces $M$ tiene un único punto fijo $C$ y $M$ es la composición del giro de eje orientado $C+V_{-1}$ y ángulo $\varphi$ que depende de la orientación de $V_{-1}$ y la simetría respecto al plano $C+\left(V_{-1}\right)^{\perp}$.
-
-(5) Si $\overrightarrow{M}=-\mathrm{id}_{V}$, entonces $M$ es la simetría central de centro $C=A+\frac{1}{2} \overrightarrow{A, M(A)}$.
-
-Demostración. (1) Se sigue del lema 1.3.10.
-
-(2) Sea $\overrightarrow{M} \in \mathbb{O}^{+}(V)$ el giro de eje orientado $V_{1}$ y ángulo $\varphi$
-
-(2) (a) Dado que $\overrightarrow{A, M(A)} \in\left(V_{1}\right)^{\perp}=\operatorname{Im}\left(\overrightarrow{M}-\operatorname{id}_{V}\right)$, existe $v \in V$ tal que $\left(\overrightarrow{M}-\operatorname{id}_{V}\right)(v)=\overrightarrow{A M(A)}$. Consideremos la recta $r=A-v+V_{1}$. Para todo $P \in \mathbb{A}$,
-
-$$
-M(P)=M(A)+\overrightarrow{M}(\overrightarrow{A P})=A+\overrightarrow{A, M(A)}+\overrightarrow{M}(\overrightarrow{A P})=A-v+\overrightarrow{M}(\overrightarrow{A-v, P})=G_{r, \varphi}(P)
-$$
-
-(2)(b) Si $\overrightarrow{A, M(A)}=v_{1}+v_{2} \operatorname{con} v_{1} \in V_{1}$ y $v_{2} \in\left(V_{1}\right)^{\perp}$, como $\left(V_{1}\right)^{\perp}=\operatorname{Im}\left(\overrightarrow{M}-\mathrm{id}_{V}\right)$, existe $v \in V$ tal que $\overrightarrow{M}(v)-v=v_{2}$. Si $r=A-v+V_{1}$ y $P \in \mathbb{A}$,
-
-$$
-\begin{aligned}
-	M(P) & =M(A)+\overrightarrow{M}(\overrightarrow{A P})=A+\overrightarrow{A, M(A)}+\overrightarrow{M}(\overrightarrow{A P})=A+v_{1}+v_{2}+\overrightarrow{M}(\overrightarrow{A P}) \\
-	& =A-v+\overrightarrow{M}(v)+\overrightarrow{M}(\overrightarrow{A P})+v_{1}=A-v+\overrightarrow{M}(\overrightarrow{A-v P})+v_{1} \\
-	& =G_{r, \varphi}(P)+v_{1}=H_{r, \varphi, v_{1}}(P) .
-\end{aligned}
-$$
-
-(3) Sea $\overrightarrow{M} \in \mathbb{O}^{-}(V)$ la simetría respecto al subespacio $V_{1}$ de dimensión 2 . (3) (a) Si $\overrightarrow{A, M(A)} \in\left(V_{1}\right)^{\perp}, \Pi=A+\frac{1}{2} \overrightarrow{A, M(A)}+V_{1}$ y $P \in \mathbb{A}$
-
-$$
-\begin{aligned}
-	M(P) & =M(A)+\overrightarrow{M}(\overrightarrow{A P})=A+\overrightarrow{A, M(A)}+\overrightarrow{M}(\overrightarrow{A P}) \\
-	& =A+\frac{1}{2} \overrightarrow{A, M(A)}-\overrightarrow{M}\left(\frac{1}{2} \overrightarrow{A, M(A)}\right)+\overrightarrow{M}(\overrightarrow{A P}) \\
-	& =A+\frac{1}{2} \overrightarrow{A, M(A)}+\overrightarrow{M}\left(A+\frac{1}{2} \overrightarrow{A, M(A)}, P\right)=S_{\Pi}(P) .
-\end{aligned}
-$$
-
-(3) (b) Si $\overrightarrow{A, M(A)} \notin\left(V_{1}\right)^{\perp}, \overrightarrow{A, M(A)}=v_{1}+v_{2}$, con $v_{1} \in V_{1}, v_{2} \in\left(V_{1}\right)^{\perp}, \Pi=A+\frac{1}{2} v_{2}+V_{1}$ y $P \in \mathbb{A}$,
-
-$$
-\begin{aligned}
-	M(P) & =M(A)+\overrightarrow{M}(\overrightarrow{A P})=A+\overrightarrow{A, M(A)}+\overrightarrow{M}(\overrightarrow{A P})=A+v_{1}+v_{2}+\overrightarrow{M}(\overrightarrow{A P}) \\
-	& =A+\frac{1}{2} v_{2}-\overrightarrow{M}\left(\frac{1}{2} v_{2}\right)+\overrightarrow{M}(\overrightarrow{A P})+v_{1}=A+\frac{1}{2} v_{2}+\overrightarrow{M}\left(A+\frac{1}{2} v_{2}, P\right)+v_{1} \\
-	& =S_{\Pi, v_{1}}(P)
-\end{aligned}
-$$
-
-(4) Sea $\overrightarrow{M} \in \mathbb{O}^{-}(V)$ tal que $\overrightarrow{M}=h \circ g$, donde $g$ es el giro de eje orientado $V_{-1}$ y ángulo $\varphi$ y $h$ es la simetría respecto al subespacio $\left(V_{-1}\right)^{\perp}$. Dado que $\operatorname{Nuc}\left(\overrightarrow{M}-\mathrm{id}_{V}\right)=0$, la aplicación $\overrightarrow{M}-\mathrm{id}_{V}$ es un isomorfismo y por tanto existe un único vector $v$ tal que $\left(\overrightarrow{M}-\operatorname{id}_{V}\right)(v)=\overrightarrow{A M(A)}$. Consideremos la recta $r=A-v+V_{-1}$ y el plano $\Pi=A-v+\left(V_{-1}\right)^{\perp}$. Para todo $P \in \mathbb{A}$,
+\item Sea $\overrightarrow{M} \in \mathbb{O}^{-}(V)$ tal que $\overrightarrow{M}=h \circ g$, donde $g$ es el giro de eje orientado $V_{-1}$ y ángulo $\varphi$ y $h$ es la simetría respecto al subespacio $\left(V_{-1}\right)^{\perp}$. Dado que $\ker\left(\overrightarrow{M}-\mathrm{id}_{V}\right)=0$, la aplicación $\overrightarrow{M}-\mathrm{id}_{V}$ es un isomorfismo y por tanto existe un único vector $v$ tal que $\left(\overrightarrow{M}-\operatorname{id}_{V}\right)(v)=\overrightarrow{A M(A)}$. Consideremos la recta $r=A-v+V_{-1}$ y el plano $\Pi=A-v+\left(V_{-1}\right)^{\perp}$. Para todo $P \in \mathbb{A}$,
 
 $$
 \begin{aligned}
@@ -4576,7 +4467,7 @@ $$
 
 si, y solo si, $\left(\overrightarrow{M}-\mathrm{id}_{V}\right)(v+\overrightarrow{A P})=0$. Así, $\overrightarrow{A P}=-v$ y por tanto $P=A-v$
 
-(5) Si $\overrightarrow{M}=-\mathrm{id}_{V}$ y $C=A+\frac{1}{2} \overrightarrow{A, M(A)}$, entonces para todo $P \in \mathbb{A}$ se tiene
+\item Si $\overrightarrow{M}=-\mathrm{id}_{V}$ y $C=A+\frac{1}{2} \overrightarrow{A, M(A)}$, entonces para todo $P \in \mathbb{A}$ se tiene
 
 $$
 \begin{aligned}
@@ -4585,19 +4476,18 @@ $$
 \end{aligned}
 $$
 
-En este caso, obsérvese que si $B=\left(v_{1}, v_{2}, v_{3}\right)$ es una base ortonormal de $V$, entonces la recta $r=$ $C+\left\langle v_{1}\right\rangle$ y el plano $\Pi=C+\left\langle v_{2}, v_{3}\right\rangle$ son perpendiculares y $S_{C}=G_{r, \pi} \circ S_{\Pi}$. 3.5.18. Corolario. Sea $M$ un movimiento de $\mathbb{A}$ y $A$ un punto cualquiera de $\mathbb{A}$. Se tiene:
+En este caso, obsérvese que si $B=\left(v_{1}, v_{2}, v_{3}\right)$ es una base ortonormal de $V$, entonces la recta $r=$ $C+\left\langle v_{1}\right\rangle$ y el plano $\Pi=C+\left\langle v_{2}, v_{3}\right\rangle$ son perpendiculares y $S_{C}=G_{r, \pi} \circ S_{\Pi}$.
+\end{enumerate}
 
-(1) Si $\overrightarrow{M} \in \mathcal{O}^{+}(V)$ y $\overrightarrow{A, M(A)} \in\left(V_{1}\right)^{\perp}$, entonces el conjunto de puntos fijos de $M$ es una recta y $M$ es un giro de eje orientado esa recta y el ángulo del giro $M$ es el ángulo del giro $\overrightarrow{M}$.
-
-(2) Si $\overrightarrow{M} \in \mathcal{O}^{+}(V), \overrightarrow{M} \neq \operatorname{id}_{V}$ y $\overrightarrow{A, M(A)} \notin\left(V_{1}\right)^{\perp}$, entonces $M$ no tiene puntos fijos y es un movimiento helicoidal. El vector de traslación $v$ de $M$ es la proyección ortogonal del vector $\overrightarrow{A M(A)}$ sobre el subespacio $V_{1}$ de vectores fijos de $\overrightarrow{M}$, el ángulo de $M$ es el del giro $\overrightarrow{M}$ y el eje de $M$ es el ángulo del giro $t_{-v} \circ M$.
-
-(3) Si $\overrightarrow{M} \in \mathcal{O}^{-}(V)$ es la simetría respecto al subespacio $V_{1}$ y $\overrightarrow{A, M(A)} \in\left(V_{1}\right)^{\perp}$, entonces el conjunto de puntos fijos de $M$ es un plano y $M$ es la simetría respecto a ese plano.
-
-(4) Si $\overrightarrow{M} \in \mathbb{O}^{-}(V)$ es la simetría respecto al subespacio $V_{1}$ y $\overrightarrow{A, M(A)} \notin\left(V_{1}\right)^{\perp}$, entonces $M$ no tiene puntos fijos y es una simetría deslizante respecto a un plano $\Pi$. El vector de traslación $v$ es la proyección ortogonal del vector $\overrightarrow{A M(A)}$ sobre el subespacio $V_{1}$ de vectores fijos de $\overrightarrow{M}$ y el plano $\Pi$ es el plano de simetría de la simetría $t_{-v} \circ M$.
-
-(5) Si $\overrightarrow{M} \in \mathbb{O}^{-}(V)$ y $\overrightarrow{M}=h \circ g$, donde $g$ es un giro de eje orientado $V_{-1}$, y $h$ la simetría respecto a $\left(V_{-1}\right)^{\perp}$, entonces $M$ tiene un único punto fijo $C$ y $M$ es la composición del giro de eje orientado $r=C+V_{-1}$ y ángulo el ángulo del giro $g$ y la simetría respecto al plano $\Pi=C+\left(V_{-1}\right)^{\perp}$.
-
-(6) Si $\overrightarrow{M}=-\mathrm{id}_{V}$, entonces $M$ es la simetría central de centro el único punto fijo de $M$.
+\subsubsection{Corolario}
+\noindent Sea $M$ un movimiento de $\mathbb{A}$ y $A$ un punto cualquiera de $\mathbb{A}$. Se tiene:
+\begin{enumerate}[label=(\arabic*)]
+\item Si el conjunto de puntos fijos de $M$ es una recta, entonces $M$ es giro con eje esa recta.
+\item Si el conjunto de puntos fijos de $M$ es un plano, entonces $M$ es la simetría respecto ese plano.
+\item Si $M$ tiene un único punto dijo, entonces $M$ es la composición de un giro con una simetría. El eje del giro y el plano de simetría son perpendiculares y se cortan en dicho punto.
+\item Si $M$ no tiene puntos fijos, $\overrightarrow{M} \in \mathcal{O}^+(V)$ y no es una traslación, entonces es un movimiento helicoidal.
+\item Si $M$ no tiene puntos fijos y $\overrightarrow{M} \in \mathbb{O}^-(V)$ y $M$ es una simetría deslizante.
+\end{enumerate}
 
 3.5.19. Corolario. Sea $\mathbb{A}$ un espacio afín euclídeo orientado de dimensión 3 y $M$ un movimiento de $\mathbb{A}$. Se tiene:
 
@@ -4648,7 +4538,7 @@ $$
 
 Los autovalores de $\overrightarrow{M}$ son -1 (de multiplicidad 2) y 1 (de multiplicidad 1), y por el corolario 2.5.6, el ángulo de $\overrightarrow{M}$ es $\pi$
 
-Se tiene que $V_{1}=\operatorname{Nuc}\left(\overrightarrow{M}-1_{\mathbb{R}^{3}}\right)=\langle(0,1,-1)\rangle$ y $V_{1}^{\perp}=\langle(0,1,1),(1,0,0)\rangle$. El vector $(0,-1,3) \notin V_{1}^{\perp}$ y dado que $\overrightarrow{M}$ es un giro, $M$ es un movimiento helicoidal (por el corolario 3.5.19). El vector de traslación $v$ de $M$ es la proyección ortogonal del vector $(0,-1,3)$ sobre el subespacio $V_{1}$, puesto que
+Se tiene que $V_{1}=\ker\left(\overrightarrow{M}-1_{\mathbb{R}^{3}}\right)=\langle(0,1,-1)\rangle$ y $V_{1}^{\perp}=\langle(0,1,1),(1,0,0)\rangle$. El vector $(0,-1,3) \notin V_{1}^{\perp}$ y dado que $\overrightarrow{M}$ es un giro, $M$ es un movimiento helicoidal (por el corolario 3.5.19). El vector de traslación $v$ de $M$ es la proyección ortogonal del vector $(0,-1,3)$ sobre el subespacio $V_{1}$, puesto que
 
 $$
 (0,-1,3)=-2(0,1,-1)+(0,1,1)+0(1,0,0)
